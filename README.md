@@ -12,31 +12,31 @@ I am a self-taught Data Engineer with eight years of experience working in big d
 ## Experience
 
 **Data Engineer**<br>
-Swoop - Remote
-August 2024 - Present
+Swoop - Remote<br>
+August 2024 - Present<br>
 New York, NY
 
-**Data Engineer**
-Amazon - Hybrid
-June 2022 - June 2024
-Bellevue, WA
+**Data Engineer**<br>
+Amazon - Hybrid<br>
+June 2022 - June 2024<br>
+Bellevue, WA<br>
 
-**Data Engineer**
-LeafLink - Remote
-March 2021 - May 2022
+**Data Engineer**<br>
+LeafLink - Remote<br>
+March 2021 - May 2022<br>
 New York, NY
 
-**Data Scientist**
-Spotify - Contract
-January 2020 - July 2020
+**Data Scientist**<br>
+Spotify - Contract<br>
+January 2020 - July 2020<br>
 New York, NY
 
-**Data Analyst**
-New York Magazine - On-Site
-June 2019 - November 2019
+**Data Analyst**<br>
+New York Magazine - On-Site<br>
+June 2019 - November 2019<br>
 New York, NY
 
-**Data Analytics and Measurement Analyst**
-BuzzFeed - On-Site
-March 2018 - April 2019
+**Data Analytics and Measurement Analyst**<br>
+BuzzFeed - On-Site<br>
+March 2018 - April 2019<br>
 New York, NY
