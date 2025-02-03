@@ -11,7 +11,7 @@ I am a self-taught Data Engineer with eight years of experience working in big d
 
 ## Experience
 
-**Data Engineer**
+**Data Engineer**\n
 Swoop - Remote
 August 2024 - Present
 New York, NY
