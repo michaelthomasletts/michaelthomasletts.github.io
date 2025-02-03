@@ -1,12 +1,9 @@
-# Michael Letts
-
 ## About
 
 I am a self-taught Data Engineer with eight years of experience working in big data overall, but four years of experience specifically as a Data Engineer. Before entering into Data Engineering, I was a Data Scientist. 
 
 ## Links
 [![Static Badge](https://img.shields.io/badge/PyPI-yellow?logo=pypi)](https://pypi.org/user/lettsmt/)
-[![Static Badge](https://img.shields.io/badge/Github-black?logo=github)](https://github.com/michaelthomasletts)
 [![Static Badge](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/lettsmichael/)
 
 ## Experience
