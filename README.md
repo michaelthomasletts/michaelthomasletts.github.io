@@ -5,6 +5,7 @@ Professionally, I am a self-taught, ex-Amazon/Spotify/BuzzFeed Data Engineer loc
 ## Links
 [![Static Badge](https://img.shields.io/badge/PyPI-yellow?logo=pypi)](https://pypi.org/user/lettsmt/)
 [![Static Badge](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/lettsmichael/)
+[![Static Badge](https://img.shields.io/badge/Github-black?logo=github)](https://github.com/michaelthomasletts/)
 
 ## Skills
 **Technologies:** AWS, Spark, Delta Lake, Databricks, DBT, Apache Airflow, Snowflake, Github Workflows<br>
