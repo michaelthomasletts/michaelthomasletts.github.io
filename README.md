@@ -6,6 +6,8 @@ Throughout my career, in addition to my daily responsibilites, I have focused on
 
 In terms of what I am looking for in my career, I am principally interested in opportunities that allow me to continue to leverage my passion and experience as a back-end, big data engineer; that means developing, monitoring, and maintaining data pipelines, both scheduled and real-time, and big data infrastructure. Over the long term, I endeavor to become a Principal Data Engineer. In terms of location, I am partial to New York City; however, I am open to relocating to Seattle, San Francisco, and Richmond, VA, in no specific order of affinity.
 
+Personally, I enjoy reading political theory and philosophy, modifying my 1997 Toyota Tacoma rock crawler, keeping up with Python updates, and spending quality time with friends and loved ones. I also enjoy cooking!
+
 ## Links
 [![Static Badge](https://img.shields.io/badge/PyPI-yellow?logo=pypi)](https://pypi.org/user/lettsmt/)
 [![Static Badge](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/lettsmichael/)
