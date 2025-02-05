@@ -1,6 +1,10 @@
 ## About
 
-Professionally, I am a self-taught, ex-Amazon/Spotify/BuzzFeed Data Engineer located in New York City. I have eight years of experience working in data overall, with four years of experience specifically as a Data Engineer. Before entering into Data Engineering, I was a Data Scientist. 
+Professionally, I am a self-taught, ex-Amazon/Spotify/BuzzFeed Data Engineer located in New York City. I have eight years of experience working with big data overall, with four years of experience specifically as a Data Engineer. Before entering into Data Engineering, I was a Data Scientist. 
+
+Throughout my career, in addition to my daily responsibilites, I have focused on developing internal tools (e.g. Python packages and modules, and modular products, et cetera) that aide engineers, non-technical colleagues, and customers. Usually, the raison d'être of those projects was to automate or simplify laborious or complicated tasks or processes. Many times, those contributions turned into actual products. For a couple of high-impact examples of self-directed projects that were released as products, please refer to the products section of this site below. 
+
+In terms of what I am looking for in my career, I am principally interested in opportunities that allow me to leverage my passion and experience as a back-end, big data engineer; that means developing, monitoring, and maintaining data pipelines, both scheduled and real-time, and big data infrastructure. In terms of location, I am partial to New York City; however, I am open to relocating to Seattle, San Francisco, and Richmond, VA, in no specific order.
 
 ## Links
 [![Static Badge](https://img.shields.io/badge/PyPI-yellow?logo=pypi)](https://pypi.org/user/lettsmt/)
