@@ -1,3 +1,5 @@
+![Image](https://pypi-camo.freetls.fastly.net/e1c458c778f275a69008db57194709855ea93776/68747470733a2f2f7365637572652e67726176617461722e636f6d2f6176617461722f33313531613965376536343231356138363337643765326665336636303463373f73697a653d323235)
+
 ## About
 
 Professionally, I am a self-taught, ex-Amazon/Spotify/BuzzFeed Data Engineer located in New York City. I have eight years of experience working with big data overall, with four years of experience specifically as a Data Engineer. Before entering into Data Engineering, I was a Data Scientist. In terms of how I entered into big data, I taught myself Python, SQL, linear algebra, and machine learning after graduating from school. I relocated to New York City in December of 2017, and my first opportunity was at BuzzFeed as a Data Analytics and Measurement Analyst. Beginning in late 2019, I developed a fondness for back-end, big data engineering; that passion encouraged me to develop my software engineering skills in order to pursue data engineering opportunities. Beginning in early 2021, that goal was realized. 
