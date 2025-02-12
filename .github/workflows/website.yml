@@ -22,6 +22,7 @@ jobs:
         run: |
           pip install sphinx
           pip install pydata-sphinx-theme
+          pip install myst-parser
         # updating docs
       - name: Sphinx build
         run: |
