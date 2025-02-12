@@ -1,9 +1,21 @@
 .. _about
 
-About
+TL;DR
 =====
 
-Hello! Thank you for visiting my website.
+- Located in NYC
+- 8 YOE working in data
+- 4 YOE as a Data Engineer
+- Ex-Amazon, Ex-Spotify, Ex-BuzzFeed
+- Self-taught
+- Open to relocation (SF, SEA, RVA)
+- Python and SQL
+- AWS (previously GCP)
+- Spark, Delta Lake, Airflow, DBT, Databricks, Snowflake, GitHub Workflows
+- ETL, Real-Time, Batch, Python Packaging, DevOps, Statistics, Machine Learning
+
+NE;NM
+=====
 
 If you are looking for quick links to my LinkedIn, PyPI, or GitHub profiles then head over to the right-hand side of the above navigation bar.
 
