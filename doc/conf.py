@@ -16,6 +16,11 @@ source_suffix = [".rst", ".md"]
 pygments_style = "sphinx"
 templates_path = ["_templates"]
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store", "tests/"]
+html_css_files = [
+    "custom.css"
+]
+html_logo = "mikeletts.png"
+html_favicon = html_logo
 html_title = "Michael Letts"
 html_theme = "pydata_sphinx_theme"
 html_static_path = ["_static"]

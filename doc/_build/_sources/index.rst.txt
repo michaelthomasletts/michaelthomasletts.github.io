@@ -1,4 +1,7 @@
-.. _about
+.. image:: mikeletts.png
+   :align: center
+
+|
 
 TL;DR
 =====
