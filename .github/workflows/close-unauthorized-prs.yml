@@ -1,0 +1,21 @@
+name: Automatically close unauthorized PRs
+on:
+  pull_request:
+    types: [opened, reopened]
+
+jobs:
+  close_unauthorized_pr:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check PR Author and Source
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          OWNER: "michaelthomasletts"
+        run: |
+          ACTOR="${{ github.actor }}"
+          IS_FORK="${{ github.event.pull_request.head.repo.fork }}"
+
+          if [[ "$ACTOR" != "$OWNER" || "$IS_FORK" == "true" ]]; then
+            gh pr close ${{ github.event.pull_request.number }} --repo "$REPO" --comment "Only the repository owner can open PRs. Forked PRs are also not allowed."
+          fi
