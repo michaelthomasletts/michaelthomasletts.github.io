@@ -1,7 +1,6 @@
 name: Automatically close unauthorized PRs
 on:
   pull_request:
-    types: [opened, reopened]
 
 jobs:
   close_unauthorized_pr:
