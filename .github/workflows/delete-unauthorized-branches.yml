@@ -1,4 +1,4 @@
-name: Prevent Unauthorized Branch Creation
+name: Prevent unauthorized branch creation
 
 on:
   create:
