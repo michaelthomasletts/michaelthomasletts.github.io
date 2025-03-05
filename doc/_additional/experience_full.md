@@ -8,31 +8,32 @@ Skills
 Experience
 ==========
 
-**Senior Data Engineer**<br>
-Capital One - Hybrid<br>
-2025 - Present
-
 **Data Engineer**<br>
 Swoop - Remote<br>
-2024 - 2025<br>
+August 2024 - Present<br>
 New York, NY<br>
 
 **Data Engineer**<br>
 Amazon - Hybrid<br>
-2022 - 2024<br>
+June 2022 - June 2024<br>
 Bellevue, WA<br>
 
 **Data Engineer**<br>
 LeafLink - Remote<br>
-2021 - 2022<br>
+March 2021 - May 2022<br>
 New York, NY
 
 **Data Scientist**<br>
 Spotify - Contract<br>
-2020 - 2020<br>
+January 2020 - July 2020<br>
+New York, NY
+
+**Data Analyst**<br>
+New York Magazine - On-Site<br>
+June 2019 - November 2019<br>
 New York, NY
 
 **Data Analytics and Measurement Analyst**<br>
 BuzzFeed - On-Site<br>
-2018 - 2019<br>
+March 2018 - April 2019<br>
 New York, NY
