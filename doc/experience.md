@@ -10,8 +10,8 @@ Experience
 
 **Senior Data Engineer**<br>
 Capital One - Hybrid<br>
-2025 - Present
-New York, NY
+2025 - Present<br>
+New York, NY<br>
 
 **Data Engineer**<br>
 Swoop - Remote<br>
