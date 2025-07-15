@@ -7,7 +7,7 @@ TL;DR
 =====
 
 - Located in NYC
-- 8 YOE working in data
+- 8 YOE working in big data
 - 4 YOE as a Data Engineer
 - Ex-Amazon, Ex-Spotify, Ex-BuzzFeed
 - Self-taught
