@@ -3,16 +3,18 @@
 
 |
 
-TL;DR
-=====
+Hi! 👋 I'm Mike -- a senior data engineer passionate about building scalable data infrastructure, open-source software, and Python development.
 
-- Located in NYC
-- 8 YOE in Big Data
+A little about me:
+
+- Located in NYC 🗽
+- 8 years of experience in big data
 - Ex-Amazon
-- Author of `boto3-refresh-session <https://github.com/michaelthomasletts/boto3-refresh-session>`_
-- Primary Languages: Python and SQL
-- Cloud: AWS
-- Tools: Spark, Delta Lake, Airflow, DBT, Databricks, Snowflake, GitHub
+- Open-Source Software maintainer
+- Python enthusiast 🐍
+- `GitHub <https://github.com/michaelthomasletts>`_
+- `LinkedIn <https://www.linkedin.com/in/lettsmichael/>`_
+- `Blog <https://medium.com/@lettsmt>`_
 
 .. toctree::
    :maxdepth: 1
