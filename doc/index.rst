@@ -18,6 +18,6 @@ TL;DR
    :maxdepth: 1
    :hidden:
 
-   Products <products>
+   Achievements <achievements>
    Python Projects <projects>
    Experience <experience>
