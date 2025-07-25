@@ -17,7 +17,7 @@ Through careful memory and runtime profiling, I also determined that regular exp
 Due to the limitations of relational databases for complex pattern matching and the inefficiencies of regular expression automatons, I sought a more efficient solution than relational databases for identifying and remediating sensitive data patterns, which led me to the `Aho-Corasick algorithm <https://en.wikipedia.org/wiki/Aho%E2%80%93Corasick_algorithm>`_.
 The Aho-Corasick algorithm is a string searching algorithm that creates a finite state machine (FSM) or "automaton" from a set of keywords, allowing for efficient multi-pattern matching.
 The algorithm builds a trie from provided keywords and then constructs failure links to allow for backtracking, enabling it to search through the text in linear time relative to the length of the text and number of keywords.
-To implement the Aho-Corasick algorithm, I utilized the `pyahocorasick` library, which provides a Python implementation of the algorithm.
+To implement the Aho-Corasick algorithm, I utilized the ``pyahocorasick`` library, which provides a Python implementation of the algorithm.
 
 On modern big data teams, large datasets are normally processed in a distributed manner using Apache Spark, and custom functions (UDFs) are used to apply idiosyncratic transformation logic.
 However, due to concerns about efficiently sharing memory between Spark executors and the Aho-Corasick automaton, I opted to use the multiprocessing library in Python to parallelize the processing of large datasets.
