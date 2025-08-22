@@ -3,7 +3,7 @@
 
 |
 
-Hi! 👋 I'm Mike Letts -- a senior data engineer and author of `boto3-refresh-session <https://github.com/michaelthomasletts/boto3-refresh-session>`_. I am passionate about building and maintaining scalable data infrastructure, open-source software, and Python development. 
+Hi! 👋 I'm Mike Letts -- a senior data engineer and author of `boto3-refresh-session <https://github.com/michaelthomasletts/boto3-refresh-session>`_.
 
 A little about me:
 
@@ -12,6 +12,7 @@ A little about me:
 - Ex-Amazon
 - Open-Source Software maintainer
 - Python enthusiast 🐍
+- AWS
 
 Some links:
 
