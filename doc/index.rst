@@ -21,5 +21,5 @@ A little about me:
    :hidden:
 
    Achievements <achievements>
-   Python Projects <projects>
+   Open Source Projects <projects>
    Experience <experience>

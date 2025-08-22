@@ -1,9 +1,9 @@
-Python Projects
-===============
+Open Source Projects
+====================
 
-Below, I have listed some of my favorite Python projects that I published to PyPI.
+Below are some of my favorite open source projects.
 
-[boto3-refresh-session](https://michaelthomasletts.github.io/boto3-refresh-session/index.html) - a simple Python package for refreshing boto3 sessions automatically.
+[boto3-refresh-session](https://michaelthomasletts.github.io/boto3-refresh-session/index.html) - a simple Python package for refreshing boto3 sessions automatically. ~80K downloads.
 
 [profile-this](https://github.com/michaelthomasletts/profile-this) - an extremely simple memory profiler.
 
