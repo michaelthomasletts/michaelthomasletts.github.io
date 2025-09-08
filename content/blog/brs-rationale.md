@@ -56,7 +56,7 @@ The following bulletpoints are also not an exhaustive list.[^2]
 
 `boto3-refresh-session` is for **Python developers** who need a robust, *Python-native* way to handle expiring credentials — whether because they can’t rely on `credential_process`, they’re embedding `boto3` in long-running daemons, or they’re working with IoT / X.509 flows that the standard provider chain doesn’t support.
 
-`boto3-refresh-session` is *not* for people who use the standard ECS / EC2 credential provider, depend upon `credential_process` without friction, or, frankly, (there's no delicate way of saying this) do not understand the limitations and edge cases associated with profiles, AWS credential providers, etc.
+`boto3-refresh-session` is *not* for people who use the standard ECS / EC2 credential provider, depend upon `credential_process` without friction, or are not aware of the limitations and edge cases associated with profiles, AWS credential providers, etc.
 
 ## Reflections
 
@@ -72,7 +72,7 @@ If you have questions, reach out via GitHub or any of the usual channels.
 
 [^1]: [TL;DR Sec](https://tldrsec.com/p/tldr-sec-282) and [CloudSecList](https://cloudseclist.com/issues/issue-290/), to be specific.
 
-[^2]: I won't spoonfeed you. I cannot possibly account for every single circumstance for every single AWS service or scenario. I am happy to clarify the more glaring examples, but I should not be expected to exhaustively list *everything*. Sorry - them's the brakes.
+[^2]: These examples are representative, not exhaustive. Covering every AWS service and edge case isn’t realistic, but I’ve highlighted the more common pitfalls.
 
 [^3]: This is why I [deprecated the `ecs` module](https://github.com/michaelthomasletts/boto3-refresh-session/pull/78).
 
