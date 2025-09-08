@@ -14,7 +14,7 @@ It is unclear if the origins of those spurious criticisms are rooted in basic mi
 
 I am therefore compelled to clarify *who exactly this package is for* and *exactly what problems it does and does not solve*. 
 
-Arguably, it is not my responsibility to edify anyone about `credential_process`, etc; however, as the founder and core maintainer of `boto3-refresh-session`, it *is* my obligation to ensure the community understands, to the best of my ability, what this tool is and is *not*. More on that later.
+Arguably, it is not my responsibility to edify anyone about `credential_process`, etc; however, as the founder and core maintainer of `boto3-refresh-session`, it *is* my obligation to ensure the community understands, to the best of my ability, what this tool is and is *not*.
 
 ## *Some* examples of what *already* auto-refreshes (when used correctly):
 
