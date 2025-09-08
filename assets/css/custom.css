@@ -1,0 +1,6 @@
+/* Only on the Contact page */
+.page-contact .post-date,
+.page-contact header time,
+.page-contact .post-meta time {
+  display: none !important;
+}

@@ -2,40 +2,37 @@ name: documentation
 
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
 
 permissions:
-    contents: write
+  contents: write
 
 jobs:
   docs:
     runs-on: ubuntu-latest
     steps:
-      # check-out repo and set-up python
       - name: Check out repository
         uses: actions/checkout@v4
-      - name: Set up python
-        id: setup-python
-        uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
-      # install dependencies
-      - name: Install dependencies
+          submodules: recursive
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: Build
         run: |
-          pip install sphinx
-          pip install pydata-sphinx-theme
-          pip install myst-parser
-        # updating docs
-      - name: Sphinx build
-        run: |
-          cd doc/ && make clean && cd ..
-          sphinx-build doc _build
+          # user/org site — baseURL is the root of your domain
+          hugo --minify --baseURL "https://michaelthomasletts.github.io/"
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
         with:
           publish_branch: gh-pages
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: _build/
-          force_orphan: true    
+          publish_dir: public
+          force_orphan: true

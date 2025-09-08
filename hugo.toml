@@ -1,0 +1,44 @@
+baseURL = 'https://michaelthomasletts.github.io/'
+languageCode = 'en-us'
+title = 'Mike Letts'
+theme = "hugo-bearcub"
+author = "Mike Letts"
+copyright = "© Copyright 2025, Michael Letts"
+
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 1
+  [[menus.main]]
+    name = 'LinkedIn'
+    url = 'https://www.linkedin.com/in/lettsmichael/'
+    weight = 2  
+  [[menus.main]]
+    name = 'GitHub'
+    url = 'https://www.github.com/michaelthomasletts'
+    weight = 3
+  [[menus.main]]
+    name = 'PyPI'
+    url = 'https://www.pypi.org/user/lettsmt/'
+    weight = 4
+  [[menus.main]]
+    identifier = 'blog'
+    name = 'Blog'
+    pageRef = '/blog/'
+    weight = 5
+  [[menus.main]]
+    identifier = 'contact'
+    name = 'Contact'
+    pageRef = '/contact'
+    weight = 6
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      footnote = true
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  madeWith  = "Made with Hugo & BearCub"      

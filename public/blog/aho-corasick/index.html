@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Reducing data remediation runtime from 55 hours to 7 seconds with Aho-Corasick | Mike Letts</title>
+<meta name="title" content="Reducing data remediation runtime from 55 hours to 7 seconds with Aho-Corasick" />
+<meta name="description" content="Aho-Corasick is a classic multi-pattern string matching algorithm — like regex, but significantly faster. Unlike regex, which (depending on the implementation) may scale exponentially with input size, Aho-Corasick scales linearly. That property — linear time complexity — makes it ridiculously fast, and ideal for large-scale data remediation.
+I first learned about Aho-Corasick back in 2018 but filed it away under “interesting but unnecessary for me right now.” Years later, I found myself responsible for remediating records across datasets at petabyte scale." />
+<meta name="author" content="" />
+<meta name="keywords" content="" />
+
+
+
+
+
+
+  
+  <meta property="og:url" content="http://localhost:1313/blog/aho-corasick/">
+  <meta property="og:site_name" content="Mike Letts">
+  <meta property="og:title" content="Reducing data remediation runtime from 55 hours to 7 seconds with Aho-Corasick">
+  <meta property="og:description" content="Aho-Corasick is a classic multi-pattern string matching algorithm — like regex, but significantly faster. Unlike regex, which (depending on the implementation) may scale exponentially with input size, Aho-Corasick scales linearly. That property — linear time complexity — makes it ridiculously fast, and ideal for large-scale data remediation.
+I first learned about Aho-Corasick back in 2018 but filed it away under “interesting but unnecessary for me right now.” Years later, I found myself responsible for remediating records across datasets at petabyte scale.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2025-07-30T00:06:26-04:00">
+    <meta property="article:modified_time" content="2025-07-30T00:06:26-04:00">
+
+
+  
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Reducing data remediation runtime from 55 hours to 7 seconds with Aho-Corasick">
+  <meta name="twitter:description" content="Aho-Corasick is a classic multi-pattern string matching algorithm — like regex, but significantly faster. Unlike regex, which (depending on the implementation) may scale exponentially with input size, Aho-Corasick scales linearly. That property — linear time complexity — makes it ridiculously fast, and ideal for large-scale data remediation.
+I first learned about Aho-Corasick back in 2018 but filed it away under “interesting but unnecessary for me right now.” Years later, I found myself responsible for remediating records across datasets at petabyte scale.">
+
+
+  
+  
+  <meta itemprop="name" content="Reducing data remediation runtime from 55 hours to 7 seconds with Aho-Corasick">
+  <meta itemprop="description" content="Aho-Corasick is a classic multi-pattern string matching algorithm — like regex, but significantly faster. Unlike regex, which (depending on the implementation) may scale exponentially with input size, Aho-Corasick scales linearly. That property — linear time complexity — makes it ridiculously fast, and ideal for large-scale data remediation.
+I first learned about Aho-Corasick back in 2018 but filed it away under “interesting but unnecessary for me right now.” Years later, I found myself responsible for remediating records across datasets at petabyte scale.">
+  <meta itemprop="datePublished" content="2025-07-30T00:06:26-04:00">
+  <meta itemprop="dateModified" content="2025-07-30T00:06:26-04:00">
+  <meta itemprop="wordCount" content="1434">
+
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  
+  <link href="/original.min.css" rel="stylesheet">
+
+  
+    
+    <link href="/syntax.min.css" rel="stylesheet">
+  
+
+  
+
+  
+</head>
+
+<body>
+  <header><a class="skip-link" href="#main-content">Skip to main content</a>
+
+<a href="/" class="title"><h1>Mike Letts</h1></a>
+<nav>
+  <a href="/">Home</a>
+
+  <a href="https://www.linkedin.com/in/lettsmichael/">LinkedIn</a>
+
+  <a href="https://www.github.com/michaelthomasletts">GitHub</a>
+
+  <a href="https://www.pypi.org/user/lettsmt/">PyPI</a>
+
+  <a href="/blog/">Blog</a>
+
+  <a href="/contact/">Contact</a>
+
+<a href='http://localhost:1313/index.xml'>RSS</a>
+
+
+
+
+
+
+
+</nav>
+</header>
+  <main id="main-content">
+
+<h1>Reducing data remediation runtime from 55 hours to 7 seconds with Aho-Corasick</h1>
+<p class="byline">
+  <time datetime='2025-07-30' pubdate>
+    2025-07-30
+  </time>
+  
+</p>
+
+<content>
+  <p><a href="https://en.wikipedia.org/wiki/Aho%E2%80%93Corasick_algorithm">Aho-Corasick</a> is a classic multi-pattern string matching algorithm — like regex, but significantly faster. Unlike regex, which (<a href="https://github.com/BurntSushi/rebar?tab=readme-ov-file#dictionary">depending on the implementation</a>) may scale exponentially with input size, Aho-Corasick scales linearly. That property — linear time complexity — makes it <em>ridiculously fast</em>, and ideal for large-scale data remediation.</p>
+<p>I first learned about Aho-Corasick back in 2018 but filed it away under “interesting but unnecessary for me right now.” Years later, I found myself responsible for remediating records across datasets at petabyte scale.</p>
+<p>At the time, remediations were being performed using SQL queries embedded with regular expressions, running against an already-overloaded relational database. The approach was inefficient: <em>most</em> client datasets took between 30 minutes to an hour to process, and in some cases stretched as long as <em>55 hours</em>. As you can probably imagine, those datasets with excessive runtimes were enormous.</p>
+<p>Recognizing an opportunity to improve things, I began re-architecting the remediation code. Given the scale of the data and the need for runtime and memory efficiency, it quickly became clear that the shared RDBMS was a major bottleneck. Profiling revealed that regular expressions — not just SQL overhead and database performance — were the primary cause of long runtimes. As the number and length of substrings grew, performance degraded exponentially. This also proved true when using Python’s built-in <code>re</code> module.</p>
+<p>In modern data engineering, large datasets are often processed using distributed systems like Apache Spark, with custom user-defined functions to apply transformation logic. Another common tool is DuckDB, which also supports UDFs and is popular for fast local analytics and ease of use.</p>
+<p>However, DuckDB began leaking memory at scale — confirming concerns <a href="https://github.com/duckdb/duckdb-node/issues/55">previously raised by the community</a>. And while Spark offered better scale, efficiently sharing a large Aho-Corasick automaton between executors introduced more complexity than it solved. User-defined functions also tend to be inefficient.</p>
+<p>To avoid shared-memory challenges in Spark and instability in DuckDB, I opted to use Python’s built-in <code>multiprocessing</code> library in tandem with Aho-Corasick.</p>
+<p>Since Python multiprocessing typically involves deep memory copying between processes, which would have blown up RAM usage at scale, I used the <code>fork</code> start method on Linux to ensure memory sharing via copy-on-write semantics. This allowed large, immutable data structures (like the target dataset and automatons) to be reused across processes without duplication, keeping memory usage comfy.</p>
+<p>Additionally, I took care to scope all shared data within a global cache, which avoids passing large payloads via <code>Pool.apply_async(...)</code> calls and minimizes serialization overhead.</p>
+<p>The results were staggering: <strong>55 hours → 7 seconds</strong>.</p>
+<p>A key reason for this performance wasn’t simply the use of Aho-Corasick but <em>how the data was shared</em>. By loading large datasets and compiled automatons once, and forking worker processes afterward, I avoided memory duplication entirely. If I had passed these structures via arguments or used <code>spawn</code>, it would have resulted in prohibitive memory usage and slower compute due to unnecessary serialization and GC pressure.</p>
+<h2 id="important-concepts">Important Concepts</h2>
+<p>Before you rush to implement Aho-Corasick expecting miracles, a word of caution: <strong>Aho-Corasick + parallelization won’t yield superb performance unless your code is optimized.</strong></p>
+<p>To borrow from the pseudo-code further below, you’ll need to understand:</p>
+<ul>
+<li>The difference between “spawn” and “fork” memory allocation modes in Python’s multiprocessing module and how fork enables memory-efficient parallelism via copy-on-write. This matters because using spawn (the default on macOS and Windows) will fully copy large objects, causing massive memory spikes if you’re not careful. On Linux, fork allows those objects to be shared so long as they’re never mutated.</li>
+<li>The importance of the <a href="https://r4ds.had.co.nz/tidy-data.html">“tidy data” principle</a> and general data layout — so your data can be scanned efficiently.</li>
+<li>The necessity of <strong>profiling</strong> your code, early and often.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></li>
+</ul>
+<p>Additionally, realize you may not need to use the <code>multiprocessing</code> library after all. You might be able to write a user-defined function that’s implemented in DuckDB or Spark. That decision depends primarily on the scale of your data<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> and-or comfort with digging deep into Spark. To be honest, I actually <em>recommend</em> that you use a user-defined function in DuckDB — that is, if the scale of your data isn’t enormous. It will be less efficient than using Aho-Corasick + <code>multiprocessing</code> but certainly simpler.</p>
+<h2 id="how-to-use-aho-corasick-with-python">How to Use Aho-Corasick with Python</h2>
+<p>The pseudo-code that follows accepts two pandas <code>DataFrame</code> objects: <code>target</code> and <code>sensitive_values</code>.</p>
+<ul>
+<li><code>target</code> contains the data that must be scanned for sensitive content and remediated
+sensitive_values contains the values to search for and obfuscate</li>
+<li>The Aho-Corasick automaton does not care how sensitive values appear in target—whether as substrings or exact matches. All matches are remediated the same way.</li>
+</ul>
+<p>For example:</p>
+<ul>
+<li>If <code>&quot;1234&quot;</code> is a sensitive value, then <code>&quot;1234_5678&quot;</code> becomes <code>&quot;xXxX_5678&quot;</code></li>
+<li>If <code>&quot;1234&quot;</code> appears on its own, it becomes <code>&quot;xXxX&quot;</code>.</li>
+</ul>
+<p>Multiple matches per record are handled without issue. Referring back to the tidy data concept: <code>sensitive_values</code> is represented in a long format.</p>
+<p>To illustrate:</p>
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>[
+</span></span><span style="display:flex;"><span>  {<span style="color:#e6db74">&#34;element_name&#34;</span>: <span style="color:#e6db74">&#34;x&#34;</span>, <span style="color:#e6db74">&#34;sensitive_value&#34;</span>: <span style="color:#e6db74">&#34;1234&#34;</span>},
+</span></span><span style="display:flex;"><span>  {<span style="color:#e6db74">&#34;element_name&#34;</span>: <span style="color:#e6db74">&#34;x&#34;</span>, <span style="color:#e6db74">&#34;sensitive_value&#34;</span>: <span style="color:#e6db74">&#34;5678&#34;</span>},
+</span></span><span style="display:flex;"><span>  {<span style="color:#e6db74">&#34;element_name&#34;</span>: <span style="color:#e6db74">&#34;y&#34;</span>, <span style="color:#e6db74">&#34;sensitive_value&#34;</span>: <span style="color:#e6db74">&#34;abc&#34;</span>}
+</span></span><span style="display:flex;"><span>]</span></span></code></pre></div><p>Why does this matter? Because this long format allows the data to be grouped by <code>element_name</code>, deduplicated, and quickly loaded into per-column automatons. Each parallel process then scans each record in each column for matches in its associated automaton.</p>
+<p>Lastly, you’ll need to download <a href="pyahocorasick"><code>pyahocorasick</code></a> and <code>pandas</code>. You can use <code>polars</code> instead of <code>pandas</code> if you prefer. <code>polars</code> may actually make the following pseudo-code even faster, albeit marginally. There are also Rust-based implementations available out there online.</p>
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> gc
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> collections <span style="color:#f92672">import</span> defaultdict
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> multiprocessing <span style="color:#f92672">import</span> Pool, get_context
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> pandas <span style="color:#66d9ef">as</span> pd
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> ahocorasick <span style="color:#f92672">import</span> Automaton
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Singleton cache used to hold large, immutable shared data </span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># (e.g. automatons, target df).</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Under &#39;fork&#39; mode, this data is shared across processes </span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># via copy-on-write, avoiding memory duplication.</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">ObfuscatorCache</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">__init__</span>(self):
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>automatons <span style="color:#f92672">=</span> <span style="color:#66d9ef">None</span>
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>target <span style="color:#f92672">=</span> <span style="color:#66d9ef">None</span>
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>executor <span style="color:#f92672">=</span> <span style="color:#66d9ef">None</span>
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>metrics <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># initializing global cache object for sharing immutable</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># data between processes</span>
+</span></span><span style="display:flex;"><span>cache <span style="color:#f92672">=</span> ObfuscatorCache()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Obfuscator</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">__init__</span>(
+</span></span><span style="display:flex;"><span>        self,
+</span></span><span style="display:flex;"><span>        sensitive_values: pd<span style="color:#f92672">.</span>DataFrame,
+</span></span><span style="display:flex;"><span>        target: pd<span style="color:#f92672">.</span>DataFrame,
+</span></span><span style="display:flex;"><span>        automatons: dict[str, Automaton] <span style="color:#f92672">|</span> <span style="color:#66d9ef">None</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">None</span>,
+</span></span><span style="display:flex;"><span>        max_workers: int <span style="color:#f92672">|</span> <span style="color:#66d9ef">None</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">None</span>,
+</span></span><span style="display:flex;"><span>    ):
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>_sensitive_values <span style="color:#f92672">=</span> sensitive_values
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>_max_workers <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span> <span style="color:#66d9ef">if</span> max_workers <span style="color:#f92672">is</span> <span style="color:#66d9ef">None</span> <span style="color:#66d9ef">else</span> max_workers
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Enables copy-on-write memory sharing on Linux/Unix</span>
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>_ctx <span style="color:#f92672">=</span> get_context(<span style="color:#e6db74">&#34;fork&#34;</span>)
+</span></span><span style="display:flex;"><span>        cache<span style="color:#f92672">.</span>target <span style="color:#f92672">=</span> target
+</span></span><span style="display:flex;"><span>        cache<span style="color:#f92672">.</span>automatons <span style="color:#f92672">=</span> (
+</span></span><span style="display:flex;"><span>            self<span style="color:#f92672">.</span>make_automatons(sensitive_values)
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> automatons <span style="color:#f92672">is</span> <span style="color:#66d9ef">None</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">else</span> automatons
+</span></span><span style="display:flex;"><span>        )
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@property</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">target</span>(self) <span style="color:#f92672">-&gt;</span> pd<span style="color:#f92672">.</span>DataFrame:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> cache<span style="color:#f92672">.</span>target
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@target.setter</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">target</span>(self, value: pd<span style="color:#f92672">.</span>DataFrame):
+</span></span><span style="display:flex;"><span>        cache<span style="color:#f92672">.</span>target <span style="color:#f92672">=</span> value
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> hasattr(self, <span style="color:#e6db74">&#34;_ctx&#34;</span>):
+</span></span><span style="display:flex;"><span>            self<span style="color:#f92672">.</span>_ctx<span style="color:#f92672">.</span>target <span style="color:#f92672">=</span> value
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@property</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">metrics</span>(self) <span style="color:#f92672">-&gt;</span> int:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> cache<span style="color:#f92672">.</span>metrics
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@metrics.setter</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">metrics</span>(self, value: int):
+</span></span><span style="display:flex;"><span>        cache<span style="color:#f92672">.</span>metrics <span style="color:#f92672">=</span> value
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@property</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">automatons</span>(self) <span style="color:#f92672">-&gt;</span> dict[str, Automaton]:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> cache<span style="color:#f92672">.</span>automatons
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@property</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">executor</span>(self) <span style="color:#f92672">-&gt;</span> Pool:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> cache<span style="color:#f92672">.</span>executor <span style="color:#f92672">is</span> <span style="color:#66d9ef">None</span>:
+</span></span><span style="display:flex;"><span>            cache<span style="color:#f92672">.</span>executor <span style="color:#f92672">=</span> self<span style="color:#f92672">.</span>_ctx<span style="color:#f92672">.</span>Pool(processes<span style="color:#f92672">=</span>self<span style="color:#f92672">.</span>_max_workers)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> cache<span style="color:#f92672">.</span>executor
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">shutdown_executor</span>(self):
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> cache<span style="color:#f92672">.</span>executor <span style="color:#f92672">is</span> <span style="color:#f92672">not</span> <span style="color:#66d9ef">None</span>:
+</span></span><span style="display:flex;"><span>            cache<span style="color:#f92672">.</span>executor<span style="color:#f92672">.</span>terminate()
+</span></span><span style="display:flex;"><span>            cache<span style="color:#f92672">.</span>executor<span style="color:#f92672">.</span>join()
+</span></span><span style="display:flex;"><span>            cache<span style="color:#f92672">.</span>executor <span style="color:#f92672">=</span> <span style="color:#66d9ef">None</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@staticmethod</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">make_automaton</span>(patterns: set) <span style="color:#f92672">-&gt;</span> Automaton:
+</span></span><span style="display:flex;"><span>        A <span style="color:#f92672">=</span> Automaton()
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> pattern <span style="color:#f92672">in</span> patterns:
+</span></span><span style="display:flex;"><span>            A<span style="color:#f92672">.</span>add_word(pattern, pattern)
+</span></span><span style="display:flex;"><span>        A<span style="color:#f92672">.</span>make_automaton()
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> A
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">make_automatons</span>(self, sensitive_values: pd<span style="color:#f92672">.</span>DataFrame) <span style="color:#f92672">-&gt;</span> dict[str, Automaton]:
+</span></span><span style="display:flex;"><span>        findings <span style="color:#f92672">=</span> defaultdict(set)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> element, group <span style="color:#f92672">in</span> sensitive_values<span style="color:#f92672">.</span>groupby(<span style="color:#e6db74">&#34;element_name&#34;</span>):
+</span></span><span style="display:flex;"><span>            findings[element]<span style="color:#f92672">.</span>update(str(finding) <span style="color:#66d9ef">for</span> finding <span style="color:#f92672">in</span> group[<span style="color:#e6db74">&#34;sensitive_value&#34;</span>])
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">del</span> self<span style="color:#f92672">.</span>_sensitive_values
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> {
+</span></span><span style="display:flex;"><span>            element: self<span style="color:#f92672">.</span>make_automaton(patterns)
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">for</span> element, patterns <span style="color:#f92672">in</span> findings<span style="color:#f92672">.</span>items()
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">obfuscate</span>(self, inplace: bool <span style="color:#f92672">=</span> <span style="color:#66d9ef">True</span>) <span style="color:#f92672">-&gt;</span> pd<span style="color:#f92672">.</span>DataFrame:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> <span style="color:#f92672">not</span> inplace:
+</span></span><span style="display:flex;"><span>            obfuscated_target <span style="color:#f92672">=</span> self<span style="color:#f92672">.</span>target<span style="color:#f92672">.</span>copy()
+</span></span><span style="display:flex;"><span>            futures <span style="color:#f92672">=</span> [
+</span></span><span style="display:flex;"><span>                self<span style="color:#f92672">.</span>executor<span style="color:#f92672">.</span>apply_async(self<span style="color:#f92672">.</span>_obfuscate_column, args<span style="color:#f92672">=</span>(column,))
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">for</span> column <span style="color:#f92672">in</span> self<span style="color:#f92672">.</span>automatons<span style="color:#f92672">.</span>keys()
+</span></span><span style="display:flex;"><span>            ]
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">for</span> future <span style="color:#f92672">in</span> futures:
+</span></span><span style="display:flex;"><span>                column, obfuscated_series, local_counts <span style="color:#f92672">=</span> future<span style="color:#f92672">.</span>get()
+</span></span><span style="display:flex;"><span>                obfuscated_target[column] <span style="color:#f92672">=</span> obfuscated_series
+</span></span><span style="display:flex;"><span>                self<span style="color:#f92672">.</span>metrics <span style="color:#f92672">+=</span> local_counts[column]
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> obfuscated_target
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>         <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>            futures <span style="color:#f92672">=</span> [
+</span></span><span style="display:flex;"><span>                self<span style="color:#f92672">.</span>executor<span style="color:#f92672">.</span>apply_async(self<span style="color:#f92672">.</span>_obfuscate_column, args<span style="color:#f92672">=</span>(column,))
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">for</span> column <span style="color:#f92672">in</span> self<span style="color:#f92672">.</span>automatons<span style="color:#f92672">.</span>keys()
+</span></span><span style="display:flex;"><span>            ]
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">for</span> future <span style="color:#f92672">in</span> futures:
+</span></span><span style="display:flex;"><span>                column, obfuscated_series, local_counts <span style="color:#f92672">=</span> future<span style="color:#f92672">.</span>get()
+</span></span><span style="display:flex;"><span>                self<span style="color:#f92672">.</span>target[column] <span style="color:#f92672">=</span> obfuscated_series
+</span></span><span style="display:flex;"><span>                self<span style="color:#f92672">.</span>metrics <span style="color:#f92672">+=</span> local_counts[column]
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">del</span> column, obfuscated_series, local_counts, future
+</span></span><span style="display:flex;"><span>                gc<span style="color:#f92672">.</span>collect()
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> self<span style="color:#f92672">.</span>target
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">_obfuscate_column</span>(self, column: str) <span style="color:#f92672">-&gt;</span> tuple[str, pd<span style="color:#f92672">.</span>Series, dict[str, int]]:
+</span></span><span style="display:flex;"><span>        local_metrics <span style="color:#f92672">=</span> defaultdict(int)
+</span></span><span style="display:flex;"><span>        series <span style="color:#f92672">=</span> self<span style="color:#f92672">.</span>target[column]
+</span></span><span style="display:flex;"><span>        obfuscated_series <span style="color:#f92672">=</span> series<span style="color:#f92672">.</span>map(
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">lambda</span> v: self<span style="color:#f92672">.</span>_obfuscate_record(v, self<span style="color:#f92672">.</span>automatons, column, local_metrics)
+</span></span><span style="display:flex;"><span>        )
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> column, obfuscated_series, local_metrics
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@staticmethod</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">_obfuscate_record</span>(
+</span></span><span style="display:flex;"><span>        value: str,
+</span></span><span style="display:flex;"><span>        automatons: dict[str, Automaton],
+</span></span><span style="display:flex;"><span>        column: str,
+</span></span><span style="display:flex;"><span>        counter: dict,
+</span></span><span style="display:flex;"><span>        obfuscate_char: str <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;x&#34;</span>,
+</span></span><span style="display:flex;"><span>    ) <span style="color:#f92672">-&gt;</span> str:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> <span style="color:#f92672">not</span> (
+</span></span><span style="display:flex;"><span>            matches <span style="color:#f92672">:=</span> [
+</span></span><span style="display:flex;"><span>                (end <span style="color:#f92672">-</span> len(<span style="color:#66d9ef">match</span>) <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>, end)
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">for</span> end, <span style="color:#66d9ef">match</span> <span style="color:#f92672">in</span> automatons[column]<span style="color:#f92672">.</span>iter(value)
+</span></span><span style="display:flex;"><span>            ]
+</span></span><span style="display:flex;"><span>        ):
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> value
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>        merged <span style="color:#f92672">=</span> []
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> start, end <span style="color:#f92672">in</span> sorted(matches):
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> <span style="color:#f92672">not</span> merged <span style="color:#f92672">or</span> start <span style="color:#f92672">&gt;</span> merged[<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">1</span>]:
+</span></span><span style="display:flex;"><span>                merged<span style="color:#f92672">.</span>append([start, end])
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>                merged[<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>] <span style="color:#f92672">=</span> (merged[<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">0</span>], max(merged[<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">1</span>], end))
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>        chars <span style="color:#f92672">=</span> list(value)
+</span></span><span style="display:flex;"><span>        counter[column] <span style="color:#f92672">+=</span> len(merged)
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> start, end <span style="color:#f92672">in</span> merged:
+</span></span><span style="display:flex;"><span>            length <span style="color:#f92672">=</span> end <span style="color:#f92672">-</span> start <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>            pattern <span style="color:#f92672">=</span> (obfuscate_char <span style="color:#f92672">+</span> obfuscate_char<span style="color:#f92672">.</span>upper()) <span style="color:#f92672">*</span> ((length <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>) <span style="color:#f92672">//</span> <span style="color:#ae81ff">2</span>)
+</span></span><span style="display:flex;"><span>            chars[start : end <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>] <span style="color:#f92672">=</span> list(pattern[:length])
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;&#34;</span><span style="color:#f92672">.</span>join(chars)</span></span></code></pre></div><div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>If you want a tool that makes memory and runtime profiling incredibly easy then check out <a href="https://github.com/michaelthomasletts/profile-this">this repository I wrote</a>. Sometimes, line-by-line profiling is too granular; rather, you need to understand how your code performs, from a memory allocation perspective, <em>temporally</em>. I wrote this repository for those situations exactly — but with an emphasis on simplicity and speed.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>I am not aware of any hard and fast statistics on exact thresholds for memory leakage in DuckDB so DYOR and experimentation.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+</content>
+<p>
+  
+</p>
+
+
+
+
+  </main>
+  <footer><small>
+  © Copyright 2025, Michael Letts | Made with Hugo &amp; BearCub
+</small></footer>
+
+    
+</body>
+
+</html>
