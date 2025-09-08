@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>boto3-refresh-session and credential_process: where each fits | Mike Letts</title>
+<meta name="title" content="boto3-refresh-session and credential_process: where each fits" />
+<meta name="description" content="I am not (yet) at liberty to disclose the names of various companies and institutions who depend upon boto3-refresh-session (or forked and modified it internally for their purposes); however, I can say that a cybersecurity team at a FAANG company and a prestigious Public Health department at a public university use boto3-refresh-session. Those dependents are among what I estimate to be around one hundred other developers, scientists, and teams across North America and Europe. boto3-refresh-session has also been featured in some notable newsletters.1" />
+<meta name="author" content="" />
+<meta name="keywords" content="" />
+
+
+
+
+
+
+  
+  <meta property="og:url" content="http://localhost:1313/blog/brs-rationale/">
+  <meta property="og:site_name" content="Mike Letts">
+  <meta property="og:title" content="boto3-refresh-session and credential_process: where each fits">
+  <meta property="og:description" content="I am not (yet) at liberty to disclose the names of various companies and institutions who depend upon boto3-refresh-session (or forked and modified it internally for their purposes); however, I can say that a cybersecurity team at a FAANG company and a prestigious Public Health department at a public university use boto3-refresh-session. Those dependents are among what I estimate to be around one hundred other developers, scientists, and teams across North America and Europe. boto3-refresh-session has also been featured in some notable newsletters.1">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2025-09-08T00:02:07-04:00">
+    <meta property="article:modified_time" content="2025-09-08T00:02:07-04:00">
+
+
+  
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="boto3-refresh-session and credential_process: where each fits">
+  <meta name="twitter:description" content="I am not (yet) at liberty to disclose the names of various companies and institutions who depend upon boto3-refresh-session (or forked and modified it internally for their purposes); however, I can say that a cybersecurity team at a FAANG company and a prestigious Public Health department at a public university use boto3-refresh-session. Those dependents are among what I estimate to be around one hundred other developers, scientists, and teams across North America and Europe. boto3-refresh-session has also been featured in some notable newsletters.1">
+
+
+  
+  
+  <meta itemprop="name" content="boto3-refresh-session and credential_process: where each fits">
+  <meta itemprop="description" content="I am not (yet) at liberty to disclose the names of various companies and institutions who depend upon boto3-refresh-session (or forked and modified it internally for their purposes); however, I can say that a cybersecurity team at a FAANG company and a prestigious Public Health department at a public university use boto3-refresh-session. Those dependents are among what I estimate to be around one hundred other developers, scientists, and teams across North America and Europe. boto3-refresh-session has also been featured in some notable newsletters.1">
+  <meta itemprop="datePublished" content="2025-09-08T00:02:07-04:00">
+  <meta itemprop="dateModified" content="2025-09-08T00:02:07-04:00">
+  <meta itemprop="wordCount" content="1194">
+
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  
+  <link href="/original.min.css" rel="stylesheet">
+
+  
+
+  
+
+  
+</head>
+
+<body>
+  <header><a class="skip-link" href="#main-content">Skip to main content</a>
+
+<a href="/" class="title"><h1>Mike Letts</h1></a>
+<nav>
+  <a href="/">Home</a>
+
+  <a href="https://www.linkedin.com/in/lettsmichael/">LinkedIn</a>
+
+  <a href="https://www.github.com/michaelthomasletts">GitHub</a>
+
+  <a href="https://www.pypi.org/user/lettsmt/">PyPI</a>
+
+  <a href="/blog/">Blog</a>
+
+  <a href="/contact/">Contact</a>
+
+<a href='http://localhost:1313/index.xml'>RSS</a>
+
+
+
+
+
+
+
+</nav>
+</header>
+  <main id="main-content">
+
+<h1>boto3-refresh-session and credential_process: where each fits</h1>
+<p class="byline">
+  <time datetime='2025-09-08' pubdate>
+    2025-09-08
+  </time>
+  
+</p>
+
+<content>
+  <p>I am not (yet) at liberty to disclose the names of various companies and institutions who depend upon <code>boto3-refresh-session</code> (or forked and modified it internally for their purposes); however, I <em>can</em> say that a cybersecurity team at a FAANG company and a prestigious Public Health department at a public university use <code>boto3-refresh-session</code>. Those dependents are among what I estimate to be around one hundred other developers, scientists, and teams across North America and Europe. <code>boto3-refresh-session</code> has also been featured in some notable newsletters.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p>A testimonial from one of the FAANG cybersecurity engineers who forked and lightly modified <code>boto3-refresh-session</code>:</p>
+<blockquote>
+<p>&ldquo;Most of my work is on tooling related to AWS security, so I&rsquo;m pretty choosy about boto3 credentials-adjacent code. I often opt to just write this sort of thing myself so I at least know that I can reason about it. But I found boto3-refresh-session to be very clean and intuitive [&hellip;] We&rsquo;re using the RefreshableSession class as part of a client cache construct [&hellip;] We&rsquo;re using AWS Lambda to perform lots of operations across several regions in hundreds of accounts, over and over again, all day every day. And it turns out that there&rsquo;s a surprising amount of overhead to creating boto3 clients (mostly deserializing service definition json), so we can run MUCH more efficiently if we keep a cache of clients, all equipped with automatically refreshing sessions.&rdquo;</p></blockquote>
+<p>If it sounds like I am defending <code>boto3-refresh-session</code> &ndash; that&rsquo;s because it has been outright dismissed by a minority of developers online who do not seem to understand what set of problems it solves or <em>who</em> it is <em>for</em>. For example:</p>
+<blockquote>
+<p>&ldquo;Just create profiles &ndash; it works for every single credential type and will refresh automatically. I don&rsquo;t know why you would create a library for this when all SDKs work the same with profile configurations.&rdquo;</p></blockquote>
+<p>This is a <em>very</em> common misunderstanding. While profiles cover many cases, they don’t solve every scenario Python developers encounter. It is not merely frustrating for me to repeatedly come across this spurious criticism; I worry it may deter teams and individuals who would actually benefit from <code>boto3-refresh-session</code>.</p>
+<p>I am therefore compelled to clarify <em>who exactly this package is for</em> and <em>exactly what problems it does and does not solve</em>.</p>
+<p>Arguably, it is not my responsibility to edify anyone about <code>credential_process</code>, etc; however, as the founder and core maintainer of <code>boto3-refresh-session</code>, it <em>is</em> my obligation to ensure the community understands, to the best of my ability, what this tool is and is <em>not</em>. More, if such misunderstandings are common then there are issues extending far beyond the scope of just this project.</p>
+<h2 id="some-examples-of-what-already-auto-refreshes-when-used-correctly"><em>Some</em> examples of what <em>already</em> auto-refreshes (when used correctly):</h2>
+<p>The following bulletpoints are <em>not</em> an exhaustive list.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<ul>
+<li>
+<p>EC2 instance roles (IMDS): Botocore’s EC2 provider fetches / rotates credentials from the instance metadata service automatically. No manual refresh needed in long-running apps if you let the default provider chain run.</p>
+</li>
+<li>
+<p>ECS / Fargate task roles (task metadata endpoint): Botocore’s ECS provider pulls / renews task role creds via the container credentials endpoint automatically. <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
+</li>
+<li>
+<p><code>credential_process</code> (in <code>~/.aws/config</code>): if the external process returns JSON with an <code>Expiration</code>, <code>botocore</code> treats it as refreshable and will re-invoke before expiry. (If you hardcode creds or the process omits expiration, you lose true refresh semantics.)</p>
+</li>
+<li>
+<p><code>AssumeRole</code> via <code>profile</code> (<code>role_arn</code> + <code>source_profile</code>): using a named profile (not hardcoded env vars) lets <code>botocore</code> renew the STS session behind the scenes.</p>
+</li>
+<li>
+<p>Web identity (IRSA on EKS): the SDK exchanges the projected token and refreshes as needed.</p>
+</li>
+</ul>
+<h2 id="some-examples-of-when-that-isnt-true-common-foot-guns-for-python-devs"><em>Some</em> examples of when that isn’t true (common foot-guns for <em>Python</em> devs):</h2>
+<p>The following bulletpoints are also not an exhaustive list.<sup id="fnref1:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<ul>
+<li>
+<p>You bypass the provider chain. Example: exporting <code>AWS_ACCESS_KEY_ID</code> | <code>SECRET</code> | <code>SESSION_TOKEN</code> from a one-off <code>aws sts assume-role</code> and then launching a long process. Or sidestepping the standard credential provider in ECS. Those tokens expire and will not auto-refresh. That is where <code>RefreshableSession(method=&quot;custom&quot;)</code> becomes helpful.</p>
+</li>
+<li>
+<p>You pass explicit credentials to <code>boto3.Session(...)</code>. Providing keys directly (or reading them once from a file) fixes the credentials for the life of the process — no refresh.</p>
+</li>
+<li>
+<p>Profiles without expiration semantics. If your <code>credential_process</code> doesn’t emit <code>Expiration</code>, the SDK can’t plan a refresh (it treats them as static/opaque).</p>
+</li>
+<li>
+<p>Network / metadata blocked. Enterprises that block IMDSv2 or ECS task endpoints (or container lacks the env wiring) break auto-refresh even on EC2 / ECS (as mentioned above).</p>
+</li>
+<li>
+<p>SSO &amp; very long runtimes. SSO profiles refresh while the device token is valid, but headless, weeks-long daemons can still hit interactive renewal walls.<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></p>
+</li>
+<li>
+<p>IoT credentials (X.509). The AWS IoT credentials provider (mTLS to the IoT endpoint, role alias, then STS creds) is not a built-in <code>botocore</code> provider. Out of the box, the SDK won’t auto-renew those for you.</p>
+</li>
+<li>
+<p><code>credential_process</code> binaries can be brittle, i.e. difficult to maintain and distribute.</p>
+</li>
+</ul>
+<h2 id="who-boto3-refresh-session-is-for-and-not">Who <code>boto3-refresh-session</code> is for (and not)</h2>
+<p><code>boto3-refresh-session</code> is for <strong>Python developers</strong> who need a robust, <em>Python-native</em> way to handle expiring credentials — whether because they can’t rely on <code>credential_process</code>, they’re embedding <code>boto3</code> in long-running daemons, or they’re working with IoT / X.509 flows that the standard provider chain doesn’t support.</p>
+<p><code>boto3-refresh-session</code> is <em>not</em> for people who use the standard ECS / EC2 credential provider, depend upon <code>credential_process</code> without friction, or, frankly, (there&rsquo;s no delicate way of saying this) do not understand the limitations and edge cases associated with profiles, AWS credential providers, etc.</p>
+<h2 id="reflections">Reflections</h2>
+<p><code>boto3-refresh-session</code> isn’t the easiest package to explain; it is a <em>niche</em> backend Python package. It doesn’t lend itself to a pithy, one-line slogan, which can make the README challenging to keep concise. In some ways, <code>boto3-refresh-session</code> is less about who it&rsquo;s for than not. Which is odd.</p>
+<p>What reassures me is that the engineers and teams who found this project and adopted it tend to be highly competent, and so far the lack of open issues or pull requests suggests the library is stable and working as intended.</p>
+<p>Still, I want to make this tool accessible to the very developers I originally had in mind when I published this project — namely, engineers and data scientists who struggle with expiring credentials in long-lived processes and don’t want to hand-roll refresh logic (or can&rsquo;t - for whatever reason). My hope is this post clarifies common misconceptions about what this project is and is not, and why it exists.</p>
+<p>If you’re a Python developer working with long-running workloads, IoT / X.509 flows, or any environment where the standard provider chain falls short, <code>boto3-refresh-session</code> exists so you can stop worrying about credentials and focus on your application.</p>
+<p>If you have questions, reach out via GitHub or any of the usual channels.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://tldrsec.com/p/tldr-sec-282">TL;DR Sec</a> and <a href="https://cloudseclist.com/issues/issue-290/">CloudSecList</a>, to be specific.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>I won&rsquo;t spoonfeed you. I cannot possibly account for every single circumstance for every single AWS service or scenario. I am happy to clarify the more glaring examples, but I should not be expected to exhaustively list <em>everything</em>. Sorry - them&rsquo;s the brakes.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>This is why I <a href="https://github.com/michaelthomasletts/boto3-refresh-session/pull/78">deprecated the <code>ecs</code> module</a>.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>I have actually been asked by a cybersecurity engineer at a well-known security company to support SSO in <code>boto3-refresh-session</code> for exactly this reason. Admittedly, I have not found the time yet to develop a module for supporting SSO. But soon!&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+</content>
+<p>
+  
+</p>
+
+
+
+
+  </main>
+  <footer><small>
+  © Copyright 2025, Michael Letts | Made with Hugo &amp; BearCub
+</small></footer>
+
+    
+</body>
+
+</html>
