@@ -4,13 +4,7 @@ draft: false
 title: 'boto3-refresh-session and credential_process: where each fits'
 ---
 
-I am not (yet) at liberty to disclose the names of various companies and institutions who depend upon `boto3-refresh-session` (or forked and modified it internally for their purposes); however, I *can* say that a cybersecurity team at a FAANG company and a prestigious Public Health department at a public university use `boto3-refresh-session`. Those dependents are among what I estimate to be around one hundred other developers, scientists, and teams across North America and Europe. `boto3-refresh-session` has also been featured in some notable newsletters.[^1]
-
-A testimonial from one of the FAANG cybersecurity engineers who forked and lightly modified `boto3-refresh-session`:
-
-> "Most of my work is on tooling related to AWS security, so I'm pretty choosy about boto3 credentials-adjacent code. I often opt to just write this sort of thing myself so I at least know that I can reason about it. But I found boto3-refresh-session to be very clean and intuitive [...] We're using the RefreshableSession class as part of a client cache construct [...] We're using AWS Lambda to perform lots of operations across several regions in hundreds of accounts, over and over again, all day every day. And it turns out that there's a surprising amount of overhead to creating boto3 clients (mostly deserializing service definition json), so we can run MUCH more efficiently if we keep a cache of clients, all equipped with automatically refreshing sessions."
-
-If it sounds like I am defending `boto3-refresh-session` -- that's because it has been outright dismissed by a minority of developers online who do not seem to understand what set of problems it solves or *who* it is *for*. For example:
+`boto3-refresh-session` has received a lot of positive attention and adoption, but it also has detractors. In fact, it has been outright dismissed by a minority of developers online who do not seem to understand what set of problems it solves or *who* it is *for*. 
 
 > "Just create profiles -- it works for every single credential type and will refresh automatically. I don't know why you would create a library for this when all SDKs work the same with profile configurations."
 
