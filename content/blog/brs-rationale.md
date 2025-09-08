@@ -4,11 +4,13 @@ draft: false
 title: 'boto3-refresh-session and credential_process: where each fits'
 ---
 
-`boto3-refresh-session` has received a lot of positive attention and adoption, but it also has detractors. In fact, it has been outright dismissed by a minority of developers online who do not seem to understand what set of problems it solves or *who* it is *for*. 
+`boto3-refresh-session` has received a lot of positive attention and adoption, but it also has detractors. In fact, it has been outright dismissed by a minority of developers online; however, those detractors do not seem understand what set of problems `boto3-refresh-session` solves or *who* it is *for*. 
 
 > "Just create profiles -- it works for every single credential type and will refresh automatically. I don't know why you would create a library for this when all SDKs work the same with profile configurations."
 
-This is a *very* common misunderstanding. While profiles cover many cases, they don’t solve every scenario Python developers encounter. It is not merely frustrating for me to repeatedly come across this spurious criticism; I worry it may deter teams and individuals who would actually benefit from `boto3-refresh-session`.
+This is a *very* common misunderstanding. While profiles cover many cases, they don’t solve every scenario Python developers encounter. 
+
+It is unclear if the origins of those spurious criticisms are rooted in basic misunderstanding or cursory trolling. Either way, I worry teams and individuals who would actually benefit from `boto3-refresh-session` will occasionally be deterred from evaluating it.
 
 I am therefore compelled to clarify *who exactly this package is for* and *exactly what problems it does and does not solve*. 
 
