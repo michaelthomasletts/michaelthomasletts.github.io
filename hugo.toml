@@ -1,4 +1,4 @@
-baseURL = 'https://michaelthomasletts.github.io/'
+baseURL = 'https://michaelthomasletts.com/'
 languageCode = 'en-us'
 title = 'Mike Letts'
 theme = "hugo-bearcub"
