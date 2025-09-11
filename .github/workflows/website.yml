@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: "docs-deploy"
+  group: docs-deploy
   cancel-in-progress: true
 
 jobs:
@@ -18,26 +18,22 @@ jobs:
     env:
       HUGO_ENV: production
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           submodules: recursive
           fetch-depth: 0
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+      - uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'latest'
+          hugo-version: latest
           extended: true
 
       - name: Build site
-        run: |
-          # Use your custom domain as the canonical baseURL
-          hugo --minify --baseURL "https://michaelthomasletts.com/"
+        run: hugo --minify --baseURL "https://michaelthomasletts.com/"
 
-      - name: Deploy to GitHub Pages
-        if: ${{ github.ref == 'refs/heads/main' }}
+      - name: Deploy to gh-pages branch
         uses: peaceiris/actions-gh-pages@v3
+        if: ${{ github.ref == 'refs/heads/main' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
