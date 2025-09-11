@@ -1,4 +1,6 @@
 baseURL = 'https://michaelthomasletts.com/'
+relativeURLs = false
+canonifyURLs = true
 languageCode = 'en-us'
 title = 'Mike Letts'
 theme = "hugo-bearcub"
