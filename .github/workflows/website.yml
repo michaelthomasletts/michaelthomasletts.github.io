@@ -3,13 +3,20 @@ name: documentation
 on:
   push:
     branches: [ main ]
+  workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: "docs-deploy"
+  cancel-in-progress: true
+
 jobs:
   docs:
     runs-on: ubuntu-latest
+    env:
+      HUGO_ENV: production
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -23,16 +30,17 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
-      - name: Build
+      - name: Build site
         run: |
-          # user/org site — baseURL is the root of your domain
-          hugo --minify --baseURL "https://michaelthomasletts.github.io/"
+          # Use your custom domain as the canonical baseURL
+          hugo --minify --baseURL "https://michaelthomasletts.com/"
 
       - name: Deploy to GitHub Pages
+        if: ${{ github.ref == 'refs/heads/main' }}
         uses: peaceiris/actions-gh-pages@v3
-        if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
         with:
-          publish_branch: gh-pages
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: public
+          publish_branch: gh-pages
+          publish_dir: ./public
+          cname: michaelthomasletts.com
           force_orphan: true
