@@ -46,3 +46,11 @@ The interview subject is engaged in the modern equivalent of what early industri
 More telling still is the silence that surrounded his confession. The interviewer let it pass without challenge or comment. I have yet to find any viewer who remarked on it in the comments. Perhaps they did not notice. Or perhaps they did — but envied him. Who among them, given the chance, would not also exploit their fellow man if it promised an eventual exit into a refuge, a *place*? But what happens when there are finally no *places* left? 
 
 The answers to those questions, I suspect, are what actually makes this interview so disturbing. He has admitted what we all sense but dare not face. He has greeted the mirror.
+
+---
+
+I sometimes like to share music at the end of blog posts that fall outside of my professional interests, announcements, and activities.
+
+Enjoy.
+
+{{< youtube id=z3PCdJLBPrI start=960 title="Zoviet France - 'Ascend a Fall'">}}
