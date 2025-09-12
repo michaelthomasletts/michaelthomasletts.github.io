@@ -37,7 +37,7 @@ The divide is stark: a shrinking class of producers of the digital medium, and a
 
 Thus there emerge *places* and *no-places*, as surely as The Wilderness once stood amid stumps and sawdust. Just a few small enclaves preserve the conditions conducive to prosperous human life; around them spreads a barren, boundariless terrain of digital attention markets, emotional exploitation, artificial "intelligence", and parasocial consolation — the sawdust of society. 
 
-We needn't guess about what sorts of legends or myths people of the future will tell about this chapter of human experience. Already, we see the formation of online mythologies and [unambiguous affectations](https://en.wikipedia.org/wiki/Gen_Z_stare) which capture not *literal, auditable facts* about this chapter of human experience but rather its *emotional and spiritual resonance*. Only the prophets of doom, like Oswald Spengler and authors of the ancient Vedas, provide anything remotely instructive or edifying for the countless young people *consciously experiencing the erasure of home* and asking themselves -- *why me?* 
+We needn't guess about what sorts of legends or myths people of the future will tell about this chapter of human experience. Already, we see the formation of online mythologies and [unambiguous affectations](https://en.wikipedia.org/wiki/Gen_Z_stare) which capture not *literal, auditable facts* about this chapter of human experience but rather its *emotional and spiritual resonance*. Only the prophets of doom, like Oswald Spengler and authors of the ancient Vedas, provide anything remotely instructive or edifying for the countless young people *consciously experiencing the erasure of home* and asking themselves -- *where am I?* 
 
 ## The Last Place
 
