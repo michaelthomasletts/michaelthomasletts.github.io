@@ -39,7 +39,7 @@ Thus there emerge *places* and *no-places*, as surely as The Wilderness once sto
 
 ## The Last Place
 
-The interview subject is engaged in the modern equivalent of what early industrialists once did: plotting his escape from the conditions he has profited by creating. So long as there remains some place untouched, he believes, all is well. The no-place — the exploited terrain left behind — can go to hell. In this sense, he is nothing new. He is like a strange new breed of colonialist.
+The interview subject is engaged in the modern equivalent of what early industrialists once did: plotting his escape from the conditions he has profited by creating. So long as there remains some place untouched, he believes, all is well. The no-place — the exploited terrain left behind — can go to hell. According to him, today's issues are simply too complicated and fraught to be fixed. Might as well make a buck on the way down. In this sense, he is nothing new. He is like a strange new breed of colonialist.
 
 More telling still is the silence that surrounded this confession. The interviewer let it pass without challenge or comment. I have yet to find any viewer who remarked on it in the comments. Perhaps they did not notice. Or perhaps they did — but envied him. Who among them, given the chance, would not also exploit their fellow man if it promised an eventual exit into a refuge, a *place*? What happens when there are no places left? And why are so many of us apt to point out there are still trees meanwhile whole forests disappear?
 
