@@ -2,25 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>https://michaelthomasletts.com/blog/</loc>
     <lastmod>2025-09-11T14:07:29-04:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://michaelthomasletts.com/</loc>
     <lastmod>2025-09-11T14:07:29-04:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/blog/the-wilderness-and-the-no-place/</loc>
+    <loc>https://michaelthomasletts.com/blog/the-wilderness-and-the-no-place/</loc>
     <lastmod>2025-09-11T14:07:29-04:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/blog/brs-rationale/</loc>
+    <loc>https://michaelthomasletts.com/blog/brs-rationale/</loc>
     <lastmod>2025-09-08T00:02:07-04:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/blog/aho-corasick/</loc>
+    <loc>https://michaelthomasletts.com/blog/aho-corasick/</loc>
     <lastmod>2025-07-30T00:06:26-04:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://michaelthomasletts.com/categories/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/contact/</loc>
+    <loc>https://michaelthomasletts.com/contact/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://michaelthomasletts.com/tags/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Mike Letts</title>
-    <link>http://localhost:1313/</link>
+    <link>https://michaelthomasletts.com/</link>
     <description>Recent content on Mike Letts</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright 2025, Michael Letts</copyright>
     <lastBuildDate>Thu, 11 Sep 2025 14:07:29 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://michaelthomasletts.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Wilderness and the No-Place</title>
-      <link>http://localhost:1313/blog/the-wilderness-and-the-no-place/</link>
+      <link>https://michaelthomasletts.com/blog/the-wilderness-and-the-no-place/</link>
       <pubDate>Thu, 11 Sep 2025 14:07:29 -0400</pubDate>
-      <guid>http://localhost:1313/blog/the-wilderness-and-the-no-place/</guid>
+      <guid>https://michaelthomasletts.com/blog/the-wilderness-and-the-no-place/</guid>
       <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/rTI5foeAkaI?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;The above-linked YouTube video went viral shortly after its publication. It features an interview of an OnlyFans Manager conducted by &lt;a href=&#34;https://www.youtube.com/@SoftWhiteUnderbelly&#34;&gt;Soft White Underbelly&lt;/a&gt;. If you haven&amp;rsquo;t seen it already, then I highly suggest viewing it.&lt;/p&gt;&#xA;&lt;p&gt;The virality of this particular interview can be explained, I submit, &lt;em&gt;primarily&lt;/em&gt; by two things:&lt;/p&gt;</description>
       <content:encoded><![CDATA[<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
       <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/rTI5foeAkaI?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
@@ -50,9 +50,9 @@
     </item>
     <item>
       <title>boto3-refresh-session and credential_process: where each fits</title>
-      <link>http://localhost:1313/blog/brs-rationale/</link>
+      <link>https://michaelthomasletts.com/blog/brs-rationale/</link>
       <pubDate>Mon, 08 Sep 2025 00:02:07 -0400</pubDate>
-      <guid>http://localhost:1313/blog/brs-rationale/</guid>
+      <guid>https://michaelthomasletts.com/blog/brs-rationale/</guid>
       <description>&lt;p&gt;&lt;code&gt;boto3-refresh-session&lt;/code&gt; has received a lot of positive attention and adoption, but it also has detractors. In fact, it has been outright dismissed by a minority of developers online; however, those detractors do not seem understand what set of problems &lt;code&gt;boto3-refresh-session&lt;/code&gt; solves or &lt;em&gt;who&lt;/em&gt; it is &lt;em&gt;for&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Just create profiles &amp;ndash; it works for every single credential type and will refresh automatically. I don&amp;rsquo;t know why you would create a library for this when all SDKs work the same with profile configurations.&amp;rdquo;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><code>boto3-refresh-session</code> has received a lot of positive attention and adoption, but it also has detractors. In fact, it has been outright dismissed by a minority of developers online; however, those detractors do not seem understand what set of problems <code>boto3-refresh-session</code> solves or <em>who</em> it is <em>for</em>.</p>
 <blockquote>
@@ -132,9 +132,9 @@
     </item>
     <item>
       <title>Reducing data remediation runtime from 55 hours to 7 seconds with Aho-Corasick</title>
-      <link>http://localhost:1313/blog/aho-corasick/</link>
+      <link>https://michaelthomasletts.com/blog/aho-corasick/</link>
       <pubDate>Wed, 30 Jul 2025 00:06:26 -0400</pubDate>
-      <guid>http://localhost:1313/blog/aho-corasick/</guid>
+      <guid>https://michaelthomasletts.com/blog/aho-corasick/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Aho%E2%80%93Corasick_algorithm&#34;&gt;Aho-Corasick&lt;/a&gt; is a classic multi-pattern string matching algorithm — like regex, but significantly faster. Unlike regex, which (&lt;a href=&#34;https://github.com/BurntSushi/rebar?tab=readme-ov-file#dictionary&#34;&gt;depending on the implementation&lt;/a&gt;) may scale exponentially with input size, Aho-Corasick scales linearly. That property — linear time complexity — makes it &lt;em&gt;ridiculously fast&lt;/em&gt;, and ideal for large-scale data remediation.&lt;/p&gt;&#xA;&lt;p&gt;I first learned about Aho-Corasick back in 2018 but filed it away under “interesting but unnecessary for me right now.” Years later, I found myself responsible for remediating records across datasets at petabyte scale.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><a href="https://en.wikipedia.org/wiki/Aho%E2%80%93Corasick_algorithm">Aho-Corasick</a> is a classic multi-pattern string matching algorithm — like regex, but significantly faster. Unlike regex, which (<a href="https://github.com/BurntSushi/rebar?tab=readme-ov-file#dictionary">depending on the implementation</a>) may scale exponentially with input size, Aho-Corasick scales linearly. That property — linear time complexity — makes it <em>ridiculously fast</em>, and ideal for large-scale data remediation.</p>
 <p>I first learned about Aho-Corasick back in 2018 but filed it away under “interesting but unnecessary for me right now.” Years later, I found myself responsible for remediating records across datasets at petabyte scale.</p>
@@ -362,9 +362,9 @@ sensitive_values contains the values to search for and obfuscate</li>
     </item>
     <item>
       <title>Contact</title>
-      <link>http://localhost:1313/contact/</link>
+      <link>https://michaelthomasletts.com/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contact/</guid>
+      <guid>https://michaelthomasletts.com/contact/</guid>
       <description>&lt;p&gt;If you are interested in my work experience or contributing / collaborating on any open-source projects then please reach out using the following form.&lt;/p&gt;&#xA;&lt;form action=&#34;https://formspree.io/f/mdklypwz&#34; method=&#34;POST&#34;&gt;&#xA;  &lt;label&gt;Your email&lt;br&gt;&#xA;    &lt;input type=&#34;email&#34; name=&#34;email&#34; required&gt;&#xA;  &lt;/label&gt;&lt;br&gt;&lt;br&gt;&#xA;&lt;p&gt;&lt;label&gt;Message&lt;br&gt;&#xA;&lt;textarea name=&#34;message&#34; rows=&#34;6&#34; required&gt;&lt;/textarea&gt;&#xA;&lt;/label&gt;&lt;/p&gt;&#xA;  &lt;input type=&#34;text&#34; name=&#34;_gotcha&#34; style=&#34;display:none&#34;&gt;&#xA;&lt;p&gt;&lt;button type=&#34;submit&#34;&gt;Send&lt;/button&gt;&lt;/p&gt;&#xA;&lt;/form&gt;</description>
       <content:encoded><![CDATA[<p>If you are interested in my work experience or contributing / collaborating on any open-source projects then please reach out using the following form.</p>
 <form action="https://formspree.io/f/mdklypwz" method="POST">

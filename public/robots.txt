@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://michaelthomasletts.com/sitemap.xml
