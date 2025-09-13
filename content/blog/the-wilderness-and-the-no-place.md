@@ -49,8 +49,4 @@ The answers to those questions, I suspect, are what actually makes this intervie
 
 ---
 
-I sometimes like to share music at the end of blog posts that fall outside of my professional interests, announcements, and activities.
-
-Enjoy.
-
 {{< youtube id=z3PCdJLBPrI start=960 title="Zoviet France - 'Ascend a Fall'">}}
