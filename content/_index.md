@@ -11,4 +11,4 @@ When it comes to the cloud, I began my career working with GCP at BuzzFeed and S
 
 Python and SQL are my primary languages, which I consider myself an expert at. I have used Apache Airflow at every company where I have worked, and Spark has also been a major part of my work, primarily in the context of AWS Glue but recently EMR as well. I have also worked with DBT, but primarily at LeafLink. 
 
-I enjoy reading theory and philosophy, lifting weights, cooking, contributing to the open-source community, working on my 1997 Toyota Tacoma, and spending quality time with friends.
+I enjoy reading theory and philosophy, lifting weights, cooking, contributing to the open-source community, working on my 1997 Toyota Tacoma, and spending quality time with friends. I have Retinitis Pigmentosa, which is a form of Inherited Retinal Degeneration, and therefore consider myself an advocate for the blind as well.
