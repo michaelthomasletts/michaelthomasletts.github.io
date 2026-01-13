@@ -10,4 +10,4 @@ When it comes to the cloud, I began my career working with GCP at BuzzFeed and S
 
 Python and SQL are my primary languages, which I consider myself an expert at. I have used Apache Airflow at every company where I have worked, and Spark has also been a major part of my work. I have also worked with DBT, although primarily at LeafLink. Databricks and Delta Lake have also recently entered into my work over the last 1.5 years.
 
-I enjoy reading theory and philosophy, lifting weights, cooking, contributing to the open-source community, working on my 1997 Toyota Tacoma, and spending quality time with friends.
+I enjoy reading theory and philosophy, lifting weights, cooking, contributing to the open-source community, working on my 1997 Toyota Tacoma, and spending quality time with friends. I have Retinitis Pigmentosa, which is a form of Inherited Retinal Degeneration, and therefore consider myself an advocate for the blind as well.
