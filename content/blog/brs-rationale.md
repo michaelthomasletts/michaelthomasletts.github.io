@@ -42,7 +42,7 @@ The following bulletpoints are also not an exhaustive list.[^2]
 
 - Network / metadata blocked. Enterprises that block IMDSv2 or ECS task endpoints (or container lacks the env wiring) break auto-refresh even on EC2 / ECS (as mentioned above).
 
-- SSO & very long runtimes. SSO profiles refresh while the device token is valid, but headless, weeks-long daemons can still hit interactive renewal walls.[^4]
+- SSO & very long runtimes. SSO profiles refresh while the device token is valid, but headless, weeks-long daemons can still hit interactive renewal walls.
 
 - IoT credentials (X.509). The AWS IoT credentials provider (mTLS to the IoT endpoint, role alias, then STS creds) is not a built-in `botocore` provider. Out of the box, the SDK won’t auto-renew those for you.
 
@@ -71,5 +71,3 @@ If you have questions, reach out via GitHub or any of the usual channels.
 [^2]: These examples are representative, not exhaustive. Covering every AWS service and edge case isn’t realistic, but I’ve highlighted the more common pitfalls.
 
 [^3]: This is why I [deprecated the `ecs` module](https://github.com/michaelthomasletts/boto3-refresh-session/pull/78).
-
-[^4]: I have actually been asked by a cybersecurity engineer at a well-known security company to support SSO in `boto3-refresh-session` for exactly this reason. Admittedly, I have not found the time yet to develop a module for supporting SSO. But soon!

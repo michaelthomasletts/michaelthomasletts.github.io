@@ -46,7 +46,7 @@
 “Just create profiles – it works for every single credential type and will refresh automatically. I don’t know why you would create a library for this when all SDKs work the same with profile configurations.”">
   <meta itemprop="datePublished" content="2025-09-08T00:02:07-04:00">
   <meta itemprop="dateModified" content="2025-09-08T00:02:07-04:00">
-  <meta itemprop="wordCount" content="928">
+  <meta itemprop="wordCount" content="888">
 
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
@@ -140,7 +140,7 @@
 <p>Network / metadata blocked. Enterprises that block IMDSv2 or ECS task endpoints (or container lacks the env wiring) break auto-refresh even on EC2 / ECS (as mentioned above).</p>
 </li>
 <li>
-<p>SSO &amp; very long runtimes. SSO profiles refresh while the device token is valid, but headless, weeks-long daemons can still hit interactive renewal walls.<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
+<p>SSO &amp; very long runtimes. SSO profiles refresh while the device token is valid, but headless, weeks-long daemons can still hit interactive renewal walls.</p>
 </li>
 <li>
 <p>IoT credentials (X.509). The AWS IoT credentials provider (mTLS to the IoT endpoint, role alias, then STS creds) is not a built-in <code>botocore</code> provider. Out of the box, the SDK won’t auto-renew those for you.</p>
@@ -166,9 +166,6 @@
 </li>
 <li id="fn:2">
 <p>This is why I <a href="https://github.com/michaelthomasletts/boto3-refresh-session/pull/78">deprecated the <code>ecs</code> module</a>.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:3">
-<p>I have actually been asked by a cybersecurity engineer at a well-known security company to support SSO in <code>boto3-refresh-session</code> for exactly this reason. Admittedly, I have not found the time yet to develop a module for supporting SSO. But soon!&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>
