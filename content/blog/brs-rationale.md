@@ -2,6 +2,8 @@
 date: '2025-09-08T00:02:07-04:00'
 draft: false
 title: 'boto3-refresh-session and credential_process: where each fits'
+tags: ['open source', 'boto3-refresh-session', 'aws', 'boto3', 'botocore']
+categories: ['Open Source Software']
 ---
 
 `boto3-refresh-session` has received a lot of positive attention and adoption, but it also has detractors. In fact, it has been outright dismissed by a minority of developers online; however, those detractors do not seem understand what set of problems `boto3-refresh-session` solves or *who* it is *for*. 

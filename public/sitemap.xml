@@ -2,35 +2,92 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://michaelthomasletts.com/blog/</loc>
+    <loc>http://localhost:1313/tags/aws/</loc>
     <lastmod>2025-09-08T00:02:07-04:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://michaelthomasletts.com/blog/brs-rationale/</loc>
+    <loc>http://localhost:1313/blog/</loc>
     <lastmod>2025-09-08T00:02:07-04:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://michaelthomasletts.com/</loc>
+    <loc>http://localhost:1313/tags/boto3/</loc>
     <lastmod>2025-09-08T00:02:07-04:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://michaelthomasletts.com/blog/aho-corasick/</loc>
+    <loc>http://localhost:1313/tags/boto3-refresh-session/</loc>
+    <lastmod>2025-09-08T00:02:07-04:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/blog/brs-rationale/</loc>
+    <lastmod>2025-09-08T00:02:07-04:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/botocore/</loc>
+    <lastmod>2025-09-08T00:02:07-04:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-09-08T00:02:07-04:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-09-08T00:02:07-04:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/open-source/</loc>
+    <lastmod>2025-09-08T00:02:07-04:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/categories/open-source-software/</loc>
+    <lastmod>2025-09-08T00:02:07-04:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-09-08T00:02:07-04:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/aho-corasick/</loc>
     <lastmod>2025-07-30T00:06:26-04:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://michaelthomasletts.com/categories/</loc>
+    <loc>http://localhost:1313/categories/data-engineering/</loc>
+    <lastmod>2025-07-30T00:06:26-04:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://michaelthomasletts.com/contact/</loc>
+    <loc>http://localhost:1313/tags/python/</loc>
+    <lastmod>2025-07-30T00:06:26-04:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://michaelthomasletts.com/tags/</loc>
+    <loc>http://localhost:1313/blog/aho-corasick/</loc>
+    <lastmod>2025-07-30T00:06:26-04:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/regex/</loc>
+    <lastmod>2025-07-30T00:06:26-04:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/spark/</loc>
+    <lastmod>2025-07-30T00:06:26-04:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/contact/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

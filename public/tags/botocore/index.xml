@@ -1,110 +1,21 @@
-<!DOCTYPE html>
-<html lang="en-us">
-
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>boto3-refresh-session and credential_process: where each fits | Mike Letts</title>
-<meta name="title" content="boto3-refresh-session and credential_process: where each fits" />
-<meta name="description" content="boto3-refresh-session has received a lot of positive attention and adoption, but it also has detractors. In fact, it has been outright dismissed by a minority of developers online; however, those detractors do not seem understand what set of problems boto3-refresh-session solves or who it is for.
-
-&ldquo;Just create profiles &ndash; it works for every single credential type and will refresh automatically. I don&rsquo;t know why you would create a library for this when all SDKs work the same with profile configurations.&rdquo;" />
-<meta name="author" content="" />
-<meta name="keywords" content="open source,boto3-refresh-session,aws,boto3,botocore," />
-
-
-
-
-
-
-  
-  <meta property="og:url" content="http://localhost:1313/blog/brs-rationale/">
-  <meta property="og:site_name" content="Mike Letts">
-  <meta property="og:title" content="boto3-refresh-session and credential_process: where each fits">
-  <meta property="og:description" content="boto3-refresh-session has received a lot of positive attention and adoption, but it also has detractors. In fact, it has been outright dismissed by a minority of developers online; however, those detractors do not seem understand what set of problems boto3-refresh-session solves or who it is for.
-“Just create profiles – it works for every single credential type and will refresh automatically. I don’t know why you would create a library for this when all SDKs work the same with profile configurations.”">
-  <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="blog">
-    <meta property="article:published_time" content="2025-09-08T00:02:07-04:00">
-    <meta property="article:modified_time" content="2025-09-08T00:02:07-04:00">
-    <meta property="article:tag" content="Open Source">
-    <meta property="article:tag" content="Boto3-Refresh-Session">
-    <meta property="article:tag" content="Aws">
-    <meta property="article:tag" content="Boto3">
-    <meta property="article:tag" content="Botocore">
-
-
-  
-  
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="boto3-refresh-session and credential_process: where each fits">
-  <meta name="twitter:description" content="boto3-refresh-session has received a lot of positive attention and adoption, but it also has detractors. In fact, it has been outright dismissed by a minority of developers online; however, those detractors do not seem understand what set of problems boto3-refresh-session solves or who it is for.
-“Just create profiles – it works for every single credential type and will refresh automatically. I don’t know why you would create a library for this when all SDKs work the same with profile configurations.”">
-
-
-  
-  
-  <meta itemprop="name" content="boto3-refresh-session and credential_process: where each fits">
-  <meta itemprop="description" content="boto3-refresh-session has received a lot of positive attention and adoption, but it also has detractors. In fact, it has been outright dismissed by a minority of developers online; however, those detractors do not seem understand what set of problems boto3-refresh-session solves or who it is for.
-“Just create profiles – it works for every single credential type and will refresh automatically. I don’t know why you would create a library for this when all SDKs work the same with profile configurations.”">
-  <meta itemprop="datePublished" content="2025-09-08T00:02:07-04:00">
-  <meta itemprop="dateModified" content="2025-09-08T00:02:07-04:00">
-  <meta itemprop="wordCount" content="888">
-  <meta itemprop="keywords" content="Open Source,Boto3-Refresh-Session,Aws,Boto3,Botocore">
-
-<meta name="referrer" content="no-referrer-when-downgrade" />
-
-  
-  <link href="http://localhost:1313/original.min.css" rel="stylesheet">
-
-  
-
-  
-
-  
-</head>
-
-<body>
-  <header><a class="skip-link" href="#main-content">Skip to main content</a>
-
-<a href="http://localhost:1313/" class="title"><h1>Mike Letts</h1></a>
-<nav>
-  <a href="http://localhost:1313/">Home</a>
-
-  <a href="https://www.linkedin.com/in/lettsmichael/">LinkedIn</a>
-
-  <a href="https://www.github.com/michaelthomasletts">GitHub</a>
-
-  <a href="https://www.pypi.org/user/lettsmt/">PyPI</a>
-
-  <a href="http://localhost:1313/blog/">Blog</a>
-
-  <a href="http://localhost:1313/contact/">Contact</a>
-
-<a href='http://localhost:1313/index.xml'>RSS</a>
-
-
-
-
-
-
-
-</nav>
-</header>
-  <main id="main-content">
-
-<h1>boto3-refresh-session and credential_process: where each fits</h1>
-<p class="byline">
-  <time datetime='2025-09-08' pubdate>
-    2025-09-08
-  </time>
-  
-</p>
-
-<content>
-  <p><code>boto3-refresh-session</code> has received a lot of positive attention and adoption, but it also has detractors. In fact, it has been outright dismissed by a minority of developers online; however, those detractors do not seem understand what set of problems <code>boto3-refresh-session</code> solves or <em>who</em> it is <em>for</em>.</p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Botocore on Mike Letts</title>
+    <link>http://localhost:1313/tags/botocore/</link>
+    <description>Recent content in Botocore on Mike Letts</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Copyright 2025, Michael Letts</copyright>
+    <lastBuildDate>Mon, 08 Sep 2025 00:02:07 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/botocore/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>boto3-refresh-session and credential_process: where each fits</title>
+      <link>http://localhost:1313/blog/brs-rationale/</link>
+      <pubDate>Mon, 08 Sep 2025 00:02:07 -0400</pubDate>
+      <guid>http://localhost:1313/blog/brs-rationale/</guid>
+      <description>&lt;p&gt;&lt;code&gt;boto3-refresh-session&lt;/code&gt; has received a lot of positive attention and adoption, but it also has detractors. In fact, it has been outright dismissed by a minority of developers online; however, those detractors do not seem understand what set of problems &lt;code&gt;boto3-refresh-session&lt;/code&gt; solves or &lt;em&gt;who&lt;/em&gt; it is &lt;em&gt;for&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Just create profiles &amp;ndash; it works for every single credential type and will refresh automatically. I don&amp;rsquo;t know why you would create a library for this when all SDKs work the same with profile configurations.&amp;rdquo;&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><code>boto3-refresh-session</code> has received a lot of positive attention and adoption, but it also has detractors. In fact, it has been outright dismissed by a minority of developers online; however, those detractors do not seem understand what set of problems <code>boto3-refresh-session</code> solves or <em>who</em> it is <em>for</em>.</p>
 <blockquote>
 <p>&ldquo;Just create profiles &ndash; it works for every single credential type and will refresh automatically. I don&rsquo;t know why you would create a library for this when all SDKs work the same with profile configurations.&rdquo;</p></blockquote>
 <p>This is a <em>very</em> common misunderstanding. While profiles cover many cases, they don’t solve every scenario Python developers encounter.</p>
@@ -175,31 +86,7 @@
 </li>
 </ol>
 </div>
-
-</content>
-<p>
-  
-    <a class="blog-tags" href="http://localhost:1313/tags/open-source/">#open source</a>
-  
-    <a class="blog-tags" href="http://localhost:1313/tags/boto3-refresh-session/">#boto3-refresh-session</a>
-  
-    <a class="blog-tags" href="http://localhost:1313/tags/aws/">#aws</a>
-  
-    <a class="blog-tags" href="http://localhost:1313/tags/boto3/">#boto3</a>
-  
-    <a class="blog-tags" href="http://localhost:1313/tags/botocore/">#botocore</a>
-  
-</p>
-
-
-
-
-  </main>
-  <footer><small>
-  © Copyright 2025, Michael Letts | Made with Hugo &amp; BearCub
-</small></footer>
-
-    
-</body>
-
-</html>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

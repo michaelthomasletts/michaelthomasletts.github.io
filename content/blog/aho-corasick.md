@@ -2,6 +2,8 @@
 date: '2025-07-30T00:06:26-04:00'
 draft: false
 title: 'Reducing data remediation runtime from 55 hours to 7 seconds with Aho-Corasick'
+tags: ['aho corasick', 'regex', 'spark', 'python']
+categories: ['Data Engineering']
 ---
 
 [Aho-Corasick](https://en.wikipedia.org/wiki/Aho%E2%80%93Corasick_algorithm) is a classic multi-pattern string matching algorithm — like regex, but significantly faster. Unlike regex, which ([depending on the implementation](https://github.com/BurntSushi/rebar?tab=readme-ov-file#dictionary)) may scale exponentially with input size, Aho-Corasick scales linearly. That property — linear time complexity — makes it *ridiculously fast*, and ideal for large-scale data remediation.
