@@ -32,10 +32,14 @@ enableRobotsTXT = true
     pageRef = '/blog/'
     weight = 5
   [[menus.main]]
+    identifier = 'Spotify'
+    url = 'https://open.spotify.com/user/22de5bcpae7ccoa32fejlddcq'
+    weight = 6
+  [[menus.main]]
     identifier = 'contact'
     name = 'Contact'
     pageRef = '/contact'
-    weight = 6
+    weight = 7
 
 [markup]
   [markup.goldmark]
