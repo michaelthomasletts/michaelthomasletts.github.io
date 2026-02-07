@@ -32,7 +32,7 @@ enableRobotsTXT = true
     pageRef = '/blog/'
     weight = 5
   [[menus.main]]
-    identifier = 'Spotify'
+    name = 'Spotify'
     url = 'https://open.spotify.com/user/22de5bcpae7ccoa32fejlddcq'
     weight = 6
   [[menus.main]]
