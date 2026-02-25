@@ -4,7 +4,7 @@ title: "Home"
 
 Hello! 👋
 
-I'm a Senior Data Engineer living in NYC 🗽 with about eight years of experience in big data. I currently work at Capital One but previously worked at Amazon, Spotify, and BuzzFeed, as well as a couple of start-ups. I founded and maintain [`boto3-refresh-session`](https://github.com/michaelthomasletts/boto3-refresh-session) which is an open-source project used by various teams across universities, small companies, and FAANG companies. I am actively developing an open-source CLI tool which I plan to release in Q2 2026 as well, and I have prior commitments to contribute soon to a burgeoning open-source project maintained by the Apache Software Foundation as well. 
+I'm a Senior Data Engineer living in NYC 🗽 with about eight years of experience in big data. I currently work at Capital One but previously worked at Amazon, Spotify, and BuzzFeed, as well as a couple of start-ups. I founded and maintain [`boto3-refresh-session`](https://github.com/michaelthomasletts/boto3-refresh-session) which is an open-source project used by various teams across universities, small companies, and FAANG companies. I am actively developing an open-source CLI tool which I plan to release in Q2 2026 as well, and I have prior commitments to contribute soon to a burgeoning open-source project maintained by the Apache Software Foundation as well. I am also the founder of [61418](https://61418.io/) which is an independent open-source foundation focused on enhancing the general AWS ecosystem.
 
 When it comes to the cloud, I began my career working with GCP at BuzzFeed and Spotify, but I have spent the last several years working in AWS. 
 
