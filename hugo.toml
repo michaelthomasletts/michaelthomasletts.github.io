@@ -4,9 +4,12 @@ canonifyURLs = true
 languageCode = 'en-us'
 title = 'Mike Letts'
 theme = "hugo-bearcub"
-author = "Mike Letts"
-copyright = "© Copyright 2025, Michael Letts"
+copyright = "© Copyright 2026, Michael (Mike) Letts"
 enableRobotsTXT = true
+
+[params.author]
+name = 'Mike Letts'
+email = 'lettsmt@gmail.com'
 
 [menus]
   [[menus.main]]
