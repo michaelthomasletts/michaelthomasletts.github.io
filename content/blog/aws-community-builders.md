@@ -2,6 +2,8 @@
 date = '2026-03-03T16:38:04-05:00'
 draft = false
 title = "I've been added to the AWS Community Builders program!"
+tags = ["AWS", "AWS Community Builders", "boto3", "python", "Cloud Engineering", "Open Source", "dev tools", "61418", "mike letts"]
+categories = ["Awards", "Open Source Software"]
 +++
 
 I learned about the [AWS Community Builders program](https://builder.aws.com/community/community-builders) through some friends several months ago. Based on my [open-source projects](https://github.com/michaelthomasletts), they encouraged me to apply - so I did. A few months later, Amazon [laid-off two of the program's most critical and beloved leaders](https://heyvaldemar.com/amazon-project-dawn-community-is-dead/), which caused the community to worry about the program's future. Although it sounds like there's been some turbulence following those departures from AWS, the program is clearly still alive, as my application was approved under the category of "Dev Tools". 
