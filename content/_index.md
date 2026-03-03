@@ -1,5 +1,6 @@
 ---
 title: "Home"
+description: "Personal website of Mike Letts."
 ---
 
 ## About
