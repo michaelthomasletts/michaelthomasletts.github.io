@@ -12,4 +12,4 @@ I don't have a crystal ball to gaze into (it's in my childhood bedroom still) so
 
 Don't get me wrong. I care about status and recognition like everybody else, but my main concern is continuing to build durable, robust, beautiful, ergonomic, and thoughtful tools which actually help people. I am excited to see how being part of the AWS Community Builders program will enable and empower me to release more high-quality tools for the open-source community. 
 
-Thank you to everybody who encouraged me to apply, as well as everybody who adopted and supported my open-source tools. It not only means a lot to me personally, it also empowers me to continue giving back to the open-source community and enhance the general AWS ecosystem.
+Thank you to everybody who encouraged me to apply, as well as everybody who adopted and supported my work. It not only means a lot to me personally, it also empowers me to continue giving back to the open-source community and enhance the general AWS ecosystem.
