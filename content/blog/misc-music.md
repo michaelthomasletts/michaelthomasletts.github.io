@@ -1,8 +1,10 @@
 +++
 date = '2026-03-03T23:31:24-05:00'
-draft = true
+draft = false
 title = 'Some miscellaneous songs and albums which are unavailable on Spotify'
 description = "Some miscellaneous music which is unavailable on Spotify"
+tags = ["music"]
+categories = ["Music"]
 +++
 
 I recently shared a link to my Spotify account on my website, as I'm sure you noticed in the navigation bar. It dawned on me afterwards that Spotify is missing many of my favorite songs and albums - most of my Spotify playlists feel like incomplete representations of my taste as a result - so I thought to share some miscellaneous favorites with you all which, to the best of my knowledge, aren't available on Spotify.
