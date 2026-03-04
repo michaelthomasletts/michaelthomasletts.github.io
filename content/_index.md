@@ -6,7 +6,7 @@ description: "Personal website of Mike Letts."
 ## About
 
 - NYC
-- Nominated [AWS Community Builder (Dev Tools)](https://builder.aws.com/community/@michaelthomasletts?tab=articles)
+- Nominated [AWS Community Builder (Dev Tools)](https://builder.aws.com/community/@michaelthomasletts)
 - Senior Software Engineer (Data)
 - Founder/Open Source Maintainer at [61418](https://61418.io/)
 - Authored [boto3-refresh-session](https://github.com/michaelthomasletts/boto3-refresh-session) and [boto3-client-cache](https://github.com/michaelthomasletts/boto3-client-cache)
