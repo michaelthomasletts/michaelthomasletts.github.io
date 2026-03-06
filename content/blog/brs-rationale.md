@@ -72,4 +72,4 @@ If you have questions, reach out via GitHub or any of the usual channels.
 
 [^2]: These examples are representative, not exhaustive. Covering every AWS service and edge case isn’t realistic, but I’ve highlighted the more common pitfalls.
 
-[^3]: This is why I [deprecated the `ecs` module](https://github.com/michaelthomasletts/boto3-refresh-session/pull/78).
+[^3]: This is why I [deprecated the `ecs` module](https://github.com/61418/boto3-refresh-session/pull/78).
