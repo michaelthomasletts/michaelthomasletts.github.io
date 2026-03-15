@@ -3,7 +3,7 @@ date = '2026-03-14T13:38:46-04:00'
 draft = false
 title = 'Living with retinitis pigmentosa'
 tags = ["retinitis pigmentosa"]
-description = "A blog post about being diagnosed with retinitis pigmentosa, inexplicable relational rupture, and losing my driver's license."
+description = "A blog post about being diagnosed with retinitis pigmentosa, experiencing an inexplicable relational rupture, and losing my driver's license."
 +++
 
 {{< figure 
