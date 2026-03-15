@@ -143,5 +143,3 @@ Time will tell if sharing this information with you all was prudent or not. Eith
     alt="moon"
     class="center"
 >}}
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UTfL6UIcycg?si=hCn-4X5W3IYpOy3A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
