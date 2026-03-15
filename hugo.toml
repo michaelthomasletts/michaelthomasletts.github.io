@@ -26,23 +26,19 @@ email = 'lettsmt@gmail.com'
     url = 'https://www.github.com/michaelthomasletts'
     weight = 3
   [[menus.main]]
-    name = 'PyPI'
-    url = 'https://www.pypi.org/user/lettsmt/'
-    weight = 4
-  [[menus.main]]
     identifier = 'blog'
     name = 'Blog'
     pageRef = '/blog/'
-    weight = 5
+    weight = 4
   [[menus.main]]
     name = 'Spotify'
     url = 'https://open.spotify.com/user/22de5bcpae7ccoa32fejlddcq'
-    weight = 6
+    weight = 5
   [[menus.main]]
     identifier = 'contact'
     name = 'Contact'
     pageRef = '/contact'
-    weight = 7
+    weight = 6
 
 [markup]
   [markup.goldmark]
