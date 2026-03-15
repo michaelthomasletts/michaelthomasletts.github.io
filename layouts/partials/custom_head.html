@@ -1,3 +1,7 @@
 {{ if and hugo.IsProduction site.Config.Services.GoogleAnalytics.ID }}
   {{ partial "google_analytics.html" . }}
 {{ end }}
+
+<head>
+  <link rel="stylesheet" href="/css/custom.css">
+</head>

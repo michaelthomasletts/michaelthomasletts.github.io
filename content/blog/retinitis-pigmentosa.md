@@ -5,6 +5,12 @@ title = 'Living with retinitis pigmentosa'
 tags = ["retinitis pigmentosa"]
 +++
 
+{{< figure 
+    src="/images/retina.png" 
+    alt="my poor retina"
+    class="center"
+>}}
+
 Like most people living with [retinitis pigmentosa](https://en.wikipedia.org/wiki/Retinitis_pigmentosa), my first symptom was [nyctalopia](https://en.wikipedia.org/wiki/Nyctalopia).
 
 I first noticed my relatively poor night vision when I was nineteen. There was a girl I brought home one night. She waved her hand in front of my face, expecting me to laugh. "Can you not see me waving my hand in front of you", she asked. "No", I said, "can you see well in here?" She fell quiet. "Yeah", she said, "I . . . can see you clearly". 
@@ -17,11 +23,29 @@ I visited an ophthalmologist maybe a week later. He checked my retinas, sat in f
 
 August rolled around and I was officially diagnosed with retinitis pigmentosa in what seemed like remarkably little time. "You have retinitis pigmentosa with concomitant macular edema", the specialist said, "so I want you to be checked out by the specialists at Columbia University". He was referring to the retinopathy center at Columbia, which is a serious research and treatment institute -- which worried me. So I called and scheduled another appointment. 
 
+{{< figure 
+    src="/images/columbia.png" 
+    alt="retinopathy center"
+    class="center"
+>}}
+
 I showed up to my appointment at Columbia University and my retinas were checked again. The office was strange. There aren't private rooms. Instead, you sit next to your doctor's computer in the middle of an office, and you try not to remark on the fact he still uses Stata in 2025. 
+
+{{< figure 
+    src="/images/goldmann.png" 
+    caption="This is what a Goldmann Perimeter machine looks like."
+    alt="goldmann perimeter machine"
+    class="center"
+>}}
 
 And then I came back to Columbia again in December, and I got checked again. This time with what's called a [Goldmann Perimeter Machine](https://en.wikipedia.org/wiki/Visual_field_test). It's like a video game. You press a button each time a glowing dot enters your field of vision. It's a mentally exhausting test, surprisingly. At least for somebody with bad eyes. 
 
 "It's unsafe for you to operate motor vehicles", my doctor told me. "I know you have an off-roading vehicle. You should probably sell it. I'm sorry. I won't tell the DMV, but your insurance will know. If you get into an accident and I'm called into court, I won't be able to defend you. I'm genuinely sorry", he said. 
+
+{{< figure 
+    src="/images/path.png"
+    class="center"
+>}}
 
 Retinitis pigmentosa is strange. 
 
@@ -81,6 +105,12 @@ I wanted to trust my employer would understand. But, upon returning to work, and
 
 If you care to wear my shoes for the next few minutes in order to understand what this journey has been like -- to experience a small sample of what I've been going through, that is -- then here's _one_ empathic portal you may walk through: 
 
+{{< figure 
+    src="/images/toyota.jpeg" 
+    alt="my toyota"
+    class="center"
+>}}
+
 >Imagine you dreamed from early childhood about some day owning a boxy Toyota with giant tires. You saw a Marlin Crawler advertisement in a magazine when you were eight and instantly fell in love. It's cringe but the dream never died. You weren't sure how but you knew some day you'd realize the dream. Suppose the dream was so meaningful and longstanding for you -- you told nobody about it because you didn't want anybody to ruin it, preferring instead to wait until the day when you can physically manifest the dream. Suppose you move to the West Coast for two years and bought an old, boxy Toyota that barely ran. Suppose your decision to move to the West Coast had, to a small degree, something to do with buying a truck like that. Suppose you dumped tens of thousands of dollars into building a machine which won car shows and crawls over massive rocks with ease. People on the highway hang out the window and ask, "tell me that's got the five speed in it". And you tell them it does indeed have the five-speed in it. Now imagine your doctor tells you about two years later you can't drive again. Oh, and, by the way, there's no cure. And it'll get worse. Much worse. And you'll consciously observe that and there's nothing you can do about it. See you in two months. That'll be two billion dollars.
 
 I've accepted what lays ahead and survived the worst of this journey. 
@@ -106,3 +136,9 @@ I'm not religious, but it was genuinely hard not to think at times like I was be
 I will regret publishing this post. It's incredibly personal and vulnerable. But I'm going to force myself to leave it up, as uncomfortable as that is for me. A part of me wants people to know what I've been experiencing. Besides family and close friends, nobody knows. I've kept all of this to myself, quietly. But, again, a part me thinks people _should know_. I sometimes trust such thoughts blindly (pun intended). 
 
 Time will tell if sharing this information with you all was prudent or not. Either way, I'll leave this post up. Whatever your take, you should probably know I have a low-vision disability. And it's going to get worse. I can work. I can live. But going blind gradually has many implications for how I get around and how I relate with others, which you all should know about. Whether I like that or not.
+
+{{< figure 
+    src="/images/moon.jpeg" 
+    alt="moon"
+    class="center"
+>}}
