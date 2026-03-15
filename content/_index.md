@@ -19,6 +19,7 @@ description: "Personal website of Mike Letts."
 
 ## Recent Updates
 
+- **March 15th, 2026** - 61418's application for a [PyPI organization](https://pypi.org/org/61418/) was approved
 - **March 6th, 2026** - [boto3-refresh-session](https://github.com/61418/boto3-refresh-session) transferred from my personal GitHub account to 61418
 - **March 3rd, 2026** - Nominated to join the [AWS Community Builders program](https://builder.aws.com/community/community-builders) under "Dev Tools"
 - **February 24th, 2026** - [61418](https://61418.io/) released
