@@ -57,7 +57,7 @@ I received the results of my genetic test in January. Besides some fascinating t
 
 **The good news:** RHO is the most common pathology (globally!) among people diagnosed with retinitis pigmentosa (particularly for people with Northern European heritage). This means there's a greater likelihood of future efficacious treatments.
 
-**The bad news:** "RHO (c.68C>A (p.Pro23His))", "autosomal recessive sideroblastic anemia", "erythrocytic microcytosis" -- this is _waaaaay_ too many words for my Jeff-Koons-sculpture-like-smooth brain to remember. (Honestly, doc, haven't I been suffered enough?)
+**The bad news:** "RHO (c.68C>A (p.Pro23His))", "autosomal recessive sideroblastic anemia", "erythrocytic microcytosis" -- this is _waaaaay_ too many words for my Jeff-Koons-sculpture-like-smooth brain to remember. (Honestly, doc, haven't I suffered enough?)
 
 **The existentially terrifying news:** as I alluded to above, there's no known cure.
 
@@ -142,3 +142,5 @@ Time will tell if sharing this information with you all was prudent or not. Eith
     alt="moon"
     class="center"
 >}}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UTfL6UIcycg?si=hCn-4X5W3IYpOy3A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
