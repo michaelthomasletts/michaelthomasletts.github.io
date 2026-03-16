@@ -84,7 +84,7 @@ Altogether, this places me in the category of "invisibly disabled", which brings
 - Commuting on the train and walking around Manhattan are stressful. (I've never been more grateful to live in Greenpoint, Brooklyn)
 - I (probably) won't be able to read somebody's feelings in a dimly lit room, like a bar or restaurant, unless they intimate them to me tonally/verbally. 
 
-In general, daily life has become an experience of low-grade stress, frustration, and, rarely but nevertheless, humiliation. I live normally but basically everything I do is belied by low-grade frustration or embarassment. 
+In general, daily life has become an experience of low-grade stress, frustration, and, rarely but nevertheless, humiliation. I live normally but basically everything I do now has an undercurrent of low-grade frustration or embarassment. 
 
 I can't take things for granted anymore. Diminutive tasks, like grabbing a straw from the bartray at a busy coffee shop _without bumping into chairs or short people_, have become _accomplishments_.
 
