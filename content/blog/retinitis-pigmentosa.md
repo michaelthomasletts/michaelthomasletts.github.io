@@ -8,7 +8,6 @@ description = "A blog post about being diagnosed with retinitis pigmentosa, expe
 
 {{< figure 
     src="/images/retina.png" 
-    alt="my poor retina"
     class="center"
 >}}
 
@@ -26,7 +25,6 @@ August rolled around and I was officially diagnosed with retinitis pigmentosa in
 
 {{< figure 
     src="/images/columbia.png" 
-    alt="retinopathy center"
     class="center"
 >}}
 
@@ -34,7 +32,6 @@ I showed up to my appointment at Columbia University and my retinas were checked
 
 {{< figure 
     src="/images/goldmann.png" 
-    alt="goldmann perimeter machine"
     class="center"
 >}}
 
@@ -116,7 +113,6 @@ If you care to wear my shoes for the next few minutes in order to understand wha
 
 {{< figure 
     src="/images/toyota.jpeg" 
-    alt="my toyota"
     class="center"
 >}}
 
@@ -130,6 +126,11 @@ I was officially diagnosed just six months ago. I am proud of the progress I've 
 
 I [formed an open-source collective](https://github.com/61418). I continued maintaining my open-source projects. In fact, I [created a new one](https://github.com/61418/boto3-client-cache/). I'm even working on [another](https://github.com/michaelthomasletts/assume-cli) in my free time. I was also [inducted into the AWS Community Builders program](https://michaelthomasletts.com/blog/aws-community-builders/)! I joked, smiled, and laughed with my friends. I showed love to the people I care about. I let my friends know what was going on with me; however, I made it a point to keep my sorrow to myself inasmuch as I could. I maintained my dignity, in other words.
 
+{{< figure 
+    src="/images/fog.jpg" 
+    class="center"
+>}}
+
 What made this journey _exceedingly_ difficult, however, actually had nothing to do with my condition at all, except indirectly.
 
 There was an unexpected, abrupt, and **_extreme_** relational rupture which occurred during this whole period. There was no clear cause or reason, and I had no way of seeing this coming. I tried asking what was wrong, but all anybody could offer was speculation. They never explained themself directly. More, my efforts to repair and heal the situation inexplicably made matters worse. Every kind, patient, and empathetic impulse I had cultivated over the course of my life, which had always served me well, suddenly seemed like a problem to somebody. I had never experienced anything like this before.
@@ -140,7 +141,6 @@ To experience something so bewildering and terrible -- to find yourself erecting
 
 {{< figure 
     src="/images/girl.jpg" 
-    alt="girl"
     class="center"
 >}}
 
@@ -150,7 +150,6 @@ Being diagnosed with a permanently life-altering and incurable condition -> losi
 
 {{< figure 
     src="/images/shame.jpeg" 
-    alt="shame"
     class="center"
 >}}
 
@@ -162,7 +161,6 @@ Cheers to shots in the dark. Threnodies for maculae.
 
 {{< figure 
     src="/images/moon.jpeg" 
-    alt="moon"
     class="center"
 >}}
 
