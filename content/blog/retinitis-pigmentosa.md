@@ -138,7 +138,9 @@ This _is_ what it is. Don't tell me it's _something else_.
 
 I was officially diagnosed just six months ago. I am proud of the progress I've made in so little time. And of the fact I didn't shatter into pieces indelibly. 
 
-I kept walking. I [formed an open-source collective](https://github.com/61418). I continued maintaining my open-source projects. In fact, I [created a new one](https://github.com/61418/boto3-client-cache/). I'm even working on [another](https://github.com/michaelthomasletts/assume-cli) in my free time. I was also [inducted into the AWS Community Builders program](https://michaelthomasletts.com/blog/aws-community-builders/)! I joked, smiled, and laughed with my friends. I showed love to the people I care about. I let my friends know what was going on with me; however, I made it a point to keep my sorrow to myself inasmuch as I could. I honored my suffering in private. I maintained my dignity, in other words.
+I kept walking. 
+
+I [formed an open-source collective](https://github.com/61418). I continued maintaining my open-source projects. In fact, I [created a new one](https://github.com/61418/boto3-client-cache/). I'm even working on [another](https://github.com/michaelthomasletts/assume-cli) in my free time. I was also [inducted into the AWS Community Builders program](https://michaelthomasletts.com/blog/aws-community-builders/)! I joked, smiled, and laughed with my friends. I showed love to the people I care about. I let my friends know what was going on with me; however, I made it a point to keep my sorrow to myself inasmuch as I could. I honored my suffering in private. I maintained my dignity, in other words.
 
 {{< figure 
     src="/images/fog.png" 
