@@ -112,7 +112,7 @@ I wanted to trust my employer would understand. But, upon returning to work, and
 If you care to wear my shoes for the next few minutes in order to understand what this journey has been like -- to experience a small sample of what I've been going through, that is -- then here's _one_ empathic portal you may walk through: 
 
 {{< figure 
-    src="/images/toyota.jpeg" 
+    src="/images/toyota.png" 
     class="center"
 >}}
 
