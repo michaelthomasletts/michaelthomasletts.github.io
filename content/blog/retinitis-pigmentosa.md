@@ -125,7 +125,7 @@ I know I'm going blind. I know I'm at the proverbial edge of being designated "l
 I was officially diagnosed just six months ago. I am proud of the progress I've made emotionally and practically in such little time. And I am proud of the fact I didn't fall apart. 
 
 {{< figure 
-    src="/images/rainbow.png" 
+    src="/images/rainbow.jpeg" 
     class="center"
 >}}
 
