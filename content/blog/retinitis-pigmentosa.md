@@ -34,7 +34,6 @@ I showed up to my appointment at Columbia University and my retinas were checked
 
 {{< figure 
     src="/images/goldmann.png" 
-    caption="This is what a Goldmann Perimeter machine looks like."
     alt="goldmann perimeter machine"
     class="center"
 >}}
