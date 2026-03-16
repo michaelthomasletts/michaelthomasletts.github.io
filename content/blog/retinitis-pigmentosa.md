@@ -38,7 +38,16 @@ I showed up to my appointment at Columbia University and my retinas were checked
     class="center"
 >}}
 
-And then I came back to Columbia again in December, and I got checked again. This time with what's called a [Goldmann Perimeter Machine](https://en.wikipedia.org/wiki/Visual_field_test). It's like a video game. You press a button each time a glowing dot enters your field of vision. It's a mentally exhausting test, surprisingly. At least for somebody with bad eyes. 
+I came back to Columbia again in December, and I got checked again. This time with what's called a [Goldmann Perimeter Machine](https://en.wikipedia.org/wiki/Visual_field_test). It's like a video game. You press a button each time a glowing dot enters your field of vision. It's a mentally exhausting test, surprisingly. At least for somebody with bad eyes. 
+
+{{< figure 
+    src="/images/erg.png"
+    class="center"
+>}}
+
+While there, my doctor also administered what's called an [ERG test](https://maculaandretinainstitute.com/tests-treatments/electroretinogram-erg/). It's _the_ definitive test for retinal health. Electrodes are placed on your temples. A thin wire is inserted beneath your lower eyelids. You're sat down in a dark room and instructed to watch a screen for about twenty minutes. The screen before you flashes brightly at random intervals, like a strobe machine at a breakcore rave. Electrical pulses are sent through the electrodes as well. 
+
+"There's no response", my doctor said. He visualized the time-series data from the ERG device on his desktop with Stata, overlaid with transparent rectangles representing the random bright lights I observed. Normally functioning retinas will yield a spike in electrical activity whenever there's a stimulus. Mine produced no perceptible spike. The time-series was completely flat. He didn't even offer to measure the p-value. That's how evident it was.
 
 "It's unsafe for you to operate motor vehicles", my doctor told me. "I know you have an off-roading vehicle. You should probably sell it. I'm sorry. I won't tell the DMV, but your insurance will know. If you get into an accident and I'm called into court, I won't be able to defend you. I'm genuinely sorry", he said. 
 
