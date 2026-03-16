@@ -64,11 +64,11 @@ In the second place, you can _technically_ be diagnosed without genetic testing;
 
 I received the results of my genetic test in January. Besides some fascinating tidbits about my family heritage, the pathogenic variant causing all of my trouble is evidently called RHO (c.68C>A (p.Pro23His)), which is known to cause autosomal recessive sideroblastic anemia and, of course, retinitis pigmentosa (with erythrocytic microcytosis). 
 
-**The good news:** RHO is the most common pathology (globally!) among people diagnosed with retinitis pigmentosa (particularly for people with Northern European heritage). This means there's a greater likelihood of future efficacious treatments.
-
-**The bad news:** "RHO (c.68C>A (p.Pro23His))", "autosomal recessive sideroblastic anemia", "erythrocytic microcytosis" -- this is _waaaaay_ too many words for my Jeff-Koons-sculpture-like-smooth brain to remember. (Honestly, doc, haven't I suffered enough?)
-
-**The existentially terrifying news:** as I alluded to above, there's no known cure.
+| type_of_news | description |
+| ------------ | ----------- |
+| good | RHO is the most common pathology (globally!) among people diagnosed with retinitis pigmentosa (particularly for people with Northern European heritage). This means there's a greater likelihood of future efficacious treatments. |
+| bad | "RHO (c.68C>A (p.Pro23His))", "autosomal recessive sideroblastic anemia", "erythrocytic microcytosis" -- this is _waaaaay_ too many words for my Jeff-Koons-sculpture-like-smooth brain to remember. (Honestly, doc, haven't I suffered enough?) |
+| existentially terrifying | There's no known cure. |
 
 Having retinitis pigmentosa means I have a low-vision disability. Because the condition's rare and there's no cure, having retinitis pigmentosa (or macular degeneration more generally, which encompasses several other diseases too) places me in a global community of researchers and patients. There's an online platform I was asked to join so I could learn about and evaluate clinical trials. It shows a dashboard of everybody (that we know of anyway) who is diagnosed with RP. Which is kind-of cool, albeit macabre.
 
