@@ -130,13 +130,13 @@ This was a strange, confusing, and ineffable situation in the sense there's _ver
 
 To experience something so bewildering and terrible as this -- to find yourself erecting indomitable boundaries with somebody you regarded as a special person, and to not even understand how you arrived at such an awful point -- _while going blind_ introduced a quasi-mythical quality to the whole experience/memory of this period of my life. I reached out to this old friend as a well-intentioned and well-meaning reaction to my condition. Reaching out to old friends (they weren't the only person I contacted), instead of withdrawing from the world and slinking into neurosis, seemed like a great idea. In all cases, except this one, I was glad I reached out to people. Everybody, except one, was happy to hear from me. Reconnecting with an old friend who I held in high esteem was supposed to _raise_ my spirit, not _test it_. 
 
-I'm not religious, but it was genuinely hard not to think at times like I was being tested by some cosmic entity who wanted to see if I would collapse. Like some twisted initiation I never constented to -- and which our modern, positive, and _affirming_ culture will no doubt insist I recapitulate in the form of _ten things I learned_. I didn't collapse. I passed muster. But I won't sanitize my experience into feel-good bulletpoints. I'm a human being, not a CLAUDE.md file.
-
 {{< figure 
     src="/images/girl.jpg" 
     alt="girl"
     class="center"
 >}}
+
+I'm not religious, but it was genuinely hard not to think at times like I was being tested by some cosmic entity who wanted to see if I would collapse. Like some twisted initiation I never constented to -- and which our modern, positive, and _affirming_ culture will no doubt insist I recapitulate in the form of _ten things I learned_. I didn't collapse. I passed muster. But I won't sanitize my experience into feel-good bulletpoints.
 
 Being diagnosed with a permanently life-altering and incurable condition -> losing trust in my employer -> experiencing an inexplicable relational rupture -- _that's a lot_. Frankly, that's _rare_. And not in the special, narcissistic sense of the word _rare_. 
 
