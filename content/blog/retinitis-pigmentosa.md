@@ -152,16 +152,18 @@ There was an unexpected, abrupt, and **_extreme_** relational rupture which occu
 
 This was a strange, confusing, and ineffable situation in the sense there's _very_ little anybody involved actually knows or understands. What little we "know" -- doesn't make sense. However, I was later told by somebody who knows this old friend a little better that (to paraphrase) they're known to be "off" -- something I had no idea about when we met. Whatever the case, this experience added something like moral injury (I genuinely don't know what else to call it) on top of everything else.
 
-To experience something so bewildering and terrible -- to find yourself erecting indomitable boundaries with somebody you thought was a friend, and to not even understand how you arrived at such an awful point -- _while going blind_ introduced a quasi-mythical quality to the whole experience/memory of this period of my life. I reached out to this old friend as a well-meaning reaction to my condition. Reaching out to old friends (they weren't the only person I contacted), instead of withdrawing from the world and slinking into neurosis, seemed like a great idea. In all cases, except one, it _was_ a great idea. Reconnecting with an old friend who I held in high esteem was supposed to _raise_ my spirit, not _test it_. 
+To experience something so bewildering and terrible -- to find yourself erecting indomitable boundaries with somebody you thought was a friend, and to not even understand how you arrived at such an awful point -- _while going blind_ introduced a quasi-mythical quality to the whole experience/memory of this period of my life. I reached out to this old friend as a well-meaning reaction to my condition. Reaching out to old friends (they weren't the only person I contacted), instead of withdrawing from the world and slinking into neurosis, seemed like a great idea. In all cases, except one, it _was_ a great idea. Reconnecting with an old friend who I held in uniquely high esteem was supposed to _raise_ my spirit, not _test it_. 
 
 {{< figure 
     src="/images/girl.jpg" 
     class="center"
 >}}
 
-I'm not religious or into woo-woo-ology, but it was genuinely hard not to think at times like I was being tested by some cosmic entity who wanted to see if I would collapse. Like some twisted initiation I never constented to -- and which our [modern, positive, and _affirming_ culture](https://www.amazon.com/Expulsion-Other-Society-Perception-Communication/dp/1509523065) will no doubt insist I recapitulate in the form of _ten things I learned_. I didn't collapse. I passed muster. Flying colors. I won't sanitize my experience into feel-good bulletpoints, though. Demerits for uncooperativeness.
+I'm not religious or into woo-woo-ology, but it was genuinely hard not to think at times like I was being tested by some cosmic entity who wanted to see if I would collapse. Like some twisted initiation I never constented to -- and which our [modern, positive, and _affirming_ culture](https://www.amazon.com/Expulsion-Other-Society-Perception-Communication/dp/1509523065) will no doubt insist I recapitulate in the form of _ten things I learned_. 
 
-Being diagnosed with a permanently life-altering and incurable condition -> losing trust in my employer -> experiencing an inexplicable relational rupture -- _that's a lot_. Frankly, that's _rare_. And not in the special, narcissistic sense of the word _rare_. 
+I didn't collapse. I passed muster. Flying colors. I won't sanitize my experience into feel-good bulletpoints, though. So demerits for uncooperativeness.
+
+Being diagnosed with a permanently life-altering and incurable condition -> losing trust in my employer -> experiencing an inexplicable relational rupture -- _that's a lot_. Frankly, that's _rare_. And not in the special, narcissistic sense of the word _rare_.
 
 {{< figure 
     src="/images/shame.jpeg" 
