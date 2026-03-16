@@ -93,6 +93,11 @@ In general, daily life has become an experience of low-grade stress, frustration
 
 I can't take things for granted anymore. Diminutive tasks, like grabbing a straw from the bartray at a busy coffee shop _without bumping into chairs or short people_, have become _accomplishments_.
 
+{{< figure 
+    src="/images/stuck.jpeg" 
+    class="center"
+>}}
+
 Then there's the matter of my career.[^1] Sadly, it's been impacted by RP (besides using a humongous cursor and 150% size font). 
 
 People bristle whenever they hear or read somebody describe themself like this, but I've earned the right to say it: I'm _very_ talented at what I do and I work _very_ hard. 
