@@ -127,7 +127,7 @@ I cried every single day for about four months, [August through November](https:
 
 I'm going blind. 
 
-I'm at the proverbial edge of being designated "legally blind". And there's nothing I can do but fall. 
+I'm at the proverbial edge of being designated "legally blind". All I can do is fall. 
 
 Regenerative treatment is a pipe dream. There will probably never be a cure, advancements in artificial intelligence notwithstanding. 
 
