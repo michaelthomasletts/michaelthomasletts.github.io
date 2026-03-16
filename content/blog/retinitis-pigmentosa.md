@@ -125,11 +125,19 @@ If you care to wear my shoes for the next few minutes in order to understand wha
 
 I cried every single day for about four months, [August through November](https://youtu.be/mivX4QYx9w8?si=M0XPWoM3Zq3vF6ey&t=230).
 
-I'm going blind. I'm at the proverbial edge of being designated "legally blind" according to legal documents and administrative papers and government databases and clinical lists. There's nothing I can do. Regenerative treatment is a pipe dream. There will probably never be a cure, advancements in artificial intelligence notwithstanding. And even _if_ a cure appears, it will arrive too late.
+I'm going blind. 
+
+I'm at the proverbial edge of being designated "legally blind". And there's nothing I can do but fall. 
+
+Regenerative treatment is a pipe dream. There will probably never be a cure, advancements in artificial intelligence notwithstanding. 
+
+And even _if_ a cure appears, it will arrive too late.
 
 I understand this. I understand that. 
 
-This _is_ what it is. Don't tell me it's _something else_.
+This _is_ what it is. 
+
+Don't tell me it's _something else_.
 
 {{< figure 
     src="/images/rainbow.jpeg" 
