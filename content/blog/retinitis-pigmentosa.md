@@ -112,7 +112,7 @@ I wanted to trust my employer would understand. But, upon returning to work, and
 If you care to wear my shoes for the next few minutes in order to understand what this journey has been like -- to experience a small sample of what I've been going through, that is -- then here's _one_ empathic portal you may walk through: 
 
 {{< figure 
-    src="/images/toyota.png" 
+    src="/images/toyota.jpeg" 
     class="center"
 >}}
 
@@ -127,7 +127,7 @@ I was officially diagnosed just six months ago. I am proud of the progress I've 
 I [formed an open-source collective](https://github.com/61418). I continued maintaining my open-source projects. In fact, I [created a new one](https://github.com/61418/boto3-client-cache/). I'm even working on [another](https://github.com/michaelthomasletts/assume-cli) in my free time. I was also [inducted into the AWS Community Builders program](https://michaelthomasletts.com/blog/aws-community-builders/)! I joked, smiled, and laughed with my friends. I showed love to the people I care about. I let my friends know what was going on with me; however, I made it a point to keep my sorrow to myself inasmuch as I could. I maintained my dignity, in other words.
 
 {{< figure 
-    src="/images/fog.jpg" 
+    src="/images/fog.png" 
     class="center"
 >}}
 
