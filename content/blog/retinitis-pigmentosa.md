@@ -108,7 +108,7 @@ Whatever you choose, I'm making a point.
 
 Finding the motivation to not only finish but _crush_ my work was previously never a challenge for me, no matter what I was going through. Learning I was going blind -- _that I have a low-vision disability_ -- and that there's no cure abruptly changed that. 
 
-Being a spiritual-boomer, I never saw myself taking short-term disability leave. But, between August and October, I did. Not because I _wanted to_ but because I found myself with no other choice. Understandably, my productivity plummetted. I couldn't focus on anything. Etc.
+Being a spiritual-boomer, I never saw myself taking short-term disability leave. But, between August and October, I did. Not because I _wanted to_ but because I found myself with no other choice. Understandably, my productivity plummetted. I couldn't focus on anything. My heart felt like pumice.
 
 I wanted to trust my employer would understand. But, upon returning to work, and without going into too many details, I've learned they don't sympathize or understand. Which is remarkable because my skip-manager's relative also has RP, but I digress.
 
