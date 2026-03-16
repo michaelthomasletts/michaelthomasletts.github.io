@@ -145,6 +145,11 @@ What made this journey _exceedingly_ difficult, however, actually had nothing to
 
 There was an unexpected, abrupt, and **_extreme_** relational rupture which occurred during this whole period. There was no clear cause or reason, and I had no way of seeing this coming. I tried asking what was wrong, but all anybody could offer was speculation. They never explained themself directly. More, my efforts to repair and heal the situation inexplicably made matters worse. Every kind, patient, and empathetic impulse I had cultivated over the course of my life, which had always served me well, suddenly seemed like a problem to somebody. I had never experienced anything like this before.
 
+{{< figure 
+    src="/images/mud.jpeg" 
+    class="center"
+>}}
+
 This was a strange, confusing, and ineffable situation in the sense there's _very_ little anybody involved actually knows or understands. What little we "know" -- doesn't make sense. However, I was later told by somebody who knows this old friend a little better that (to paraphrase) they're known to be "off" -- something I had no idea about when we met. Whatever the case, this experience added something like moral injury (I genuinely don't know what else to call it) on top of everything else.
 
 To experience something so bewildering and terrible -- to find yourself erecting indomitable boundaries with somebody you thought was a friend, and to not even understand how you arrived at such an awful point -- _while going blind_ introduced a quasi-mythical quality to the whole experience/memory of this period of my life. I reached out to this old friend as a well-meaning reaction to my condition. Reaching out to old friends (they weren't the only person I contacted), instead of withdrawing from the world and slinking into neurosis, seemed like a great idea. In all cases, except one, it _was_ a great idea. Reconnecting with an old friend who I held in high esteem was supposed to _raise_ my spirit, not _test it_. 
