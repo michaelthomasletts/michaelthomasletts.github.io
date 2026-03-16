@@ -157,7 +157,7 @@ I [formed an open-source collective](https://github.com/61418). I continued main
 
 What made this journey _exceedingly_ difficult, however, actually had nothing to do with my condition at all, except indirectly.
 
-There was an unexpected, abrupt, and **_extreme_** relational rupture which occurred during this whole period. There was no clear cause or reason, and I had no way of seeing this coming. I tried asking what was wrong, but all anybody could offer was speculation. They never explained themself directly. More, my efforts to repair and heal the situation inexplicably made matters worse. Every kind, patient, and empathetic impulse I had cultivated over the course of my life, which had always served me well, suddenly seemed like a problem to somebody. I had never experienced anything like this before.
+There was an unexpected, abrupt, and **_extreme_** relational rupture which occurred during this whole period. There was no clear cause or reason, and I had no way of seeing it coming. I asked what was wrong, but all anybody could offer was speculation. They never explained themself directly. More, my efforts to repair and heal the situation inexplicably made matters worse. Every kind, patient, and empathetic impulse I had cultivated over the course of my life, which had previously served me well, suddenly was a problem for somebody who couldn't bear it. I had never experienced anything like this before.
 
 {{< figure 
     src="/images/mud.jpeg" 
