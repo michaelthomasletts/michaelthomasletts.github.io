@@ -132,11 +132,13 @@ It's a strange, confusing, and frankly ineffable situation in the sense there's 
 
 To experience something so strange and terrible as this -- to find yourself erecting indomitable boundaries with somebody you regarded as a special person, and to not even understand how you arrived at such an awful point -- _while going blind_ introduced a frankly mythical quality to the whole experience/memory of this period of my life. I reached out to this old friend as a well-intentioned reaction to my condition. Reaching out to old friends (they weren't the only person I contacted), instead of withdrawing from the world and slinking into neurosis, seemed like a great idea. In all cases, except this one, I was glad I reached out to people. Reconnecting with an old friend who I held in high esteem was supposed to _raise_ my spirit, not _test it_. 
 
-I'm not religious, but it was genuinely hard not to think at times like I was being tested by some cosmic entity to see if I would collapse. Or something ineffable like that. Being diagnosed with a permanently life-altering and incurable condition -> losing trust in my employer -> experiencing an inexplicable relational rupture -- _that's a lot_. Frankly, that's _rare_. And not in the special, narcissistic invocation of the word _rare_. 
+I'm not religious, but it was genuinely hard not to think at times like I was being tested by some cosmic entity who wanted to see if I would collapse. Like some twisted initiation which I never constented to -- and which our modern, positive, and _affirming_ culture (if it can be called that) will no doubt insist I recapitulate in the form of _ten things I learned_. I didn't collapse. I'm resilient, evidently. But, inwardly, it's like my heart's become pumice.
+
+Being diagnosed with a permanently life-altering and incurable condition -> losing trust in my employer -> experiencing an inexplicable relational rupture -- _that's a lot_. Frankly, that's _rare_. And not in the special, narcissistic sense of the word _rare_. 
 
 I will regret publishing this post. It's incredibly personal and vulnerable. But I'm going to force myself to leave it up, as uncomfortable as that is for me. A part of me wants people to know what I've been experiencing. Besides family and close friends, nobody knows. I've kept all of this to myself, quietly. But, again, a part me thinks people _should know_. I sometimes trust such thoughts blindly (pun intended). 
 
-Time will tell if sharing this information with you all was prudent or not. Either way, I'll leave this post up. Whatever your take, you should probably know I have a low-vision disability. And it's going to get worse. I can work. I can live. But going blind gradually has many implications for how I get around and how I relate with others, which you all should know about. Whether I like that or not.
+Cheers to shots in the dark.
 
 {{< figure 
     src="/images/moon.jpeg" 
