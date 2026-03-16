@@ -41,7 +41,7 @@ I showed up to my appointment at Columbia University and my retinas were checked
 I came back to Columbia again in December, and I got checked again. This time with what's called a [Goldmann Perimeter Machine](https://en.wikipedia.org/wiki/Visual_field_test). It's like a video game. You press a button each time a glowing dot enters your field of vision. It's a mentally exhausting test, surprisingly. At least for somebody with bad eyes. 
 
 {{< figure 
-    src="/images/erg.png"
+    src="/images/erg.jpeg"
     class="center"
 >}}
 
