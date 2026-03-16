@@ -58,9 +58,9 @@ While there, my doctor also administered what's called an [ERG test](https://mac
 
 Retinitis pigmentosa is strange. 
 
-In the first place, you don't lose your peripheral vision such that there's a neat little circle left in the middle. You lose it in patches. In my right eye, for instance, I still have peripheral vision on the right-hand side. But in the lower quadrant -- nothing's there. 
+In the first place, you don't lose your peripheral vision such that there's a neat little circle left in the middle. You lose it in patches. In my right eye, for instance, I still have peripheral vision on the right-hand side. But in the lower quadrant -- nothing's there. Describing this to friends and peers in a way they can understand is obviously difficult.
 
-In the second place, you can technically be diagnosed without genetic testing; however, that diagnosis is under-determined until genetic tests evince the specific pathology. It's less like "you have RP" and more like "gene [x] is pathogenic and known to correlate with RP", if that makes sense. 
+In the second place, you can _technically_ be diagnosed without genetic testing; however, that diagnosis is under-determined until genetic tests evince the specific pathology. Clinically, it's less like "you have RP" and more like "gene X, in your case, is pathogenic and known to correlate with RP", if that makes sense. 
 
 I received the results of my genetic test in January. Besides some fascinating tidbits about my family heritage, the pathogenic variant causing all of my trouble is evidently called RHO (c.68C>A (p.Pro23His)), which is known to cause autosomal recessive sideroblastic anemia and, of course, retinitis pigmentosa (with erythrocytic microcytosis). 
 
