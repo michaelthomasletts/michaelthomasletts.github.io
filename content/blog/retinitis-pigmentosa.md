@@ -156,7 +156,7 @@ Being diagnosed with a permanently life-altering and incurable condition -> losi
 
 I will regret publishing this post. I already do. 
 
-This material is incredibly personal and vulnerable. Employers may read this. The above-mentioned estranged friend may see this. But I'm going to force myself to leave this post up anyway, as uncomfortable as that is for me. I want you all to know what I've been experiencing. Besides family and close friends, nobody knows. I've kept all of this to myself, quietly. But, again, a part me thinks people _should know_. I sometimes trust such thoughts blindly and figure things out later. We call that "emergent design" in my field.
+This material is incredibly personal and vulnerable. Employers may read this. But I'm going to force myself to leave this post up anyway, as uncomfortable as that is for me. I want you all to know what I've been experiencing. Besides family and close friends, nobody knows. I've kept all of this to myself, quietly. But, again, a part me thinks people _should know_. I sometimes trust such thoughts blindly and figure things out later. We call that "emergent design" in my field.
 
 Cheers to shots in the dark. Threnodies for maculae.
 
