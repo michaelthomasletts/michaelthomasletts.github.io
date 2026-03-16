@@ -125,11 +125,11 @@ If you care to wear my shoes for the next few minutes in order to understand wha
 
 I cried every single day for about four months, [August through November](https://youtu.be/mivX4QYx9w8?si=M0XPWoM3Zq3vF6ey&t=230).
 
-I'm going blind. I'm at the proverbial edge of being designated "legally blind" according to legal documents and administrative papers and government databases and clinical lists. There's nothing I can do to hold on to what is left. It will leave. Regenerative treatment is a pipe dream. There will probably never be a cure, advancements in artificial intelligence notwithstanding. And even _if_ a cure appears, it will arrive too late. Too late for me. Too late for my friends who are also diagnosed. We will fall all the same.
+I'm going blind. I'm at the proverbial edge of being designated "legally blind" according to legal documents and administrative papers and government databases and clinical lists. There's nothing I can do. Regenerative treatment is a pipe dream. There will probably never be a cure, advancements in artificial intelligence notwithstanding. And even _if_ a cure appears, it will arrive too late.
 
 I understand this. I understand that. 
 
-This _is_ what it is. Don't tell me it's something else.
+This _is_ what it is. Don't tell me it's _something else_.
 
 {{< figure 
     src="/images/rainbow.jpeg" 
@@ -138,7 +138,7 @@ This _is_ what it is. Don't tell me it's something else.
 
 I was officially diagnosed just six months ago. I am proud of the progress I've made in so little time. And of the fact I didn't shatter into pieces indelibly. 
 
-I kept walking. I [formed an open-source collective](https://github.com/61418). I continued maintaining my open-source projects. In fact, I [created a new one](https://github.com/61418/boto3-client-cache/). I'm even working on [another](https://github.com/michaelthomasletts/assume-cli) in my free time. I was also [inducted into the AWS Community Builders program](https://michaelthomasletts.com/blog/aws-community-builders/)! I joked, smiled, and laughed with my friends. I showed love to the people I care about. I let my friends know what was going on with me; however, I made it a point to keep my sorrow to myself inasmuch as I could. I maintained my dignity, in other words.
+I kept walking. I [formed an open-source collective](https://github.com/61418). I continued maintaining my open-source projects. In fact, I [created a new one](https://github.com/61418/boto3-client-cache/). I'm even working on [another](https://github.com/michaelthomasletts/assume-cli) in my free time. I was also [inducted into the AWS Community Builders program](https://michaelthomasletts.com/blog/aws-community-builders/)! I joked, smiled, and laughed with my friends. I showed love to the people I care about. I let my friends know what was going on with me; however, I made it a point to keep my sorrow to myself inasmuch as I could. I honored my suffering in private. I maintained my dignity, in other words.
 
 {{< figure 
     src="/images/fog.png" 
