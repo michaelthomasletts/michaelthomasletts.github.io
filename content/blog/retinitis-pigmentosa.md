@@ -128,9 +128,9 @@ I know I'm going blind. I know I'm at the proverbial edge of being designated "l
 
 I was officially diagnosed just six months ago. I am proud of the progress I've made emotionally and practically in such little time. And I am proud of the fact I didn't fall apart. 
 
-I [formed an open-source collective](https://github.com/61418). I continued maintaining my open-source projects. In fact, I [created a new one](https://github.com/61418/boto3-client-cache/). I'm even working on [another](https://github.com/michaelthomasletts/assume-cli) in my free time. I was also inducted to the AWS Community Builders program! I joked, smiled, and laughed with my friends. I showed love to the people I care about. 
+I [formed an open-source collective](https://github.com/61418). I continued maintaining my open-source projects. In fact, I [created a new one](https://github.com/61418/boto3-client-cache/). I'm even working on [another](https://github.com/michaelthomasletts/assume-cli) in my free time. I was also [inducted into the AWS Community Builders program](https://michaelthomasletts.com/blog/aws-community-builders/)! I joked, smiled, and laughed with my friends. I showed love to the people I care about. I let my friends know what was going on with me; however, I made it a point to keep my sorrow to myself inasmuch as I could. I maintained my dignity, in other words.
 
-What made this journey _exceedingly_ difficult, however, actually had nothing to do with my condition except indirectly. 
+What made this journey _exceedingly_ difficult, however, actually had nothing to do with my condition at all, except indirectly. 
 
 There was an unexpected, abrupt, and **_extreme_** relational rupture which occurred during this whole period. There was no clear cause or reason, and I had no way of seeing this coming. I tried asking what was wrong, but all anybody could offer was speculation. They never explained themself directly. More, my efforts to repair and heal the situation inexplicably made matters worse. Every kind, patient, and empathetic impulse I had cultivated over the course of my life, which had always served me well, suddenly seemed like a problem to somebody. I had never experienced anything like this before.
 
