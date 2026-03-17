@@ -195,8 +195,6 @@ Cheers to shots in the dark. Threnodies for maculae.
     class="center"
 >}}
 
-And a fun little video . . . 
-
 <video controls width="100%">
     <source src="/videos/rev.mp4" class="center">
 </video>
