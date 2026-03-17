@@ -186,7 +186,7 @@ Being diagnosed with a permanently life-altering and incurable condition -> losi
 
 I will regret publishing this post. I already do. 
 
-This material is incredibly personal and vulnerable. I cannot control how this post is read. Employers may read it. Or worse: _skim it_. 
+This material is incredibly personal and vulnerable. I cannot control how this post will be read. Employers may read it. Or worse: _skim it_. 
 
 I'm leaving this post up anyway.
 
