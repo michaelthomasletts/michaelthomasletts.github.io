@@ -139,7 +139,7 @@ I understand this. I understand that.
 
 This _is_ what it is. 
 
-Don't tell me it's _something else_.
+So please. Spare me. Don't tell me it's _something else_. 
 
 {{< figure 
     src="/images/rainbow.jpeg" 
