@@ -199,4 +199,7 @@ Cheers to shots in the dark. Threnodies for maculae.
     <source src="/videos/rev.mp4" class="center">
 </video>
 
-[^1]: I resent having to explicitly state this: I do not require accommodations. There will come a day when that changes; however, I am thankfully not at that stage so far. Besides employing a massively sized cursor, humongous text, dark-mode, and blue-light blocking eyeglasses, I'm good. It'd be nice if I can commute home before nightfall due to my poor night vision. It'd also be nice if everybody understood I will regularly miss handshakes and fail to see somebody approaching me from the side. 
+[^1]: 
+    I resent having to explicitly state this: I do not require accommodations. 
+    
+    There will come a day when that changes; however, I am thankfully not at that point. Besides employing a massively sized cursor, humongous text, dark-mode, and blue-light blocking eyeglasses, I'm good. It'd be nice if I could commute home before nightfall due to my poor night vision. It'd also be nice if everybody understood I will regularly miss handshakes and fail to see somebody approaching me from the side. But these aren't dealbreakers.
