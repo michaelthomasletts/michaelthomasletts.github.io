@@ -140,9 +140,7 @@ So please. Spare me. Don't tell me it's _something else_.
 {{< figure 
     src="/images/rainbow.jpeg" 
     class="center"
->}}
-
-I was officially diagnosed just six months ago. I am proud of the progress I've made in so little time. And of the fact I didn't shatter into pieces indelibly. 
+>}} 
 
 I kept walking. 
 
