@@ -177,9 +177,9 @@ I don't know if they're aware of my condition and how it's impacted me. I'm not 
     class="center"
 >}}
 
-I'm not religious or into woo-woo-ology, but it was genuinely hard not to think at times like I was being tested by some cosmic entity who wanted to see if I would collapse. Like some twisted initiation I never constented to -- and which our [modern, positive, and _affirming_ culture](https://www.amazon.com/Expulsion-Other-Society-Perception-Communication/dp/1509523065) will no doubt insist I recapitulate in the form of _ten things I learned_. 
+I'm not religious or into woo-woo-ology, but it was genuinely hard not to think at times like I was being tested by some cosmic entity who wanted to see if I would collapse. Like some twisted initiation I never constented to -- and which our [modern, positive, and _affirming_ culture](https://www.amazon.com/Expulsion-Other-Society-Perception-Communication/dp/1509523065) will no doubt insist I transmogrify/recapitulate in the form of _ten things I learned_. 
 
-I didn't collapse. I passed muster. Flying colors. I won't sanitize my experience into feel-good bulletpoints, though. So demerits for uncooperativeness.
+I didn't collapse. I passed muster. Flying colors. I won't sanitize my experience into feel-good bulletpoints so demerits for uncooperativeness.
 
 Being diagnosed with a permanently life-altering and incurable condition -> losing trust in my employer -> experiencing an inexplicable relational rupture -- _that's a lot_. Frankly, that's _rare_. And not in the special, narcissistic sense of the word _rare_.
 
