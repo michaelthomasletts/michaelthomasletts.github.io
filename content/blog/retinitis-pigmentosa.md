@@ -110,7 +110,7 @@ Finding the motivation to not only finish but _crush_ my work was previously nev
 
 Being a spiritual-boomer, I never saw myself taking short-term disability leave. But, between August and October, I did. Not because I _wanted to_ but because my productivity plummetted and I couldn't focus on anything. My heart felt like pumice. Multiple coworkers encouraged me to do so. I tried pushing through. But I kept hearing variations of, "it's times like this which are what leave are designed for".
 
-I wanted to trust my employer, as an institution, would understand. But they don't. Which is remarkable because my skip-manager's relative has RP.
+I wanted to trust my employer would understand. But, as I realized after returning from leave, it doesn't.
 
 If you want to wear my shoes for the next few minutes in order to understand what this journey has been like -- to experience a small sample of what I've been going through, that is -- then here's _one_ empathic portal you may walk through: 
 
