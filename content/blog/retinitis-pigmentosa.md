@@ -21,30 +21,32 @@ It wasn't until June of 2025 my vision began "tunneling" -- losing peripheral vi
 
 I visited an ophthalmologist maybe a week later. He checked my retinas, sat in front of me, placed his hands on my knees and solemnly said "I'm so sorry". He urged me to schedule an appointment with a retinal specialist in Manhattan immediately. "I don't normally see this condition", he said, "so I don't feel comfortable diagnosing it". So I called and scheduled an appointment for August. 
 
-August rolled around and I was officially diagnosed with retinitis pigmentosa in what seemed like remarkably little time. "You have retinitis pigmentosa with concomitant macular edema", the specialist said, "so I want you to be checked out by the specialists at Columbia University". He was referring to the retinopathy center at Columbia, which is a serious research and treatment institute -- which worried me. So I called and scheduled another appointment. 
+August rolled around and I was officially diagnosed with retinitis pigmentosa in what seemed like remarkably little time. "You have retinitis pigmentosa with concomitant macular edema", the specialist said, "so I want you to be checked out by the specialists at Columbia University". He was referring to the retinopathy center at Columbia, which is a serious research and treatment institute -- which worried me. I called and scheduled another appointment. 
 
 {{< figure 
     src="/images/columbia.png" 
     class="center"
 >}}
 
-I showed up to my appointment at Columbia University and my retinas were checked again. The office was strange. There aren't private rooms. Instead, you sit next to your doctor's computer in the middle of an office, and you try not to remark on the fact he still uses Stata in 2025. 
+The specific office I visited at Columbia University was strange. There aren't private rooms. Just one large room with miscellaneous medical devices lining the peripheries and tables and chairs in the middle. My doctor dimmed the lights, which was considerate. "He really understands my condition", I thought to myself. I sat next to my doctor's computer in a rolly chair, and I tried not to crack a joke about how he still uses Stata instead of R.
 
 {{< figure 
     src="/images/goldmann.png" 
     class="center"
 >}}
 
-I came back to Columbia again in December, and I got checked again. This time with what's called a [Goldmann Perimeter Machine](https://en.wikipedia.org/wiki/Visual_field_test). [It's like a video game](https://www.youtube.com/watch?v=YFoUfLziqlA). You press a button each time a glowing dot enters your field of vision. It's a mentally exhausting test, surprisingly. At least for somebody with bad eyes. 
+I came back to Columbia again in December and got evaluated again. This time with what's called a [Goldmann Perimeter Machine](https://en.wikipedia.org/wiki/Visual_field_test). [It's like a video game](https://www.youtube.com/watch?v=YFoUfLziqlA). You press a button each time a glowing dot enters your field of vision. It's a mentally exhausting test, surprisingly. At least for somebody with bad eyes. 
 
 {{< figure 
     src="/images/erg.jpeg"
     class="center"
 >}}
 
-While there, my doctor also administered what's called an [ERG test](https://maculaandretinainstitute.com/tests-treatments/electroretinogram-erg/). It's _the_ definitive test for retinal health. Electrodes are placed on your temples. A thin wire is inserted beneath your lower eyelids. You're sat down in a dark room and instructed to watch a screen for about twenty minutes. The screen before you flashes brightly at random intervals, like a strobe machine at a breakcore rave. Electrical pulses are sent through the electrodes as well. 
+My doctor also administered what's called an [ERG test](https://maculaandretinainstitute.com/tests-treatments/electroretinogram-erg/). It's _the_ definitive test for healthy retinal function. 
 
-"There's no response", my doctor said. He visualized the time-series data from the ERG device on his desktop with Stata, overlaid with transparent rectangles representing the random bright lights I observed. Normally functioning retinas will yield a spike in electrical activity whenever there's a stimulus. Mine produced no perceptible spike. The time-series was a long, flat line. He didn't even offer or pretend to measure the p-value.
+Electrodes are placed on your temples. A thin wire is inserted beneath your lower eyelids. You're sat down in a dark room and instructed to watch a screen for about twenty minutes. The screen before you flashes brightly at random intervals. Electrical pulses are sent through the electrodes as well. The test feels very Clockwork Orange.
+
+"There's no response", my doctor said. He visualized the time-series data from the ERG device on his desktop with Stata, overlaid with transparent rectangles representing the random bright lights I observed. Normally functioning retinas yield a spike in electrical activity when there's a stimulus. Mine produced no perceptible spike. The time-series was a long, flat line. He didn't offer or even pretend to measure the p-value. There was little point.
 
 "It's unsafe for you to operate motor vehicles", my doctor told me. "I know you have an off-roading vehicle. You should probably sell it. I'm sorry. I won't tell the DMV, but your insurance will know. If you get into an accident and I'm called into court, I won't be able to defend you. I'm genuinely sorry", he said. 
 
@@ -53,7 +55,7 @@ While there, my doctor also administered what's called an [ERG test](https://mac
     class="center"
 >}}
 
-Retinitis pigmentosa is strange. 
+Retinitis pigmentosa is a strange disease. 
 
 In the first place, you don't lose your peripheral vision such that there's a neat little circle left in the middle. You lose it in patches. In my right eye, for instance, I still have peripheral vision on the right-hand side. But in the lower quadrant -- nothing's there. Describing this to friends and peers in a way they can understand is obviously difficult.
 
@@ -69,9 +71,9 @@ I received the results of my genetic test in January. Besides some fascinating t
 
 Having retinitis pigmentosa means I have a low-vision disability. Because the condition's rare and there's no cure, having retinitis pigmentosa (or macular degeneration more generally, which encompasses several other diseases too) places me in a global community of researchers and patients. There's an online platform I was asked to join so I could learn about and evaluate clinical trials. It shows a dashboard of everybody (that we know of anyway) who is diagnosed with RP. Which is kind-of cool, albeit macabre.
 
-Remarkably, I've met two people (organically!) who also have retinitis pigmentosa. I met one at my gym (of all places!) and another on LinkedIn. We instantly became friends. They're far worse off than I am. One has basically no field of vision remaining. The other has a little left, but he's managed to have a great life/career anyway, which gives me hope. I'll probably meet the criteria for "legally blind" in like one to three years (it's impossible to know/say), but I'm basically there (i.e. mathematically one degree away) already.
+Remarkably, I've so far met two people (organically!) who also have retinitis pigmentosa. I met one at my gym (of all places!) and another on LinkedIn. We instantly became friends. They're far worse-off than I am. One has basically no field of vision remaining. The other has a little left, but he's managed to have a great life/career anyway, which gives me hope. I'll probably meet the criteria for "legally blind" in like one to three years (it's impossible to know), but I'm basically there (i.e. mathematically one degree away) already.
 
-I use a cane sometimes but generally don't. To be blunt, _I avoid using a cane as much as possible_. I don't want people to treat me differently, and I don't want to deal with judging glares from people when they see me put the cane away (ask me how I know) because I only need it in _certain situations_. 
+I use a cane _sometimes_ but generally don't. To be blunt, _I avoid using a cane as much as possible_. I don't want people to treat or perceive me differently. More precisely, I don't want to deal with judging glares from people when they see me put the cane away (ask me how I know) because I only need it in _certain situations_. You know how people can be.
 
 Nobody seems to understand: 
 
@@ -79,7 +81,7 @@ Nobody seems to understand:
 assert ("cane" == "full-hog-pitch-black-lights-out-holy-shit-youre-ineluctably-and-interminably-blind") is False
 ```
 
-The percentage of blind people who can't see _anything_ is actually exceptionally rare. It's like 1% of blind people altogether. The purpose of the sunglasses is roughly two-fold: give the eyes a break, and signal to others that your eyes are cooked so there's no guesswork.
+The percentage of blind people who can't see _anything at all_ is actually exceptionally rare. It's like 1% of blind people altogether. The purpose of the sunglasses is roughly two-fold: give the eyes a break, and signal to others that your eyes are cooked so there's no guesswork.
 
 Altogether, this places me in the category of "invisibly disabled", which brings a unique class of uncomfortable experiences. 
 
@@ -89,9 +91,9 @@ Altogether, this places me in the category of "invisibly disabled", which brings
 - Commuting on the train and walking around Manhattan are stressful. (I've never been more grateful to live in Greenpoint, Brooklyn)
 - I (probably) won't be able to read somebody's feelings in a dimly lit room, like a bar or restaurant, unless they intimate them to me tonally/verbally. 
 
-In general, daily life has become an experience of low-grade stress, frustration, and, rarely but nevertheless, humiliation. I live normally but basically everything I do now has an undercurrent of low-grade frustration or embarassment. 
+In general, daily life now has an undercurrent of low-grade stress, frustration, and, rarely but nevertheless, humiliation.
 
-I can't take things for granted anymore. Diminutive tasks, like grabbing a straw from the bartray at a busy coffee shop _without bumping into chairs or short people_, have become _accomplishments_.
+I can't take little things for granted anymore. Diminutive tasks, like grabbing a straw from the bartray at a busy coffee shop _without bumping into chairs or short people_, have become _accomplishments_.
 
 {{< figure 
     src="/images/stuck.jpeg" 
@@ -112,9 +114,9 @@ Finding the motivation to not only finish but _crush_ my work was previously nev
 
 Being a spiritual-boomer, I never saw myself taking short-term disability leave. But, between August and October, I did. Not because I _wanted to_ but because I found myself with no other choice. Understandably, my productivity plummetted. I couldn't focus on anything. My heart felt like pumice.
 
-I wanted to trust my employer would understand. But, upon returning to work, and without going into too many details, I've learned they don't sympathize or understand. Which is remarkable because my skip-manager's relative also has RP, but I digress.
+I wanted to trust my employer would understand. But, upon returning to work, without going into too many details, I've since learned they don't sympathize or understand. Which is remarkable because my skip-manager's relative has RP. Out of everybody, he should understand the psychological blow. But I digress.
 
-If you care to wear my shoes for the next few minutes in order to understand what this journey has been like -- to experience a small sample of what I've been going through, that is -- then here's _one_ empathic portal you may walk through: 
+If you want to wear my shoes for the next few minutes in order to understand what this journey has been like -- to experience a small sample of what I've been going through, that is -- then here's _one_ empathic portal you may walk through: 
 
 {{< figure 
     src="/images/toyota.jpeg" 
@@ -125,13 +127,13 @@ If you care to wear my shoes for the next few minutes in order to understand wha
 
 I cried every single day for four months, [August through November](https://youtu.be/mivX4QYx9w8?si=M0XPWoM3Zq3vF6ey&t=230).
 
-I'm going blind. 
+The reality is I'm going blind. Gradually.
 
 I'm at the proverbial edge of being designated "legally blind". All I can do is fall. 
 
-Regenerative treatment is a pipe dream. There will probably never be a cure, advancements in artificial intelligence notwithstanding. 
+Regenerative treatment is a pipe dream. There will probably never be a cure, advancements in artificial intelligence notwithstanding.
 
-And even _if_ a cure appears, it will arrive too late.
+And even _if_ a cure appears, it will arrive too late. It's already too late.
 
 I understand this. I understand that. 
 
