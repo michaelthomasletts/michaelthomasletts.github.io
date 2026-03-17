@@ -181,7 +181,7 @@ I'm not religious or into woo-woo-ology, but it was genuinely hard not to think 
 
 I didn't collapse. I passed muster. Flying colors. I won't sanitize my experience into feel-good bulletpoints so demerits for uncooperativeness.
 
-Being diagnosed with a permanently life-altering and incurable condition -> losing trust and faith in my employer -> experiencing an inexplicable relational rupture -- _that's a lot_. Frankly, that's _rare_. And not in the special, narcissistic sense of the word _rare_.
+Being diagnosed with a permanently life-altering and incurable condition -> losing trust and faith in my employer -> experiencing an inexplicable, once-in-a-lifetime type of relational rupture -- _that's a lot_. Frankly, that's _rare_. And not in the special, narcissistic sense of the word _rare_.
 
 {{< figure 
     src="/images/shame.jpeg" 
