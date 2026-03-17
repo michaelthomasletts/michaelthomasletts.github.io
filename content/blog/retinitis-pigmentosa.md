@@ -186,13 +186,15 @@ Being diagnosed with a permanently life-altering and incurable condition -> losi
 
 I will regret publishing this post. I already do. 
 
-This material is incredibly personal and vulnerable. Employers may read this. Or worse: _skim this_. But I'm going to force myself to leave this post up anyway, as uncomfortable as that is for me. 
+This material is incredibly personal and vulnerable. Employers may read this. Or worse: _skim it_. But I'm leaving this post up anyway.
 
-I want you all to know what I've experienced. That's why I published this. The public artifacts of my work are strong, but the specific context in which those artifacts were created makes them _something else_. A testament to my resilience and persistence, I hope. 
+The public artifacts of my work are strong, but _the specific context in which those artifacts were created_ makes them _something else_ -- a testament to my resilience, I hope. 
 
-We can talk about contributions at my job all day. Those accomplishments are certainly valuable and notable. But open-source contributions evince deeper insights; they're artifacts which can be cogitated, analyzed, and dwelled upon. A conversation about a project at my job can't do that at the same level of depth. Would you rather hear about a system I implemented or _see one_?
+We can talk about contributions at my job all day. Those accomplishments are certainly valuable. But they're ineluctably _abstract_. Open-source projects -- particularly projects which large companies _actually use and depend upon_ -- evince deeper insights. They're artifacts which can be cogitated, analyzed, and dwelled upon. A conversation about a project can't offer that depth. Would you rather _hear about_ a system I implemented or _see one_? Would you rather hear about a singular project or evaluate a _whole ecosystem_ I'm building _in my free time_? 
 
-Besides family and close friends, nobody knows what I've overcome. I've kept all of this to myself, quietly. But, again, I think people finally _should know_. I _sometimes_ trust such thoughts blindly and figure things out later. We call that "emergent design" in my field.
+What my CV doesn't (and can't) say: the greatest achievements of my career occurred during the most difficult period of my life. 
+
+Until now, besides family and close friends, nobody knew about what I've overcome. I've kept all of this to myself, quietly. But, again, I think people finally _should know_. I _sometimes_ trust such thoughts blindly and figure things out later. We call that "emergent design" in my field.
 
 Cheers to shots in the dark. Threnodies for maculae.
 
