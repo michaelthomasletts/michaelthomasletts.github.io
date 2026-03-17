@@ -170,6 +170,8 @@ This was a strange, confusing, and ineffable situation in the sense there's _ver
 
 To experience something so bewildering and terrible -- to find yourself erecting indomitable boundaries with somebody you thought was a friend, and to not even understand how you arrived at such an awful point -- _while going blind_ introduced a quasi-mythical quality to the whole experience/memory of this period of my life. I reached out to this old friend as a well-meaning reaction to my condition. Reaching out to old friends (they weren't the only person I contacted), instead of withdrawing from the world and slinking into neurosis, seemed like a great idea. In all cases, except for one, the poisoned salve, it _was_ a great idea. Reconnecting with an old friend who I held in uniquely high esteem was supposed to _raise_ my spirit, not _test it_. 
 
+I don't know if they're aware of my condition and how it's impacted me. I'm not sure it would've changed anything. All I know is I don't know what happened. My friends hope they stay away. 
+
 {{< figure 
     src="/images/girl.jpg" 
     class="center"
