@@ -196,7 +196,7 @@ What my CV doesn't say: **the greatest achievements of my career occurred during
 
 What does that say about what I'm made of? Does it say something strange about life -- metaphysical, phenomenological? Or both? That is up to you to decide.
 
-Until now, besides family and close friends, nobody knew about what I had overcome. So far, I've kept all of this to myself, quietly. But, again, I think people finally _should know_. I _sometimes_ trust such thoughts blindly and figure things out later. We call that "emergent design" in my field.
+Until now, besides family and close friends, nobody knew what I had overcome. So far, I've kept all of this to myself, quietly. But, again, I think people finally _should know_. I _sometimes_ trust such thoughts blindly and figure things out later. We call that "emergent design" in my field.
 
 Cheers to shots in the dark. Threnodies for maculae.
 
