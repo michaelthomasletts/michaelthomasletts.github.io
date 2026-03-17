@@ -186,7 +186,13 @@ Being diagnosed with a permanently life-altering and incurable condition -> losi
 
 I will regret publishing this post. I already do. 
 
-This material is incredibly personal and vulnerable. Employers may read this. But I'm going to force myself to leave this post up anyway, as uncomfortable as that is for me. I want you all to know what I've been experiencing. Besides family and close friends, nobody knows. I've kept all of this to myself, quietly. But, again, a part me thinks people _should know_. I sometimes trust such thoughts blindly and figure things out later. We call that "emergent design" in my field.
+This material is incredibly personal and vulnerable. Employers may read this. Or worse: _skim this_. But I'm going to force myself to leave this post up anyway, as uncomfortable as that is for me. 
+
+I want you all to know what I've experienced. That's why I published this. The public artifacts of my work are strong, but the specific context in which those artifacts were created makes them _something else_. A testament to my resilience and persistence, I hope. 
+
+We can talk about contributions at my job all day. Those accomplishments are certainly valuable and notable. But open-source contributions evince deeper insights; they're artifacts which can be cogitated, analyzed, and dwelled upon. A conversation about a project at my job can't do that at the same level of depth. Would you rather hear about a system I implemented or _see one_?
+
+Besides family and close friends, nobody knows what I've overcome. I've kept all of this to myself, quietly. But, again, I think people finally _should know_. I _sometimes_ trust such thoughts blindly and figure things out later. We call that "emergent design" in my field.
 
 Cheers to shots in the dark. Threnodies for maculae.
 
