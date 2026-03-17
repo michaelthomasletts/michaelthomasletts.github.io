@@ -100,21 +100,17 @@ I can't take little things for granted anymore. Diminutive tasks, like grabbing 
     class="center"
 >}}
 
-Then there's the matter of my career.[^1] Sadly, it's been impacted by RP (besides using a humongous cursor and 150% size font). 
+Then there's the matter of my career.[^1]
 
-People bristle whenever they hear or read somebody describe themself like this, but I've earned the right to say it: I'm _very_ talented at what I do and I work _very_ hard. 
+I've earned the right to say it: I'm _very_ talented at what I do and I work _very_ hard. 
 
-I've had people candidly question if this anecdote is true: I reduced the runtime of a production system at Capital One from 55 hours to 7 seconds. Yes -- that _actually_ happened. 
-
-If you want to read that as bragging, knock yourself out. May I kindly suggest an alternative perspective: feeling happy I found an intersection between what I'm naturally good at and what I enjoy doing. 
-
-Whatever you choose, I'm making a point.
+I've had people candidly question if this anecdote is true: I reduced the runtime of a system from 55 hours to 7 seconds. Yes -- that is true.
 
 Finding the motivation to not only finish but _crush_ my work was previously never a challenge for me, no matter what I was going through. Learning I was going blind -- _that I have a low-vision disability_ -- and that there's no cure abruptly changed that. 
 
-Being a spiritual-boomer, I never saw myself taking short-term disability leave. But, between August and October, I did. Not because I _wanted to_ but because I found myself with no other choice. Understandably, my productivity plummetted. I couldn't focus on anything. My heart felt like pumice.
+Being a spiritual-boomer, I never saw myself taking short-term disability leave. But, between August and October, I did. Not because I _wanted to_ but because my productivity plummetted and I couldn't focus on anything. My heart felt like pumice. Multiple coworkers encouraged me to do so. I tried pushing through. But I kept hearing variations of, "it's times like this which are what leave are designed for".
 
-I wanted to trust my employer would understand. But, upon returning to work, without going into too many details, I've since learned they don't sympathize or understand. Which is remarkable because my skip-manager's relative has RP. Out of everybody, he should understand the psychological blow. But I digress.
+I wanted to trust my employer, as an institution, would understand. But they don't. Which is remarkable because my skip-manager's relative has RP.
 
 If you want to wear my shoes for the next few minutes in order to understand what this journey has been like -- to experience a small sample of what I've been going through, that is -- then here's _one_ empathic portal you may walk through: 
 
