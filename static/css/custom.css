@@ -11,3 +11,11 @@ figure.center img {
 figure.center figcaption {
   text-align: center;
 }
+
+video.center {
+  text-align: center;
+}
+
+video.center videocaption {
+  text-align: center;
+}
