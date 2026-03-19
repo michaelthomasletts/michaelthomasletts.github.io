@@ -14,7 +14,7 @@ description: "Personal website of Mike Letts."
 
 ## Currently Building
 
-- CLI tool named "assume-cli". Set for release under [61418](https://61418.io/) in late Q2 2026
+- CLI tool named "elhaz". Set for release under [61418](https://61418.io/) in late Q2 2026
 - Expanding [61418](https://61418.io/) membership and project catalog
 
 ## Recent Updates
