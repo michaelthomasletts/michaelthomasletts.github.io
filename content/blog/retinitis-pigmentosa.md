@@ -81,7 +81,7 @@ Nobody seems to understand:
 assert ("cane" == "full-hog-pitch-black-lights-out-blind") is False
 ```
 
-The percentage of blind people who can't see _anything at all_ is actually exceptionally rare. It's like 1% of blind people altogether. The purpose of the sunglasses is roughly two-fold: give the eyes a break, and signal to others that your eyes are cooked so there's no guesswork.
+The percentage of blind people who can't see _anything at all_ is actually not as high as you may think. It's like [18%](https://blind.iowa.gov/resources-and-publications/misconceptions-about-blindness) of blind people altogether. The purpose of the sunglasses is roughly two-fold: give the eyes a break, and signal to others that your eyes are cooked so there's no guesswork.
 
 Altogether, this places me in the category of "invisibly disabled", which brings a unique class of uncomfortable experiences. 
 
