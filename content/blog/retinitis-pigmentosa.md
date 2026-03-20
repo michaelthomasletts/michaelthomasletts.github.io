@@ -173,7 +173,7 @@ I don't know if they're aware of my condition and how it's impacted me. I'm not 
 
 I'm not religious or into woo-woo-ology, but it was genuinely hard not to think at times like I was being tested by some cosmic entity who wanted to see if I would collapse. Like some twisted initiation I never constented to -- and which our [modern, positive, and _affirming_ culture](https://www.amazon.com/Expulsion-Other-Society-Perception-Communication/dp/1509523065) will no doubt insist I transmogrify/recapitulate in the form of _ten things I learned_. 
 
-I didn't collapse. I passed muster. Flying colors. I won't sanitize my experience into feel-good bulletpoints so demerits for uncooperativeness.
+I didn't collapse. I passed muster. Flying colors. I refuse to sanitize my experience into feel-good bulletpoints, however, so demerits for uncooperativeness.
 
 Being diagnosed with a permanently life-altering and incurable condition -> losing trust and faith in my employer -> experiencing an inexplicable, once-in-a-lifetime type of relational rupture -- _that's a lot_. Frankly, that's _rare_. And not in the special, narcissistic sense of the word _rare_.
 
@@ -188,15 +188,15 @@ This material is incredibly personal and vulnerable. I cannot control how this p
 
 I'm leaving this post up anyway.
 
-The public artifacts of my work are strong, but _the specific context in which those artifacts were created_ makes them _something else_ -- a testament to my resilience, I hope. 
+The public artifacts of my work are strong, but _the specific context in which those artifacts were created makes them something else_ -- a testament to my resilience, _I hope_. 
 
-We can talk about contributions at my job all day. Those accomplishments are certainly valuable. But they're ineluctably _abstract_. Open-source projects -- particularly projects which large companies _actually use and depend upon_, in some cases _at an enterprise scale_ -- evince deeper insights. They're artifacts which can be cogitated, analyzed, and dwelled upon. An extemporaneous conversation about a project can't offer that depth. Would you rather _hear about_ a system I implemented or _see one_? Would you rather hear about a singular project or evaluate a _whole ecosystem_ I'm gradually building _in my free time_? 
+We can talk about contributions at my job all day. Those accomplishments are certainly valuable. But they're ineluctably _abstract_. Open-source projects -- particularly projects which large companies _actually use and depend upon_, in some cases _at an enterprise scale_ -- offer deeper insights. They're artifacts which can be dwelled upon in ways which extemporaneous conversation doesn't make easy (or possible). Would you rather _hear about_ a system I implemented or _see one_? Would you rather hear about a singular project or evaluate a _whole ecosystem_ I'm gradually building _in my free time_ and reach _your own_ conclusions? 
 
 What my CV doesn't say: **the greatest achievements of my career occurred during the most difficult period of my life.**
 
-What does that say about what I'm made of? Does it say something strange about life -- metaphysical, phenomenological? Or both? That is up to you to decide.
+What does that say about me? Does it say something peculiar about life -- metaphysical, phenomenological? Both?
 
-Until now, besides family and close friends, nobody knew what I had overcome. So far, I've kept all of this to myself, quietly. I think people _should know_. I _sometimes_ trust such thoughts blindly and figure things out later. We call that "emergent design" in my field.
+Until now, besides family and close friends, nobody knew what I had to overcome. So far, I've kept all of this to myself, quietly. I think people _should know_. I _sometimes_ trust such thoughts blindly and figure things out later. We call that "emergent design" in my field.
 
 Cheers to shots in the dark. Threnodies for maculae.
 
