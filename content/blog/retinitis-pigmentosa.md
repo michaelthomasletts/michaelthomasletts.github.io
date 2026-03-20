@@ -190,7 +190,7 @@ I'm leaving this post up anyway.
 
 The public artifacts of my work are strong, but _the specific context in which those artifacts were created makes them something else_ -- a testament to my resilience, _I hope_. 
 
-We can talk about contributions at my job all day. Those accomplishments are certainly valuable. But they're ineluctably _abstract_. Open-source projects -- particularly projects which large companies _actually use and depend upon_, in some cases _at an enterprise scale_ -- offer deeper insights. They're artifacts which can be dwelled upon in ways which extemporaneous conversation doesn't make easy (or possible). Would you rather _hear about_ a system I implemented or _see one_? Would you rather hear about a singular project or evaluate a _whole ecosystem_ I'm gradually building _in my free time_ and reach _your own_ conclusions? 
+We can talk about contributions at my job all day. Those accomplishments are certainly valuable. But they're ineluctably _abstract_. Open-source projects -- particularly projects which large companies _actually use and depend upon_, in some cases _at an enterprise scale_ -- offer deeper insights. They're artifacts which can be dwelled upon in ways which extemporaneous conversation doesn't make easy (or possible). Would you rather _hear about_ a system I implemented or _see one_? Would you rather hear about a singular project or evaluate a _whole ecosystem_ I'm gradually building _in my free time_ and reach _your own_ conclusions? _Do you truly want what you say you want?_
 
 What my CV doesn't say: **the greatest achievements of my career occurred during the most difficult period of my life.**
 
