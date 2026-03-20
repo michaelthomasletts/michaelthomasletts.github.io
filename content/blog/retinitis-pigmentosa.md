@@ -133,9 +133,9 @@ And even _if_ a cure appears, it will arrive too late. It's already too late.
 
 I understand this. I understand that. 
 
-Silver is too expensive right now to line this story.
+Silver's too expensive to line this story.
 
-So please. Spare me. Don't tell me what's happening is _something else_. 
+So please. Don't tell me what's happening is _really something else_. 
 
 {{< figure 
     src="/images/rainbow.jpeg" 
