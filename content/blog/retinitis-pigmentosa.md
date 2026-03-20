@@ -78,7 +78,7 @@ I use a cane _sometimes_ but generally don't. To be blunt, _I avoid using a cane
 Nobody seems to understand: 
 
 ```python
-assert ("cane" == "full-hog-pitch-black-lights-out-holy-shit-youre-ineluctably-and-interminably-blind") is False
+assert ("cane" == "full-hog-pitch-black-lights-out-blind") is False
 ```
 
 The percentage of blind people who can't see _anything at all_ is actually exceptionally rare. It's like 1% of blind people altogether. The purpose of the sunglasses is roughly two-fold: give the eyes a break, and signal to others that your eyes are cooked so there's no guesswork.
