@@ -44,7 +44,7 @@ I came back to Columbia again in December and got evaluated again. This time wit
 
 My doctor also administered what's called an [ERG test](https://maculaandretinainstitute.com/tests-treatments/electroretinogram-erg/). It's _the_ definitive test for healthy retinal function. 
 
-Electrodes are placed on your temples. A thin wire is inserted beneath your lower eyelids. You're sat down in a dark room and instructed to watch a screen for about twenty minutes. The screen before you flashes brightly at random intervals. Electrical pulses are sent through the electrodes as well. The test feels very Clockwork Orange.
+Electrodes are placed on your temples. A thin wire is inserted beneath your lower eyelids. You're sat down in a dark room and instructed to watch a screen for about twenty minutes. The screen before you flashes brightly at random intervals. Electrical pulses are sent through the electrodes. The test feels Clockwork Orange.
 
 "There's no response", my doctor said. He visualized the time-series data from the ERG device on his desktop with Stata, overlaid with transparent rectangles representing the random bright lights I observed. Normally functioning retinas yield a spike in electrical activity when there's a stimulus. Mine produced no perceptible spike. The time-series was a long, flat line. He didn't offer or even pretend to measure the p-value. There was little point.
 
