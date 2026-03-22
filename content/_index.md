@@ -14,11 +14,11 @@ description: "Personal website of Mike Letts."
 
 ## Currently Building
 
-- CLI tool named "elhaz". Set for release under [61418](https://61418.io/) in late Q2 2026
 - Expanding [61418](https://61418.io/) membership and project catalog
 
 ## Recent Updates
 
+- **March 22nd, 2026** - [elhaz](https://github.com/61418/elhaz) officially released by 61418
 - **March 15th, 2026** - 61418's application for a [PyPI organization](https://pypi.org/org/61418/) was approved
 - **March 6th, 2026** - [boto3-refresh-session](https://github.com/61418/boto3-refresh-session) transferred from my personal GitHub account to 61418
 - **March 3rd, 2026** - Nominated to join the [AWS Community Builders program](https://builder.aws.com/community/community-builders) under "Dev Tools"
