@@ -18,6 +18,7 @@ description: "Personal website of Mike Letts."
 
 ## Recent Updates
 
+- **April 8th, 2026**  - Uniformly enforced CodeQL, Dependabot, and GitHub Deployments across all repositories in 61418
 - **March 28th, 2026** - [boto3-refresh-session](https://github.com/61418/boto3-refresh-session) exceeds 200K downloads on PyPI
 - **March 22nd, 2026** - [elhaz](https://github.com/61418/elhaz) officially released by 61418
 - **March 15th, 2026** - 61418's application for a [PyPI organization](https://pypi.org/org/61418/) was approved
