@@ -14,6 +14,7 @@ description: "Personal website of Mike Letts."
 
 ## Currently Building
 
+- [elhaz](https://github.com/61418/elhaz)
 - Expanding [61418](https://61418.io/) membership and project catalog
 
 ## Recent Updates
