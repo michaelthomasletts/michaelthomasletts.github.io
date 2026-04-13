@@ -27,3 +27,4 @@ description: "Personal website of Mike Letts."
 - **March 3rd, 2026** - Nominated to join the [AWS Community Builders program](https://builder.aws.com/community/community-builders) under "Dev Tools"
 - **February 24th, 2026** - [61418](https://61418.io/) released
 - **February 12th, 2026** - [boto3-client-cache](https://github.com/61418/boto3-client-cache) released
+- **September 2025** - boto3-refresh-session influenced the creation of the `aws configure mfa-login` command and introduction of the `aws_session_token` parameter for the `aws configure` command in [AWS CLI (v2.30.3)](https://github.com/aws/aws-cli/blob/5bffffcc1bd0aa0e73bdcc1cfe432b37563a58bb/CHANGELOG.rst#L2081).
