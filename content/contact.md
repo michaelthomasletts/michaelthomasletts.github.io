@@ -2,6 +2,9 @@
 title: "Contact"
 type: "contact"
 outputs: ["HTML"]
+_build:
+  list: never
+  render: always
 ---
 
 If you are interested in my work experience or collaborating on any open-source projects then please reach out using the following form.
