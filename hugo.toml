@@ -31,14 +31,10 @@ email = 'lettsmt@gmail.com'
     pageRef = '/blog/'
     weight = 4
   [[menus.main]]
-    name = 'Spotify'
-    url = 'https://open.spotify.com/user/22de5bcpae7ccoa32fejlddcq'
-    weight = 5
-  [[menus.main]]
     identifier = 'contact'
     name = 'Contact'
     pageRef = '/contact'
-    weight = 6
+    weight = 5
 
 [markup]
   [markup.goldmark]

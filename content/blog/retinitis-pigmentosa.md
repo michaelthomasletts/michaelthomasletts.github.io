@@ -1,7 +1,7 @@
 +++
 date = '2026-03-14T13:38:46-04:00'
 draft = false
-title = 'Living with retinitis pigmentosa'
+title = 'Threnody for Maculae'
 tags = ["retinitis pigmentosa"]
 description = "A blog post about being diagnosed with retinitis pigmentosa, experiencing an inexplicable relational rupture, and losing my driver's license."
 +++
@@ -197,8 +197,6 @@ What my CV doesn't say: **the greatest achievements of my career occurred during
 What does that say about me? Does it say something peculiar about life -- metaphysical, phenomenological? Both?
 
 Until now, besides family and close friends, nobody knew what I had to overcome. So far, I've kept all of this to myself, quietly. I think people _should know_. I _sometimes_ trust such thoughts blindly and figure things out later. We call that "emergent design" in my field.
-
-Cheers to shots in the dark. Threnodies for maculae.
 
 {{< figure 
     src="/images/moon.jpeg" 
