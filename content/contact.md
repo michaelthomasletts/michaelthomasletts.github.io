@@ -2,7 +2,7 @@
 title: "Contact"
 type: "contact"
 outputs: ["HTML"]
-_build:
+build:
   list: never
   render: always
 ---
