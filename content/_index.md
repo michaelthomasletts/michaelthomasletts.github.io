@@ -9,13 +9,8 @@ description: "Personal website of Mike Letts."
 - Nominated [AWS Community Builder (Dev Tools)](https://builder.aws.com/community/michaelthomasletts)
 - Senior Software Engineer (Data)
 - Founder/Open Source Maintainer at [61418](https://61418.io/)
-- Authored [boto3-refresh-session](https://github.com/61418/boto3-refresh-session) and [boto3-client-cache](https://github.com/michaelthomasletts/boto3-client-cache)
+- Authored [elhaz](https://github.com/61418/elhaz), [boto3-refresh-session](https://github.com/61418/boto3-refresh-session), and [boto3-client-cache](https://github.com/michaelthomasletts/boto3-client-cache)
 - Living with [retinitis pigmentosa](https://en.wikipedia.org/wiki/Retinitis_pigmentosa)
-
-## Currently Building
-
-- [elhaz](https://github.com/61418/elhaz)
-- Expanding [61418](https://61418.io/) membership and project catalog
 
 ## Recent Updates
 
