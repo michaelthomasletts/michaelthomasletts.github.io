@@ -177,17 +177,17 @@ This material is deeply personal and vulnerable. I cannot control how this post 
 
 I'm leaving this post up anyway.
 
-There's more to life than work, but I'm an all American boy. Accordingly, it should be said the public artifacts of my work are strong, but the specific context in which those artifacts were imagined, published, and maintained makes them something else.. 
+There's more to life than work, but I'm an all American boy. Accordingly, it should be said the public artifacts of my work are strong, but the specific context in which those artifacts were imagined, published, and maintained makes them something else.
 
-We can talk about contributions at my job all day. Those accomplishments are certainly relevant and valuable, but they're remote. Open-source projects -- particularly projects which large companies use and depend upon, in some cases at an enterprise scale -- offer real insights. They're artifacts which can be digested in ways that extemporaneous conversations about various work projects don't allow. 
+We can talk about contributions at my job all day. Those accomplishments are certainly relevant and valuable, but they're remote. Open-source projects -- things which large companies use and depend upon, in some cases at an enterprise scale -- offer unique insights that are usually hard to come by.
 
-Would you rather hear about a system I implemented or see one? Would you rather hear about a project or evaluate a whole ecosystem I'm gradually building in my free time? Frankly speaking, do you truly want what you say you want?
+Would you rather hear about a system I implemented or see one for yourself? Would you rather hear about a project or evaluate a whole ecosystem I'm gradually building in my free time? Frankly speaking, do you truly want what you say you want?
 
-What my CV doesn't say because it can't: the greatest achievements of my career occurred during the most difficult period of my life.
+What my CV doesn't say (because it can't): the greatest achievements of my career occurred during the most difficult period of my life.
 
 What does that say? Does it say something peculiar about life -- metaphysical, phenomenological? Both? Neither? Something else? Nothing?
 
-Until now, besides family and close friends, nobody knew what I had to overcome -- what I am still overcoming. So far I've kept all of this to myself. But I think people should know. I sometimes trust such thoughts blindly and figure things out later. We call that "emergent design" in my profession.
+Until now, besides family and close friends, nobody knew what I had to overcome -- what I am still overcoming. So far I've kept all of this to myself. But I think people should know. I sometimes trust such thoughts blindly and figure things out later. We call that "emergent design" in my field.
 
 {{< figure 
     src="/images/moon.jpeg" 
