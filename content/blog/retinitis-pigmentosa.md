@@ -177,7 +177,7 @@ This material is deeply personal and vulnerable. I cannot control how this post 
 
 I'm leaving this post up anyway.
 
-There's more to life than work, but I'm an all American boy. Accordingly, it should be said the public artifacts of my work are strong, but the specific context in which those artifacts were imagined, published, and maintained makes them something else.
+There's more to life than work, and I am just as jaded by [hustle culture](https://www.amazon.com/Burnout-Society-Byung-Chul-Han/dp/0804795096) as anybody else, but I'm an all American boy. Accordingly, it should be said the public artifacts of my work are strong, but the specific context in which those artifacts were imagined, published, and maintained makes them something else.
 
 We can talk about contributions at my job all day. Those accomplishments are certainly relevant and valuable, but they're remote. Open-source projects -- things which large companies use and depend upon, in some cases at an enterprise scale -- offer unique insights that are usually hard to come by.
 
