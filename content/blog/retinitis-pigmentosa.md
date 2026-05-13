@@ -73,9 +73,9 @@ Having retinitis pigmentosa means I have a low-vision disability. Because the co
 
 Incredibly, I've so far met two people who also have retinitis pigmentosa. I met one at my gym and another on LinkedIn. We instantly became friends. They're worse-off than I am. One has basically no field of vision remaining. The other has a little left, but he's managed to have a great life anyway. I'll be where they are in probably one to three years, but we can't know for sure.
 
-I use a "stick" (cane) sometimes but generally don't. I avoid using it. I don't want people to treat me differently. More precisely, I don't want to deal with judging glares from people when they see me put the cane away because I only need it in certain situations. You know how people can be.
+I use a "stick" (cane) sometimes but generally don't. I avoid using it. I don't want people to treat me differently. Specifically, I don't want judging glares when people see me put the stick away because I only need it in certain situations. You know how people can be.
 
-The percentage of blind people who can't see anything at all is actually not as high as you may expect. It's like [18%](https://blind.iowa.gov/resources-and-publications/misconceptions-about-blindness) of the total visually disabled community. The point of wearing sunglasses everywhere is roughly two-fold: give the eyes a break and implicitly signal that your eyes are cooked so there's no guesswork. If you've ever awkwardly stared at somebody with a stick and sunglasses, they probably saw you staring. 
+The percentage of blind people who can't see anything at all is actually not as high as you may expect. It's like [18%](https://blind.iowa.gov/resources-and-publications/misconceptions-about-blindness) of the total visually disabled community. The point of wearing sunglasses everywhere is roughly two-fold: give the eyes a break and implicitly signal that your eyes are cooked so there's no guesswork. If you've ever awkwardly stared at somebody with a stick and sunglasses, they probably saw you staring.
 
 The current state of my condition places me in the category of "invisibly disabled", which brings a unique class of uncomfortable experiences. 
 
