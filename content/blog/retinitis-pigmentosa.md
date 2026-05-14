@@ -149,7 +149,7 @@ There was an unexpected, abrupt, and extreme relational rupture which occurred d
     class="center"
 >}}
 
-This was a strange, confusing, and ineffable situation in the sense there's little if anything which anybody involved actually knows or understands. What little we "know", doesn't make sense. However, I was later told by somebody who knows this old friend a little better that (to paraphrase) they're known to be "off" -- something I had no idea about when we met. Whatever the case, this experience added something like moral injury on top of everything else.
+This was a strange and confusing situation in the sense there's little if anything which anybody involved actually knows or understands. What little we "know", doesn't make sense. However, I was later told by somebody who knows this old friend a little better that (to paraphrase) they're known to be "off" -- something I had no idea about when we met. Whatever the case, this experience added something like moral injury on top of everything else.
 
 To experience something so bewildering and terrible while my field of view physically narrows thrust a quasi-mythical quality into my experience. I reached out to this old friend as a well-meaning reaction to my condition. Reaching out to old friends (they weren't the only person I contacted), instead of withdrawing from the world, seemed like a great idea. In all cases, except for this one, it _was_ a great idea. Reconnecting with somebody I held in high esteem was supposed to _raise_ my spirit, not _test it_. 
 
