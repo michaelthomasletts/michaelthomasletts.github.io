@@ -153,16 +153,16 @@ This was a strange, confusing, and ineffable situation in the sense there's litt
 
 To experience something so bewildering and terrible while my field of view physically narrows thrust a quasi-mythical quality into my experience. I reached out to this old friend as a well-meaning reaction to my condition. Reaching out to old friends (they weren't the only person I contacted), instead of withdrawing from the world, seemed like a great idea. In all cases, except for this one, it _was_ a great idea. Reconnecting with somebody I held in high esteem was supposed to _raise_ my spirit, not _test it_. 
 
-I don't know if they're aware of my condition or how it's impacted me. I'm not sure it would've changed anything or if they'd care. All I know is I don't know what happened or why. Nobody does. I'm not sure even they could explain themself if asked. I don't know if I want an apology, clarification, or continued silence and distance. 
+I don't know if they're aware of my condition or how it's impacted me. I'm not sure it would've changed anything or if they'd care. All I know is I don't know what happened or why. Nobody does. I'm not sure even they could explain themself if asked. 
 
 {{< figure 
     src="/images/girl.jpg" 
     class="center"
 >}}
 
-I'm not religious or into woo-woo-ology, but it was (and still is) genuinely difficult not to think or feel at times like I have been tested. Like I was brought into some twisted initiation I never consented to or informed about and which our culture will, on the other side, no doubt demand I collapse into the form of Ten Things I Learned. 
+I'm not religious or into woo-woo-ology, but it was (and still is) genuinely difficult not to think or feel at times like I was being tested by . . . something. Like I was dragged into some twisted initiation I never consented to or informed about and which our culture will, on the other side, no doubt demand I collapse into the form of Ten Things I Learned. 
 
-Well, I didn't break. Not completely. I refuse to sanitize my experience into feel-good bulletpoints, however, so demerits for uncooperativeness, says the preceptor in my head.
+Well, I didn't break. Not completely. I refuse to sanitize my story into pithy, feel-good bulletpoints, however, so demerits for uncooperativeness, says the preceptor in my head.
 
 Being diagnosed with a permanently life-altering and incurable condition -> betrayal by an employer -> inexplicable, once-in-a-lifetime relational rupture -- _that's a lot_. Frankly, that's _rare_. And not in the special, narcissistic sense of the word _rare_. 
 
@@ -177,15 +177,17 @@ This material is deeply personal and vulnerable. I cannot control how it will be
 
 I'm leaving it up anyway.
 
-There's more to life than work. I am just as woke and jaded by [hustle culture](https://www.amazon.com/Burnout-Society-Byung-Chul-Han/dp/0804795096) as everbody else, but, at the end of the day, I'm an all American boy. The public artifacts of my work are strong, but it isn't grandiose to claim the specific context in which those artifacts were imagined, published, and maintained makes them something else. 
+There's more to life than work. I am just as woke and jaded by [hustle culture](https://www.amazon.com/Burnout-Society-Byung-Chul-Han/dp/0804795096) as everbody else, but, in the end, I'm an all American boy. 
 
-We can talk about contributions at my job all day. Those accomplishments are relevant and valuable, but they're remote. Open-source projects -- public things which large companies use and depend upon, in some cases at an enterprise scale -- offer unique insights that are normally hard to come by.
+The public artifacts of my work are strong, but it isn't grandiose to say the specific context in which those artifacts were imagined, published, and maintained makes them something else. 
 
-Would you rather, dear employer, hear about a system I implemented or see one for yourself? Would you rather hear about a project or evaluate a whole ecosystem I'm gradually building in my free time?
+We can talk about contributions at my job all day. Those accomplishments are relevant and valuable, but they're remote. Open-source projects -- public objects which various companies apparently use, enjoy, and depend upon -- offer unique insights that are normally hard to come by.
+
+Would you, dear employer, rather hear about a system I implemented or see one for yourself? Would you rather hear about a project or evaluate a whole ecosystem I'm gradually building in my free time?
 
 What my CV doesn't say (because it can't): the greatest achievements of my career occurred during the most difficult period of my life.
 
-What does that say? Does it say something peculiar about life -- metaphysical, phenomenological? Both? Neither? Something else? Nothing?
+What does that say? Something peculiar about life -- metaphysical, phenomenological? Both? Neither? Something else? Nothing at all?
 
 Until now, besides family and close friends, nobody knew what I had to overcome -- what I am still overcoming. So far I've kept all of this to myself. But I think people should know. I sometimes trust such thoughts blindly and figure things out later. We call that "emergent design" in my field.
 
