@@ -171,13 +171,7 @@ Being diagnosed with a permanently life-altering and incurable condition -> betr
     class="center"
 >}}
 
-I regret sharing this post with the world.
-
-This material is deeply personal and vulnerable. I cannot control how it will be read. Employers may read this. Or worse: _skim it_. 
-
-I'm leaving it up anyway.
-
-There's more to life than work. I am just as woke and jaded by [hustle culture](https://www.amazon.com/Burnout-Society-Byung-Chul-Han/dp/0804795096) as everbody else, but, in the end, I'm an all American boy. 
+There's more to life than work. I am just as woke and jaded by [hustle culture](https://www.amazon.com/Burnout-Society-Byung-Chul-Han/dp/0804795096) as anybody else, but, in the end, I'm an all American boy. I work.
 
 The public artifacts of my work are strong, but it isn't grandiose to say the specific context in which those artifacts were imagined, published, and maintained makes them something else. 
 
