@@ -46,7 +46,7 @@ The doctor then administered what's called an [ERG test](https://maculaandretina
 
 Electrodes are placed on your temples. A thin wire is inserted beneath your lower eyelids. You're sat down in a small dark room and instructed to watch a screen for about twenty minutes. The screen before you flashes brightly at random intervals as electrical pulses are sent through the electrodes. The test feels Clockwork Orange.
 
-"There's no response", my doctor said. He visualized the time-series data from the ERG device on his desktop, overlaid with transparent rectangles representing the random bright lights I observed. Healthy retinas yield a spike in electrical activity when there's stimuli. Mine produced no perceptible spike. Not by the naked eye or mathematically. The time-series was just one long, flat line. He didn't offer or even pretend to measure the p-value. There was no point.
+"There's no response", my doctor said. He visualized the time-series data from the ERG device on his desktop, overlaid with transparent rectangles representing the random bright lights I observed. Healthy retinas yield a spike in electrical activity when there's stimuli. Mine produce no perceptible spike. Not by the naked eye. Not mathematically. The time-series was just one long, flat line. He didn't offer or even pretend to measure the p-value. There was no point.
 
 "It's unsafe for you to operate motor vehicles", the doctor said. "I know you have an off-roading vehicle. You should sell it. I won't tell the DMV, but your insurance will know. If you get into an accident and I'm summoned to court, I won't be able to defend you. I'm genuinely sorry."
 
