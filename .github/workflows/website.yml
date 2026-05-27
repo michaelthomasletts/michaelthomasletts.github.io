@@ -39,4 +39,3 @@ jobs:
           publish_branch: gh-pages
           publish_dir: ./public
           cname: michaelthomasletts.com
-          force_orphan: true
