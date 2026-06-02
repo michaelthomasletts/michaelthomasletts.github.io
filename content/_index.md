@@ -6,17 +6,16 @@ description: "Personal website of Mike Letts."
 ## About
 
 - NYC
-- Senior Software Engineer (Data)
 - Founder/Open Source Maintainer at [61418](https://61418.io/)
 - Author of [elhaz](https://github.com/61418/elhaz), [boto3-refresh-session](https://github.com/61418/boto3-refresh-session), and [boto3-client-cache](https://github.com/michaelthomasletts/boto3-client-cache)
-- [AWS Community Builder (Dev Tools)](https://builder.aws.com/community/michaelthomasletts)
+- [AWS Community Builder](https://builder.aws.com/community/michaelthomasletts)
 - Living with [retinitis pigmentosa](https://en.wikipedia.org/wiki/Retinitis_pigmentosa)
 
 ## Press
 
 #### 2026
 
-- [elhaz](https://github.com/61418/elhaz) featured during [presentation at fwd:cloudsec North America 2026](https://pretalx.com/fwd-cloudsec-2026/talk/9LRLDS/) (upcoming)
+- [elhaz](https://github.com/61418/elhaz) featured at [fwd:cloudsec North America 2026](https://youtu.be/I9gk51TKmq4?si=SnVzESphhgt4fiqb)
 - [elhaz](https://github.com/61418/elhaz) featured in [TL;DR Sec newsletter](https://tldrsec.com/p/tldr-sec-327)
 - [elhaz](https://github.com/61418/elhaz) featured in [EngSecLab's blog](https://engseclabs.com/blog/agent-credential-isolation/)
 
