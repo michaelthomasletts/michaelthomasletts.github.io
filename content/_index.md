@@ -15,7 +15,7 @@ description: "Personal website of Mike Letts."
 
 #### 2026
 
-- [elhaz](https://github.com/61418/elhaz) featured at [fwd:cloudsec North America 2026](https://youtu.be/I9gk51TKmq4?si=SnVzESphhgt4fiqb)
+- [elhaz](https://github.com/61418/elhaz) featured at [fwd:cloudsec North America 2026 conference](https://youtu.be/I9gk51TKmq4?si=SnVzESphhgt4fiqb)
 - [elhaz](https://github.com/61418/elhaz) featured in [TL;DR Sec newsletter](https://tldrsec.com/p/tldr-sec-327)
 - [elhaz](https://github.com/61418/elhaz) featured in [EngSecLab's blog](https://engseclabs.com/blog/agent-credential-isolation/)
 
