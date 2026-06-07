@@ -18,6 +18,7 @@ description: "Personal website of Mike Letts."
 - [elhaz](https://github.com/61418/elhaz) featured at [fwd:cloudsec North America 2026 conference](https://youtu.be/I9gk51TKmq4?si=SnVzESphhgt4fiqb)
 - [elhaz](https://github.com/61418/elhaz) featured in [TL;DR Sec newsletter](https://tldrsec.com/p/tldr-sec-327)
 - [elhaz](https://github.com/61418/elhaz) featured in [EngSecLab's blog](https://engseclabs.com/blog/agent-credential-isolation/)
+- Ownership of [aws-sso-util](https://github.com/61418/aws-sso-util) transferred from [Ben Kehoe](https://github.com/benkehoe) to [61418](https://61418.io/) (my OSS organization)
 
 #### 2025
 
