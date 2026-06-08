@@ -26,6 +26,12 @@ email = 'lettsmt@gmail.com'
     url = 'https://www.github.com/michaelthomasletts'
     weight = 3
   [[menus.main]]
+    identifier = 'blog'
+    name = 'Blog'
+    url = '/blog/'
+    pageRef = '/blog'
+    weight = 4
+  [[menus.main]]
     identifier = 'contact'
     name = 'Contact'
     pageRef = '/contact'
