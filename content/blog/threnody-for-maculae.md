@@ -153,14 +153,14 @@ This was a strange and confusing situation in the sense there's little if anythi
 
 To have something so bewildering happen as I learned my field of view is physically narrowing, and that there's nothing I can do about either thing, thrust a quasi-mythical quality to this period of my life. I don't know how else to describe it, and I don't believe that description can be characterized as dramatic by anybody who's close to the details. I reached out to this old friend as a well-meaning reaction to my condition. Reaching out to old friends (they weren't the only person I contacted), instead of withdrawing from the world, seemed like a great idea. In all cases, except for this one, it _was_ a great idea. Everybody but them was happy to hear from me, inviting me to see them as far away as Argentina in one case. Reconnecting with somebody I held in high esteem was supposed to raise my spirit, not crush it. 
 
-I don't know if they're aware of my condition or how it's impacted me. I'm not sure it would've changed anything or if they'd care. Frankly speaking, I doubt it on both accounts. All I know is I don't know what happened or why. I did not deserve to be treated like this. Nobody understands. I don't believe even they could explain themself if asked.
+I don't know if they're aware of my condition or how it's impacted me. I'm not sure it would've changed anything or if they'd care. Frankly speaking, I doubt it on both accounts. All I know is I don't know what happened or why and I didn't deserve to be treated like this. Nobody else understands either. I don't believe even they could explain themself if asked.
 
 {{< figure 
     src="/images/girl.jpg" 
     class="center"
 >}}
 
-I'm not religious or into woo-woo-ology, but it was (and still is) genuinely difficult not to think or feel at times like I was being tested by . . . something. Like I was dragged into some twisted initiation I never consented to or been informed about and which our culture will, on the other side, no doubt demand I collapse into the cringe-inducing form of Ten Things I Learned. 
+I'm not religious or into woo-woo-ology, but it was (and still is) genuinely difficult not to think or feel at times like I was being tested by . . . something. Like I was dragged into some twisted initiation I never consented to wnd hadn't been informed about and which our culture will, on the other side, no doubt demand I collapse into the cringe-inducing form of Ten Things I Learned. 
 
 Well, I didn't break. Not completely. I refuse to sanitize my story into pithy, feel-good bulletpoints, however, so demerits for uncooperativeness, says the preceptor in my head.
 
