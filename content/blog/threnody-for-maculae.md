@@ -131,9 +131,9 @@ So please, for fuck's sake, don't tell me what's happening is really something e
     class="center"
 >}} 
 
-I kept walking. Not because I am brave or strong or resilient but rather because I didn't know what the fuck else to do. And neither do you.
+I kept walking. Not because I am brave or strong or resilient but rather because I didn't know what the fuck else to do. And neither would you.
 
-I [formed an open-source collective](https://github.com/61418). I continued maintaining my open-source projects. In fact, I [created a new one](https://github.com/61418/boto3-client-cache/). I'm even working on [another](https://github.com/61418/elhaz) in my free time. I was accepted into the AWS Community Builders program. My work was featured in important newsletters and conferences. I showed love to the people I care about. I let my friends know what was going on with me, but honored my suffering in silence and dignity (until now). It is a miracle I haven't fallen apart.
+I [formed an open-source software organization](https://github.com/61418) and continued maintaining my open-source projects. In fact, I [created a new one](https://github.com/61418/boto3-client-cache/). I'm even working on [another](https://github.com/61418/elhaz). I was accepted into the AWS Community Builders program. My work was featured in important newsletters and conferences. I attended conferences. I networked, made new friends, and went places. I showed love to the people I care about. I let my friends know what was going on with me, but honored my suffering in silence and dignity (until now).
 
 {{< figure 
     src="/images/fog.png" 
