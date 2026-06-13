@@ -30,6 +30,11 @@ email = 'lettsmt@gmail.com'
     name = 'Contact'
     pageRef = '/contact'
     weight = 4
+  [[menus.main]]
+    identifier = 'announcements'
+    name = 'Announcements'
+    pageRef = '/announcements/'
+    weight = 5
 
 [markup]
   [markup.goldmark]
