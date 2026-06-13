@@ -5,7 +5,7 @@ description: "Personal website of Mike Letts."
 
 ## About
 
-- NYC
+- Brooklyn, NY
 - Founder and Open Source Maintainer at [61418](https://61418.io/)
 - Author of [elhaz](https://github.com/61418/elhaz), [boto3-refresh-session](https://github.com/61418/boto3-refresh-session), and [boto3-client-cache](https://github.com/michaelthomasletts/boto3-client-cache)
 - Maintainer for [aws-sso-util](https://github.com/61418/aws-sso-util)
