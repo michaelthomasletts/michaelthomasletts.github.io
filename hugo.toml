@@ -66,3 +66,10 @@ email = 'lettsmt@gmail.com'
   [privacy.googleAnalytics]
     disable = false
     respectDoNotTrack = true
+
+[outputs]
+  home = ["html"]
+  section = ["html"]
+  taxonomy = ["html"]
+  term = ["html"]
+  page = ["html"]
