@@ -69,7 +69,7 @@ video.center videocaption {
   text-align: center;
 }
 
-header {
+body > header {
   display: flex;
   flex-direction: column;
   align-items: center;
