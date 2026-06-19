@@ -3,9 +3,7 @@ title: "Home"
 description: "Personal website of Mike Letts."
 ---
 
-
-
-## About
+# About
 
 - Mike Letts
 - Brooklyn, NY
@@ -15,16 +13,16 @@ description: "Personal website of Mike Letts."
 - [AWS Community Builder](https://builder.aws.com/community/michaelthomasletts)
 - Living with [retinitis pigmentosa](https://en.wikipedia.org/wiki/Retinitis_pigmentosa)
 
-## Press
+# Press
 
-#### 2026
+### 2026
 
 - [elhaz](https://github.com/61418/elhaz) [presented](https://youtu.be/15i9o08GHvw?si=sDhpLT0vUMDKESAt&t=789) at [fwd:cloudsec North America 2026 conference](https://fwdcloudsec.org/conference/north-america/)
 - [elhaz](https://github.com/61418/elhaz) featured in [TL;DR Sec newsletter](https://tldrsec.com/p/tldr-sec-327)
 - [elhaz](https://github.com/61418/elhaz) featured in [EngSecLab's blog](https://engseclabs.com/blog/agent-credential-isolation/)
 - Ownership of [aws-sso-util](https://github.com/61418/aws-sso-util) transferred from [Ben Kehoe](https://github.com/benkehoe) to [61418](https://61418.io/) (my OSS organization)
 
-#### 2025
+### 2025
 
 - [boto3-refresh-session](https://github.com/61418/boto3-refresh-session) featured in [TL;DR Sec newsletter](https://tldrsec.com/p/tldr-sec-282)
 - [boto3-refresh-session](https://github.com/61418/boto3-refresh-session) featured in [CloudSecList newsletter](https://cloudseclist.com/issues/issue-290/)
