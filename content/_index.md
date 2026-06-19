@@ -13,7 +13,7 @@ description: "Personal website of Mike Letts."
 - Author of [elhaz](https://github.com/61418/elhaz), [boto3-refresh-session](https://github.com/61418/boto3-refresh-session), and [boto3-client-cache](https://github.com/michaelthomasletts/boto3-client-cache)
 - Maintainer for [aws-sso-util](https://github.com/61418/aws-sso-util)
 - [AWS Community Builder](https://builder.aws.com/community/michaelthomasletts)
-- Living with [retinitis pigmentosa]({{< relref "/blog/personal/threnody-for-maculae" >}})
+- Living with [retinitis pigmentosa](https://en.wikipedia.org/wiki/Retinitis_pigmentosa)
 
 ## Press
 
