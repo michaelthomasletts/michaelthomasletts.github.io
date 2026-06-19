@@ -1,0 +1,9 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+<content>
+  {{ .Content }}
+
+  <p><a href='{{ relURL "blog/technical/" }}'>Technical Writing</a></p>
+  <p><a href='{{ relURL "blog/personal/" }}'>Personal Writing</a></p>
+</content>
+{{ end }}

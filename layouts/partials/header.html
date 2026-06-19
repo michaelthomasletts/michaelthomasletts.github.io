@@ -1,0 +1,6 @@
+<a class="skip-link" href="#main-content">{{ i18n "skip-link" }}</a>
+
+<a href="{{ relURL .Site.Home.RelPermalink }}" class="title site-title-image" aria-label="{{ .Site.Title }}">
+  <img src="{{ "images/header_transparent.png" | relURL }}" alt="{{ .Site.Title }}" class="site-title-logo" style="width: 280px; max-width: 100%; height: auto;">
+</a>
+<nav>{{- partial "nav.html" . -}}</nav>

@@ -1,0 +1,75 @@
+baseURL = 'https://michaelthomasletts.com/'
+relativeURLs = false
+canonifyURLs = false
+languageCode = 'en-us'
+title = 'Mike Letts'
+theme = "hugo-bearcub"
+copyright = "© Copyright 2026, Michael (Mike) Letts"
+enableRobotsTXT = true
+
+[params.author]
+name = 'Mike Letts'
+email = 'lettsmt@gmail.com'
+
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    url = '/'
+    pageRef = '/'
+    weight = 1
+  [[menus.main]]
+    name = 'LinkedIn'
+    url = 'https://www.linkedin.com/in/lettsmichael/'
+    weight = 2  
+  [[menus.main]]
+    name = 'GitHub'
+    url = 'https://www.github.com/michaelthomasletts'
+    weight = 3
+  [[menus.main]]
+    identifier = 'contact'
+    name = 'Contact'
+    pageRef = '/contact'
+    weight = 4
+  [[menus.main]]
+    identifier = 'blog'
+    name = 'Blog'
+    pageRef = '/blog/'
+    weight = 5
+  [[menus.main]]
+    identifier = 'announcements'
+    name = 'Announcements'
+    pageRef = '/announcements/'
+    weight = 6
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      footnote = true
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  madeWith  = "Made with Hugo & BearCub"
+  favicon = "images/favicon.png"
+  images = ["images/social.png"]
+
+[sitemap]
+  changefreq = "daily"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[services]
+  [services.googleAnalytics]
+    id = "G-F9JK68RQJ3"
+
+[privacy]
+  [privacy.googleAnalytics]
+    disable = false
+    respectDoNotTrack = true
+
+[outputs]
+  home = ["html"]
+  section = ["html"]
+  taxonomy = ["html"]
+  term = ["html"]
+  page = ["html"]

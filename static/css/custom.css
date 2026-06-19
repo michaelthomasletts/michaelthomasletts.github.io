@@ -1,0 +1,114 @@
+@font-face {
+  font-family: "Public Sans";
+  src: url("/fonts/public-sans-400.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Public Sans";
+  src: url("/fonts/public-sans-400-italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Public Sans";
+  src: url("/fonts/public-sans-700.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Public Sans";
+  src: url("/fonts/public-sans-700-italic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Global typography override for the site theme. */
+body,
+button,
+input,
+select,
+textarea {
+  font-family: "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Keep code and preformatted text in a readable monospace family. */
+pre,
+code,
+kbd,
+samp {
+  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+figure.center {
+  text-align: center;
+}
+
+figure.center img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figure.center figcaption {
+  text-align: center;
+}
+
+video.center {
+  text-align: center;
+}
+
+video.center videocaption {
+  text-align: center;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.site-title-image {
+  display: inline-block;
+  margin-top: 0.6rem;
+  margin-bottom: 1rem;
+}
+
+.site-title-logo {
+  width: min(100%, 280px);
+  height: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+body {
+  position: relative;
+}
+
+header,
+main,
+footer {
+  position: relative;
+  z-index: 1;
+}
+
+#snow-canvas {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.35;
+}
