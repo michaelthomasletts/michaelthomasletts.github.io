@@ -11,7 +11,7 @@ Runes have existed for an incredibly long time. In our modern context, they have
 
 [elhaz](https://github.com/61418/elhaz) is an open-source CLI tool which I released in early 2026. It was [presented](https://youtu.be/15i9o08GHvw?si=sDhpLT0vUMDKESAt&t=789) at the [fwd:cloudsec North America 2026 conference](https://fwdcloudsec.org/conference/north-america/) and featured in [TL;DR Sec](https://tldrsec.com/p/tldr-sec-327).
 
-As I state in the [official documentation](https://61418.io/elhaz/):
+As I state in the [official documentation](https://61418.io/elhaz/#how-did-elhaz-get-its-name):
 
 >Initially, the intention was to name this project “assume”. However, that namespace was already taken and, frankly, “assume” is trite. The algiz rune (also called “elhaz”) is the 15th letter of the Elder Futhark alphabet. Elhaz symbolizes protection and defense, which are fitting themes for a local credential broker. Elhaz, like “sphinx” or “hugo”, is memorable and compact, which makes it a great fit for any CLI tool!
 
