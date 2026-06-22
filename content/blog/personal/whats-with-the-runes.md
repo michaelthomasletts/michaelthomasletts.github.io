@@ -23,7 +23,7 @@ After naming elhaz, it dawned on me that I may have inadvertently stumbled on a 
 
 ## Retinitis pigmentosa
 
-It's no secret that I have [retinitis pigmentosa](https://en.wikipedia.org/wiki/Retinitis_pigmentosa). I am open and transparent about that. Accordingly, it's also no secret that my vision is gradually degenerating and that, eventually, I won't have much _or any_ left. Sadly, there is no cure. 
+It's no secret that I have [retinitis pigmentosa](https://en.wikipedia.org/wiki/Retinitis_pigmentosa). I am open and transparent about that. My vision is gradually degenerating. Eventually, I won't have much _or any_ left. Sadly, there is no cure. 
 
 This is heavy but true all the same: I want to enjoy my vision while I still have it. It should surprise nobody therefore that I want to indulge my aesthetic tastes as much as possible while I can still see. 
 
