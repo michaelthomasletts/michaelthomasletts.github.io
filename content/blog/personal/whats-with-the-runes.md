@@ -5,7 +5,7 @@ title = "What's with the runes?"
 categories = ['personal']
 +++
 
-Runes have existed for an incredibly long time. In our modern context, they have a [surprisingly complicated history](https://en.wikipedia.org/wiki/Runes), functioning as a proto-alphabet, serving as [sacred symbols for magical traditions](https://en.wikipedia.org/wiki/Runic_magic), they're used in modern branding (like [Bluetooth!](https://www.bluetooth.com/about-us/bluetooth-origin/)), they're employed for aesthetic reasons by various bands in subgenres of music like black metal, they were appropriated by past dictatorial governments, and more. Using them to brand my personal website or name CLI tools may seem a little odd, so I want to take some time to address that before anybody assumes anything untoward.
+Runes have existed for an incredibly long time. In our modern context, they have a [surprisingly complicated history](https://en.wikipedia.org/wiki/Runes), functioning as a proto-alphabet, serving as [sacred symbols for magical traditions](https://en.wikipedia.org/wiki/Runic_magic), they're used in modern branding (like [Bluetooth!](https://www.bluetooth.com/about-us/bluetooth-origin/)), they're employed for aesthetic reasons by various bands in subgenres of music like black metal, they were appropriated by past dictatorial governments and extremist organizations, and more. Using them to brand my personal website or name CLI tools may seem a little odd, so I want to take some time to address that before anybody assumes anything untoward.
 
 ## elhaz
 
