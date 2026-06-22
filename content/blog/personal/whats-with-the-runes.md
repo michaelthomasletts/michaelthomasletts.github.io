@@ -29,4 +29,6 @@ This is heavy but true all the same: I want to enjoy my vision while I still hav
 
 This is my inner child speaking now: _runes look awesome_. I like them. They're cool. Nobody uses them really, which means I may build a distinctive and highly personal brand which isn't in competition with anybody else's branding. Frankly speaking, if there's an opportunity to create a unique atmosphere on my personal website then I'd be a fool not to experiment. You can't tell me you don't like the snowfall effect in the background! Be honest!
 
-Anyway, if it's all right with all of you, in light of my condition, I'd like a little latitude to indulge my tastes while I can still cultivate and share them. I don't know how long I'll be able to hold onto the vision I have left. Maybe not long at all. Honestly, who knows. So please. Let me enjoy this. Try to enjoy it with me too. Even if you think it's a little cringe. There's a human being behind this website. Try not to lose sight of that as I literally lose mine.
+Anyway, if it's all right with all of you, in light of my condition, I'd like a little latitude to indulge my tastes while I can still cultivate and share them. I don't know how long I'll be able to hold onto the vision I have left. Maybe not long at all. Honestly, who knows. So please. Let me enjoy this. Try to enjoy it with me too. Even if you think it's a little cringe. 
+
+There's a human being behind this website. Try not to lose sight of that as I literally lose mine.
