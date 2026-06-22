@@ -5,7 +5,7 @@ title = "What's with the runes?"
 categories = ['personal']
 +++
 
-Runes have existed for an incredibly long time. In our modern context, they have a [surprisingly complicated history](https://en.wikipedia.org/wiki/Runes), functioning as a proto-alphabet, serving as sacred symbols for magical traditions, they're used in modern branding (like Bluetooth!), they're employed for aesthetic reasons by various bands in subgenres of music like black metal, they were co-opted by past dictatorial governments, and more. Using them to brand my personal website or name CLI tools may seem a little odd, so I want to take some time to address that before anybody assumes anything untoward.
+Runes have existed for an incredibly long time. In our modern context, they have a [surprisingly complicated history](https://en.wikipedia.org/wiki/Runes), functioning as a proto-alphabet, serving as [sacred symbols for magical traditions](https://en.wikipedia.org/wiki/Runic_magic), they're used in modern branding (like [Bluetooth!](https://www.bluetooth.com/about-us/bluetooth-origin/)), they're employed for aesthetic reasons by various bands in subgenres of music like black metal, they were co-opted by past dictatorial governments, and more. Using them to brand my personal website or name CLI tools may seem a little odd, so I want to take some time to address that before anybody assumes anything untoward.
 
 ## elhaz
 
@@ -19,7 +19,7 @@ There is, however, a smaller backstory as to how elhaz was named too!
 
 The door knob at the entry of my apartment building is emblazoned with elhaz (algiz) by the manufacturer. When I moved into this building, knowing what that rune represented, I thought to myself, "that's such fitting branding." I moved into this building September 2024, and I remember distinctly thinking, "if I ever build anything related to keys or credentials then I may want to remember 'algiz' or 'elhaz' as possible names if they aren't already taken." Fortunately for me, neither name was taken when I published elhaz!
 
-After naming elhaz, it dawned on me that I may have inadvertently stumbled on a branding opportunity. Part of using runes in my branding is a continuation of elhaz's impact. When I stumble on something like this, I sometimes "trust the process" as they say. In this case, I am experimenting with an arcane alphabet as an instrument for personal branding.
+After naming elhaz, it dawned on me that I may have inadvertently stumbled on a branding opportunity. Part of using runes in my branding is therefore a continuation of elhaz's impact. When I stumble on something like this, I sometimes "trust the process" as they say. In this case, I am experimenting with an arcane alphabet as an instrument for personal branding.
 
 ## Retinitis pigmentosa
 
