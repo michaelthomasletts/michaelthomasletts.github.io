@@ -1,6 +1,6 @@
 +++
 date = '2026-03-14T13:38:46-04:00'
-draft = true
+draft = false
 title = 'Threnody for Maculae'
 tags = ["retinitis pigmentosa"]
 description = "A blog post about being diagnosed with retinitis pigmentosa, experiencing an inexplicable relational rupture, career challenges, and losing my drivers license."
