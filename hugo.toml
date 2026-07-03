@@ -26,20 +26,24 @@ email = 'lettsmt@gmail.com'
     url = 'https://www.github.com/michaelthomasletts'
     weight = 3
   [[menus.main]]
+    name = '61418'
+    url = 'https://61418.io'
+    weight = 4
+  [[menus.main]]
     identifier = 'contact'
     name = 'Contact'
     pageRef = '/contact'
-    weight = 4
+    weight = 5
   [[menus.main]]
     identifier = 'blog'
     name = 'Blog'
     pageRef = '/blog/'
-    weight = 5
+    weight = 6
   [[menus.main]]
     identifier = 'announcements'
     name = 'Announcements'
     pageRef = '/announcements/'
-    weight = 6
+    weight = 7
 
 [markup]
   [markup.goldmark]
