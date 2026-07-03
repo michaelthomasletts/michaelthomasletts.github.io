@@ -19,7 +19,7 @@ I first became aware of my relatively poor night vision when I was nineteen and 
 
 I relocated to NYC from Virginia in 2018. I quickly realized I couldn't navigate nightclubs or bars with my friends like I once did. I tried going out and living my life anyway. I love dancing, electronic music, supporting a couple of my friends who DJ, and so on. Eventually, however, dimly lit environments became too stressful. I knew something was wrong with my vision but didn't know what exactly. Except for sparsely populated bars, I basically stopped going out altogether. Friends began making it a point to find well-lit venues, bars, and restaurants for us to attend. It's been like this for a long time.
 
-It wasn't until June of 2025 my vision began "tunneling" -- losing peripheral vision, that is. What was relegated to nighttime all of a sudden became a daytime problem. I was walking through Union Square one morning when I observed my peripheral vision had vanished abruptly. I experienced a panic attack so severe, I felt like I had to sit down. And I almost never experience anything like anxiety or panic attacks.
+It wasn't until June of 2025 that my vision began "tunneling" -- losing peripheral vision, that is. What was relegated to nighttime all of a sudden became a daytime problem. I was walking through Union Square one morning when I observed my peripheral vision had vanished abruptly. I experienced a panic attack so severe, I felt like I had to sit down. And I almost never experience anything like anxiety or panic attacks.
 
 I visited an ophthalmologist maybe a week later. He checked my retinas, sat in front of me, placed his hands on my knees and said "I'm so sorry." He urged me to schedule an appointment with a retinal specialist in Manhattan immediately. "I don't normally see this condition," he said, "so I don't feel comfortable diagnosing it." So I called and scheduled an appointment for August. 
 
@@ -48,7 +48,7 @@ The doctor then administered what's called an [ERG test](https://maculaandretina
 
 Electrodes are placed on your temples. A thin wire is inserted beneath your lower eyelids. You're sat down in a small dark room and instructed to watch a screen for about twenty minutes. The screen before you flashes brightly at random intervals as electrical pulses are sent through the electrodes. The test feels Clockwork Orange.
 
-"There's no response" the doctor said. He visualized the time-series data from the ERG device on his desktop, overlaid with transparent rectangles representing the random bright lights I observed. Healthy retinas yield a spike in electrical activity when there's stimuli. Mine produce no perceptible spike. Not by the naked eye. Not mathematically. Not at all. The time-series was just one long flat line. He didn't offer or even pretend to measure the p-value. There was no point. 
+"There's no response" the doctor said. He visualized the time-series data from the ERG device on his desktop, overlaid with transparent rectangles representing the random bright lights I observed. Healthy retinas yield a spike in electrical activity when there's a stimulus. Mine produce no perceptible spike. Not by the naked eye. Not mathematically. Not at all. The time-series was just one long flat line. He didn't offer or even pretend to measure the p-value. There was no point. 
 
 "It's unsafe for you to operate motor vehicles" the doctor said. "I know you have an off-roading vehicle. You should sell it. I won't tell the DMV, but your insurance will know. If you get into an accident and I'm summoned to court, I won't be able to defend you. I'm genuinely sorry."
 
@@ -88,7 +88,7 @@ My condition places me in the category of the "invisibly disabled," which brings
 
 Daily life now has an undercurrent of low-grade stress, frustration, and, rarely but nevertheless, humiliation.
 
-I can't take little things for granted anymore. Diminutive things, like grabbing a straw from the bartray at the other side of a busy coffee shop without bumping into chairs or short people, have become accomplishments. 
+I can't take little things for granted anymore. Diminutive things, like grabbing a straw from the bar tray at the other side of a busy coffee shop without bumping into chairs or short people, have become accomplishments. 
 
 {{< figure 
     src="/images/stuck.jpeg" 
@@ -99,7 +99,7 @@ Then there's the matter of my career.[^1]
 
 Finding motivation to not only finish but _crush_ my work was previously never a challenge for me, no matter what I was going through. Learning I am going blind and that there's nothing I can do abruptly changed everything. 
 
-Being a spiritual-boomer, I previously never saw myself taking short-term disability leave. Then again, I reckon nobody foresees that. But between August and October, I took leave. Not because I wanted to do so but rather because my productivity plummetted in every domain. Multiple coworkers encouraged me to take leave. I ignored them at first and tried pushing through. But I kept hearing variations of, "it's times like this which are what leave are designed for," and I kept missing deadlines. They wore me down eventually. Or something like that.
+Being a spiritual-boomer, I previously never saw myself taking short-term disability leave. Then again, I reckon nobody foresees that. But between August and October, I took leave. Not because I wanted to do so but rather because my productivity plummeted in every domain. Multiple coworkers encouraged me to take leave. I ignored them at first and tried pushing through. But I kept hearing variations of, "it's times like this which are what leave are designed for," and I kept missing deadlines. They wore me down eventually. Or something like that.
 
 I wanted to trust my employer would understand. But as I learned after returning from leave, it doesn't.
 
