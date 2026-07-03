@@ -68,6 +68,8 @@ Why does this matter? Because this long format allows the data to be grouped by 
 
 Lastly, you’ll need to download [`pyahocorasick`](pyahocorasick) and `pandas`. You can use `polars` instead of `pandas` if you prefer. `polars` may actually make the following pseudo-code even faster, albeit marginally. There are also Rust-based implementations available out there online.
 
+## Pseudo-Code
+
 ```python
 import gc
 from collections import defaultdict
