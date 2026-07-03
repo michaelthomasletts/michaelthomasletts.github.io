@@ -12,7 +12,6 @@ description: "Personal website of Mike Letts."
 - Maintainer for [aws-sso-util](https://github.com/61418/aws-sso-util)
 - [AWS Community Builder](https://builder.aws.com/community/michaelthomasletts)
 - Living with [retinitis pigmentosa](https://en.wikipedia.org/wiki/Retinitis_pigmentosa)
-- [What's with the runes?]({{< relref "blog/personal/whats-with-the-runes.md" >}})
 
 # Press
 
