@@ -27,7 +27,7 @@ The results were staggering: **55 hours → 7 seconds**.
 
 A key reason for this performance wasn’t simply the use of Aho-Corasick but *how the data was shared*. By loading large datasets and compiled automatons once, and forking worker processes afterward, I avoided memory duplication entirely. If I had passed these structures via arguments or used `spawn`, it would have resulted in prohibitive memory usage and slower compute due to unnecessary serialization and GC pressure.
 
-## Important Concepts
+## Critical Concepts
 
 Before you rush to implement Aho-Corasick expecting miracles, a word of caution: **Aho-Corasick + parallelization won’t yield superb performance unless your code is optimized.**
 
@@ -38,8 +38,6 @@ To borrow from the pseudo-code further below, you’ll need to understand:
 - The necessity of **profiling** your code, early and often.[^1]
 
 Additionally, realize you may not need to use the `multiprocessing` library after all. You might be able to write a user-defined function that’s implemented in DuckDB or Spark. That decision depends primarily on the scale of your data[^2] and-or comfort with digging deep into Spark. To be honest, I actually *recommend* that you use a user-defined function in DuckDB — that is, if the scale of your data isn’t enormous. It will be less efficient than using Aho-Corasick + `multiprocessing` but certainly simpler.
-
-## How to Use Aho-Corasick with Python
 
 The pseudo-code that follows accepts two pandas `DataFrame` objects: `target` and `sensitive_values`.
 
@@ -64,9 +62,11 @@ To illustrate:
 ]
 ```
 
-Why does this matter? Because this long format allows the data to be grouped by `element_name`, deduplicated, and quickly loaded into per-column automatons. Each parallel process then scans each record in each column for matches in its associated automaton.
+Why does this matter so much . . . ? Because this long format allows the data to be grouped by `element_name`, deduplicated, and rapidly loaded into per-column automatons. Each parallel process then scans each record in each column for matches in its associated automaton.
 
-Lastly, you’ll need to download [`pyahocorasick`](pyahocorasick) and `pandas`. You can use `polars` instead of `pandas` if you prefer. `polars` may actually make the following pseudo-code even faster, albeit marginally. There are also Rust-based implementations available out there online.
+## Dependencies
+
+You’ll need to download [`pyahocorasick`](pyahocorasick) and `pandas`. You can use `polars` instead of `pandas` if you prefer. `polars` may actually make the following pseudo-code even faster, albeit marginally. There are also Rust-based implementations available out there online.
 
 ## Pseudo-Code
 
