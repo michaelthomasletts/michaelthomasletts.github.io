@@ -134,3 +134,27 @@ h6:hover .heading-anchor {
 .heading-anchor:hover {
   opacity: 1 !important;
 }
+
+pre {
+  background-color: rgba(40, 42, 54, 0.6);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+}
+
+pre code {
+  background-color: transparent;
+}
+
+.footnotes hr {
+  display: none;
+}
+
+.footnotes::before {
+  content: "Footnotes";
+  display: block;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
