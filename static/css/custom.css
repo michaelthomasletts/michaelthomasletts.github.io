@@ -112,3 +112,25 @@ footer {
   pointer-events: none;
   opacity: 0.35;
 }
+
+.heading-anchor {
+  opacity: 0;
+  margin-left: 0.4em;
+  font-size: 0.85em;
+  text-decoration: none;
+  color: inherit;
+  transition: opacity 0.15s;
+}
+
+h1:hover .heading-anchor,
+h2:hover .heading-anchor,
+h3:hover .heading-anchor,
+h4:hover .heading-anchor,
+h5:hover .heading-anchor,
+h6:hover .heading-anchor {
+  opacity: 0.5;
+}
+
+.heading-anchor:hover {
+  opacity: 1 !important;
+}
