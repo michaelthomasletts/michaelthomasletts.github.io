@@ -198,13 +198,13 @@ h6:hover .heading-anchor {
 }
 
 .highlight table td:first-child .code-line-selected {
-  color: #f8f8f2 !important;
+  color: #ffffff !important;
 }
 
 .code-line-menu {
   position: fixed;
   z-index: 10;
-  color: #f8f8f2;
+  color: #ffffff;
 }
 
 .code-line-menu[hidden] {
