@@ -1,0 +1,6 @@
+{{ $favicon := default "images/favicon.png" .Site.Params.favicon }}
+<link rel="icon" href="{{ $favicon | relURL }}" sizes="512x512" type="image/png">
+<link rel="shortcut icon" href="{{ $favicon | relURL }}" type="image/png">
+<link rel="apple-touch-icon" href="{{ $favicon | relURL }}">
+<link rel="manifest" href="{{ "site.webmanifest" | relURL }}">
+<meta name="theme-color" content="#1f212b">
