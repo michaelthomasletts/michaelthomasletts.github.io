@@ -253,4 +253,4 @@ class Obfuscator:
 
 [^3]: I am not aware of any hard and fast statistics on exact thresholds for memory leakage in DuckDB so DYOR and experimentation.
 
-[^4]: I tested this. `polars` _did_ decrease runtime, but not by much. This is not especially surprising since profiling revealed, as mentioned elsewhere, that regex was _by far_ the biggest performance bottleneck (from a runtime perspective). That being said, I did not record the runtime improvements which `polars` yielded. DYOR if you prefer.
+[^4]: I tested this. `polars` _did_ decrease runtime, but not by much. This is not especially surprising since profiling revealed, as mentioned elsewhere, that regex was _by far_ the biggest performance bottleneck (from a runtime perspective). The data layout was another performance bottleneck (as mentioned elsewhere), but I digress. That being said, I did not record the runtime improvements which `polars` yielded. DYOR if you prefer. Your experience may vary.
