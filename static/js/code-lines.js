@@ -95,10 +95,8 @@
     }
   }
 
-  function scrollToLine(lineNumberElement, codeLineElement) {
-    const target = codeLineElement || lineNumberElement;
-
-    target.scrollIntoView({
+  function scrollToLine(lineNumberElement) {
+    lineNumberElement.scrollIntoView({
       block: "center",
       inline: "nearest",
     });
@@ -111,8 +109,7 @@
       return;
     }
 
-    const codeLines = codeLinesFor(firstLine);
-    scrollToLine(firstLine, codeLines[normalized.start - 1]);
+    scrollToLine(firstLine);
   }
 
   function scheduleScrollToRange(range) {
@@ -285,7 +282,7 @@
     showActionMenu(normalized);
 
     if (options && options.scroll) {
-      scrollToLine(firstLine, codeLines[normalized.start - 1]);
+      scrollToLine(firstLine);
     }
 
     if (options && options.scheduleScroll) {
