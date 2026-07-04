@@ -52,7 +52,7 @@ For example:
 - If `"1234"` is a sensitive value, then `"1234_5678"` becomes `"xXxX_5678"`
 - If `"1234"` appears on its own, it becomes `"xXxX"`. 
 
-Multiple matches per record are handled without issue. Referring back to the tidy data concept: `sensitive_values` is represented in a long format.
+Multiple matches per record are handled without issue. Referring back to the tidy data concept: `sensitive_values` is represented in what I will call a "long format".
 
 To illustrate:
 
