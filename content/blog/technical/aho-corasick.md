@@ -36,10 +36,10 @@ Before you rush to implement Aho-Corasick expecting miracles, a word of caution:
 To borrow from the pseudo-code further below, you’ll need to understand:
 
 - The difference between “spawn” and “fork” memory allocation modes in Python’s multiprocessing module and how fork enables memory-efficient parallelism via copy-on-write. This matters because using spawn (the default on macOS and Windows) will fully copy large objects, causing massive memory spikes if you’re not careful. On Linux, fork allows those objects to be shared so long as they’re never mutated.
-- The importance of the [“tidy data” principle](https://r4ds.had.co.nz/tidy-data.html) and general data layout — so your data can be scanned efficiently.
-- The necessity of **profiling** your code, early and often.[^1]
+- The importance of the [“tidy data” principle](https://r4ds.had.co.nz/tidy-data.html) and general data layout — so your data can be scanned efficiently.[^1]
+- The necessity of **profiling** your code, early and often.[^2]
 
-Additionally, realize you may not need to use the `multiprocessing` library after all. You might be able to write a user-defined function that’s implemented in DuckDB or Spark. That decision depends primarily on the scale of your data[^2] and-or comfort with digging deep into Spark. To be honest, I actually *recommend* that you use a user-defined function in DuckDB — that is, if the scale of your data isn’t enormous. It will be less efficient than using Aho-Corasick + `multiprocessing` but certainly simpler.
+Additionally, realize you may not need to use the `multiprocessing` library after all. You might be able to write a user-defined function that’s implemented in DuckDB or Spark. That decision depends primarily on the scale of your data[^3] and-or comfort with digging deep into Spark. To be honest, I actually *recommend* that you use a user-defined function in DuckDB — that is, if the scale of your data isn’t enormous. It will be less efficient than using Aho-Corasick + `multiprocessing` but certainly simpler.
 
 The pseudo-code that follows accepts two pandas `DataFrame` objects: `target` and `sensitive_values`.
 
@@ -247,6 +247,8 @@ class Obfuscator:
         return "".join(chars)
 ```
 
-[^1]: If you want a tool that makes memory and runtime profiling incredibly easy then check out [this repository I wrote](https://github.com/michaelthomasletts/profile-this). Sometimes, line-by-line profiling is too granular; rather, you need to understand how your code performs, from a memory allocation perspective, *temporally*. I wrote this repository for those situations exactly — but with an emphasis on simplicity and speed.
+[^1]: I am being deliberately vague here because this topic could easily be a whole other blog post.
 
-[^2]: I am not aware of any hard and fast statistics on exact thresholds for memory leakage in DuckDB so DYOR and experimentation.
+[^2]: If you want a tool that makes memory and runtime profiling incredibly easy then check out [this repository I wrote](https://github.com/michaelthomasletts/profile-this). Sometimes, line-by-line profiling is too granular; rather, you need to understand how your code performs, from a memory allocation perspective, *temporally*. I wrote this repository for those situations exactly — but with an emphasis on simplicity and speed.
+
+[^3]: I am not aware of any hard and fast statistics on exact thresholds for memory leakage in DuckDB so DYOR and experimentation.
