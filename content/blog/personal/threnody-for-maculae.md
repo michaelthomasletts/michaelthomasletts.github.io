@@ -15,7 +15,7 @@ images = ["images/retina.png"]
 
 Like most people living with [retinitis pigmentosa](https://en.wikipedia.org/wiki/Retinitis_pigmentosa), my first symptom was [nyctalopia](https://en.wikipedia.org/wiki/Nyctalopia).
 
-I first became aware of my relatively poor night vision when I was nineteen and brought a girl home one night. She playfully waved her hand in front of my face, expecting me to laugh. "Can you not see me waving my hand in front of you?" she asked. "No" I said, "can you see well in here?" She fell quiet. "Yes" she said "I can see you clearly."
+I first became aware of my relatively poor night vision when I was nineteen and brought a girl home one night. She playfully waved her hand in front of my face, expecting me to laugh. "Can you not see me waving my hand in front of you?" she asked. "No" I said "can you see well in here?" She fell quiet. "Yes" she said "I can see you clearly."
 
 I relocated to NYC from Virginia in 2018. I quickly realized I couldn't navigate nightclubs or bars with my friends like I once did. I tried going out and living my life anyway. I love dancing, electronic music, supporting a couple of my friends who DJ, and so on. Eventually, however, dimly lit environments became too stressful. I knew something was wrong with my vision but didn't know what exactly. Except for sparsely populated bars, I basically stopped going out altogether. Friends began making it a point to find well-lit venues, bars, and restaurants for us to attend. It's been like this for a long time.
 
