@@ -66,7 +66,7 @@ Why does this matter so much . . . ? Because this long format allows the data to
 
 ## Dependencies
 
-You’ll need to download [`pyahocorasick`](pyahocorasick) and `pandas`. You can use `polars` instead of `pandas` if you prefer. `polars` may actually make the following pseudo-code even faster, albeit marginally. There are also Rust-based implementations available out there online.
+You’ll need to download [`pyahocorasick`](https://pypi.org/project/pyahocorasick/) and [`pandas`](https://pypi.org/project/pandas/). You can use [`polars`](https://pypi.org/project/polars/) instead of `pandas` if you prefer. `polars` may actually make the following pseudo-code even faster, albeit marginally. There are also Rust-based implementations available out there online.
 
 ## Pseudo-Code
 
