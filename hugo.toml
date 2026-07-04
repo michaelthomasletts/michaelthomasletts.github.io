@@ -46,6 +46,10 @@ email = 'lettsmt@gmail.com'
     weight = 7
 
 [markup]
+  [markup.highlight]
+    lineNos = true
+    lineNumbersInTable = true
+    anchorLineNos = true
   [markup.goldmark]
     [markup.goldmark.extensions]
       footnote = true

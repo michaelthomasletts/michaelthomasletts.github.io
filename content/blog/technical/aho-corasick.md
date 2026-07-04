@@ -54,7 +54,7 @@ Multiple matches per record are handled without issue. Referring back to the tid
 
 To illustrate:
 
-```python
+```json
 [
   {"element_name": "x", "sensitive_value": "1234"},
   {"element_name": "x", "sensitive_value": "5678"},
@@ -158,10 +158,14 @@ class Obfuscator:
         A.make_automaton()
         return A
     
-    def make_automatons(self, sensitive_values: pd.DataFrame) -> dict[str, Automaton]:
+    def make_automatons(self, sensitive_values: pd.DataFrame) -> (
+        dict[str, Automaton]
+    ):
         findings = defaultdict(set)
         for element, group in sensitive_values.groupby("element_name"):
-            findings[element].update(str(finding) for finding in group["sensitive_value"])
+            findings[element].update(
+                str(finding) for finding in group["sensitive_value"]
+            )
         del self._sensitive_values
         return {
             element: self.make_automaton(patterns)
@@ -194,11 +198,15 @@ class Obfuscator:
                 gc.collect()
             return self.target
     
-    def _obfuscate_column(self, column: str) -> tuple[str, pd.Series, dict[str, int]]:
+    def _obfuscate_column(self, column: str) -> (
+        tuple[str, pd.Series, dict[str, int]]
+    ):
         local_metrics = defaultdict(int)
         series = self.target[column]
         obfuscated_series = series.map(
-            lambda v: self._obfuscate_record(v, self.automatons, column, local_metrics)
+            lambda v: self._obfuscate_record(
+                v, self.automatons, column, local_metrics
+            )
         )
         return column, obfuscated_series, local_metrics
     
@@ -230,7 +238,9 @@ class Obfuscator:
         
         for start, end in merged:
             length = end - start + 1
-            pattern = (obfuscate_char + obfuscate_char.upper()) * ((length + 1) // 2)
+            pattern = (
+                (obfuscate_char + obfuscate_char.upper()) * ((length + 1) // 2)
+            )
             chars[start : end + 1] = list(pattern[:length])
         return "".join(chars)
 ```

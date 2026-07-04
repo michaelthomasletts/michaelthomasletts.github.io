@@ -135,16 +135,136 @@ h6:hover .heading-anchor {
   opacity: 1 !important;
 }
 
-pre {
-  background-color: rgba(40, 42, 54, 0.6);
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
-  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.5);
-  border-radius: 6px;
+.highlight > div,
+.highlight pre,
+.highlight code {
+  background-color: transparent !important;
 }
 
-pre code {
-  background-color: transparent;
+.highlight pre {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.highlight {
+  margin: 1rem 0;
+  overflow-x: auto;
+}
+
+.highlight table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.highlight table tr,
+.highlight table td {
+  border: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.highlight table td:first-child {
+  width: 1%;
+  white-space: nowrap;
+  overflow: visible;
+}
+
+.highlight table td:last-child {
+  overflow-x: auto;
+}
+
+.highlight table td:first-child pre code {
+  padding: 0 0.75ch 0 0 !important;
+}
+
+.highlight table td:first-child span[id] {
+  display: block !important;
+  text-align: left !important;
+  white-space: normal !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.highlight table td:first-child span[id] a {
+  white-space: normal !important;
+}
+
+.highlight .code-line-selected {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.highlight table td:first-child .code-line-selected {
+  color: #f8f8f2 !important;
+}
+
+.code-line-menu {
+  position: fixed;
+  z-index: 10;
+  color: #f8f8f2;
+}
+
+.code-line-menu[hidden] {
+  display: none;
+}
+
+.code-line-menu-trigger,
+.code-line-menu-panel {
+  background-color: #282a36;
+  border: 1px solid rgba(248, 248, 242, 0.2);
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.35);
+}
+
+.code-line-menu-trigger {
+  width: 1.75rem;
+  height: 1.75rem;
+  padding: 0;
+  color: inherit;
+  font: inherit;
+  font-weight: 700;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.code-line-menu-panel {
+  position: absolute;
+  top: calc(100% + 0.25rem);
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  min-width: 9.5rem;
+  padding: 0.25rem 0;
+}
+
+.code-line-menu-panel[hidden] {
+  display: none;
+}
+
+.code-line-menu-panel button {
+  padding: 0.4rem 0.65rem;
+  color: inherit;
+  font: inherit;
+  font-size: 0.85rem;
+  text-align: left;
+  white-space: nowrap;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.code-line-menu-trigger:hover,
+.code-line-menu-trigger:focus,
+.code-line-menu-panel button:hover,
+.code-line-menu-panel button:focus {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.highlight table td:last-child pre code {
+  padding: 0 !important;
+  white-space: pre;
 }
 
 .footnotes hr {
@@ -154,7 +274,7 @@ pre code {
 .footnotes::before {
   content: "Footnotes";
   display: block;
-  font-size: 1.2em;
+  font-size: 1.6em;
   font-weight: bold;
   margin-bottom: 0.5em;
 }
