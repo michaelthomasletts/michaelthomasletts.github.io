@@ -12,6 +12,8 @@ images:
 aliases:
   - /blog/threnody-for-maculae/
   - /blog/retinitis-pigmentosa/
+  - /blog/living-with-retinitis-pigmentosa/
+  - /blog/on-living-with-retinitis-pigmentosa/
 ---
 
 {{< figure 
