@@ -1,6 +1,8 @@
 ---
 title: "Home"
 description: "Personal website of Mike Letts."
+aliases:
+  - /home/
 ---
 
 # About
