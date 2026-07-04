@@ -68,7 +68,7 @@ Why does this matter so much . . . ? Because this long format allows the data to
 
 ## Dependencies
 
-You’ll need to download [`pyahocorasick`](https://pypi.org/project/pyahocorasick/) and [`pandas`](https://pypi.org/project/pandas/). You can use [`polars`](https://pypi.org/project/polars/) instead of `pandas` if you prefer. `polars` may actually make the following pseudo-code even faster, albeit marginally. There are also [Rust-based implementations available](http://pypi.org/project/ahocorasick-rs/).
+You’ll need to download [`pyahocorasick`](https://pypi.org/project/pyahocorasick/) and [`pandas`](https://pypi.org/project/pandas/). You can use [`polars`](https://pypi.org/project/polars/) instead of `pandas` if you prefer. `polars` may actually make the following pseudo-code even faster, albeit marginally[^4]. There are also [Rust-based implementations available](http://pypi.org/project/ahocorasick-rs/).
 
 ## Pseudo-Code
 
@@ -252,3 +252,5 @@ class Obfuscator:
 [^2]: If you want a tool that makes memory and runtime profiling incredibly easy then check out [this repository I wrote](https://github.com/michaelthomasletts/profile-this). Sometimes, line-by-line profiling is too granular; rather, you need to understand how your code performs, from a memory allocation perspective, *temporally*. I wrote this repository for those situations exactly — but with an emphasis on simplicity and speed.
 
 [^3]: I am not aware of any hard and fast statistics on exact thresholds for memory leakage in DuckDB so DYOR and experimentation.
+
+[^4]: I tested this. `polars` _did_ decrease runtime, but not by much. This is not especially surprising since profiling revealed, as mentioned elsewhere, that regex was _by far_ the biggest performance bottleneck (from a runtime perspective). That being said, I did not record the runtime improvements which `polars` yielded. DYOR if you prefer.
