@@ -27,11 +27,11 @@ I first became aware of my relatively poor night vision when I was nineteen and 
 
 I relocated to NYC from Virginia in 2018. I quickly realized I couldn't navigate nightclubs or bars with my friends like I once did. I tried going out and living my life anyway. I love dancing, electronic music, supporting a couple of my friends who DJ, and so on. Eventually, however, dimly lit environments became too stressful. I knew something was wrong with my vision but didn't know what exactly. Except for sparsely populated bars, I basically stopped going out altogether. Friends began making it a point to find well-lit venues, bars, and restaurants for us to attend. It's been like this for a long time.
 
-It wasn't until June of 2025 that my vision began "tunneling" -- losing peripheral vision, that is. What was relegated to nighttime all of a sudden became a daytime problem. I was walking through Union Square one morning when I observed my peripheral vision had vanished abruptly. I experienced a panic attack so severe, I felt like I had to sit down. And I almost never experience anything like anxiety or panic attacks.
+It wasn't until June of 2025 that my vision began "tunneling" — losing peripheral vision, that is. What was relegated to nighttime all of a sudden became a daytime problem. I was walking through Union Square one morning when I observed my peripheral vision had vanished abruptly. I experienced a panic attack so severe, I felt like I had to sit down. And I almost never experience anything like anxiety or panic attacks.
 
 I visited an ophthalmologist maybe a week later. He checked my retinas, sat in front of me, placed his hands on my knees and said "I'm so sorry." He urged me to schedule an appointment with a retinal specialist in Manhattan immediately. "I don't normally see this condition," he said, "so I don't feel comfortable diagnosing it." So I called and scheduled an appointment for August. 
 
-August rolled around and I was officially diagnosed with retinitis pigmentosa in what seemed like remarkably little time. "You have retinitis pigmentosa with concomitant macular edema," the specialist said, "so I want you to be checked out by the specialists at Columbia University." He was referring to the retinopathy center at Columbia, which is a serious research and treatment institute -- which worried me. So I called and scheduled another appointment. 
+August rolled around and I was officially diagnosed with retinitis pigmentosa in what seemed like remarkably little time. "You have retinitis pigmentosa with concomitant macular edema," the specialist said, "so I want you to be checked out by the specialists at Columbia University." He was referring to the retinopathy center at Columbia, which is a serious research and treatment institute — which worried me. So I called and scheduled another appointment. 
 
 {{< figure 
     src="/images/columbia.png" 
@@ -76,7 +76,7 @@ I received the results of my genetic test in January. The pathogenic variant cau
 | type of news | description |
 | ------------ | ----------- |
 | good | RHO is the most common pathology (globally!) among people diagnosed with retinitis pigmentosa (particularly for people with Northern European heritage). This means there's a greater likelihood of future efficacious treatments. |
-| bad | "RHO (c.68C>A (p.Pro23His))," "autosomal recessive sideroblastic anemia," "erythrocytic microcytosis" -- this is _waaaaay_ too many words for my Jeff-Koons-sculpture-like-smooth brain to remember. (Honestly, doc, haven't I suffered enough?) |
+| bad | "RHO (c.68C>A (p.Pro23His))," "autosomal recessive sideroblastic anemia," "erythrocytic microcytosis" — this is _waaaaay_ too many words for my Jeff-Koons-sculpture-like-smooth brain to remember. (Honestly, doc, haven't I suffered enough?) |
 | existentially terrifying | There's no known cure. |
 
 Having retinitis pigmentosa means I have a low-vision disability. Because the condition's rare and incurable, I'm now part of a global community of researchers and patients. There's an online platform I was asked to join so I could evaluate upcoming and ongoing clinical trials. It shows a dashboard of roughly everybody (in the United States) who is diagnosed with RP, which sounds sketchy until you think about it.
@@ -111,14 +111,14 @@ Being a spiritual-boomer, I previously never saw myself taking short-term disabi
 
 I wanted to trust my employer would understand. But as I learned after returning from leave, it doesn't.
 
-If you want to wear my shoes for the next few minutes in order to understand what this journey has felt like -- to experience a sample of what I've been going through, that is -- then here's an empathic portal you may walk through: 
+If you want to wear my shoes for the next few minutes in order to understand what this journey has felt like — to experience a sample of what I've been going through, that is — then here's an empathic portal you may walk through: 
 
 {{< figure 
     src="/images/toyota.jpeg" 
     class="center"
 >}}
 
->Imagine you dreamed from early childhood about some day owning a boxy Toyota with giant tires. You saw a [Marlin Crawler](https://www.marlincrawler.com/about/) advertisement in a magazine when you were eight and instantly fell in love. It's cringe but the dream never died. You weren't sure how but you knew some day you'd realize the dream. Suppose the dream was so meaningful and longstanding for you -- you told nobody about it because you didn't want anybody to ruin it, preferring instead to wait until the day when you can physically manifest it. Suppose you move to the West Coast for two years and bought an old, boxy Toyota that barely ran. Suppose your decision to move to the West Coast had, to a small degree, something to do with buying a truck like that. Suppose you dumped tens of thousands of dollars into building a highly capable machine which won car shows and crawls over massive rocks with ease. People on the highway hang out the window and exclaim, "tell me that's got the five speed in it." And you tell them it does indeed have the five-speed in it. And they offer twenty-grand on the spot. Now imagine your doctor tells you about two years later you can't drive again. Oh, and, by the way, there's no cure. And it'll get worse. Much worse. And you'll consciously observe that and there's nothing you can do about it. Learn to use a cane. See you in two months. That'll be two billion dollars. Plus tax.
+>Imagine you dreamed from early childhood about some day owning a boxy Toyota with giant tires. You saw a [Marlin Crawler](https://www.marlincrawler.com/about/) advertisement in a magazine when you were eight and instantly fell in love. It's cringe but the dream never died. You weren't sure how but you knew some day you'd realize the dream. Suppose the dream was so meaningful and longstanding for you — you told nobody about it because you didn't want anybody to ruin it, preferring instead to wait until the day when you can physically manifest it. Suppose you move to the West Coast for two years and bought an old, boxy Toyota that barely ran. Suppose your decision to move to the West Coast had, to a small degree, something to do with buying a truck like that. Suppose you dumped tens of thousands of dollars into building a highly capable machine which won car shows and crawls over massive rocks with ease. People on the highway hang out the window and exclaim, "tell me that's got the five speed in it." And you tell them it does indeed have the five-speed in it. And they offer twenty-grand on the spot. Now imagine your doctor tells you about two years later you can't drive again. Oh, and, by the way, there's no cure. And it'll get worse. Much worse. And you'll consciously observe that and there's nothing you can do about it. Learn to use a cane. See you in two months. That'll be two billion dollars. Plus tax.
 
 I cried every single day for four months, August through November.
 
@@ -159,7 +159,7 @@ There was an unexpected, abrupt, and extreme relational rupture which occurred d
     class="center"
 >}}
 
-This was a strange and confusing situation in the sense there's little if anything which anybody involved actually knows or understands. What little we "know," doesn't make sense. However, I was later told by somebody who knows this old friend a little better that (to paraphrase) they're evidently known to be "strange and off" -- something I had no idea about when we met. Whatever the case, this experience added something like moral injury on top of everything else I was going through.
+This was a strange and confusing situation in the sense there's little if anything which anybody involved actually knows or understands. What little we "know," doesn't make sense. However, I was later told by somebody who knows this old friend a little better that (to paraphrase) they're evidently known to be "strange and off" — something I had no idea about when we met. Whatever the case, this experience added something like moral injury on top of everything else I was going through.
 
 To have something so bewildering happen as I learned my field of view is physically narrowing, and that there's nothing I can do about either thing, thrust a quasi-mythical quality to this period of my life. I don't know how else to describe it, and I don't believe that description can be characterized as dramatic by anybody who's close to the details. I reached out to this old friend as a well-meaning reaction to my condition. Reaching out to old friends (they weren't the only person I contacted), instead of withdrawing from the world, seemed like a great idea. In all cases, except for this one, it _was_ a great idea. Everybody but them was happy to hear from me, inviting me to see them in places as far away as Argentina in one case. Reconnecting with somebody I held in high esteem was supposed to raise my spirit, not crush it. 
 
@@ -174,7 +174,7 @@ I'm not religious or into woo-woo-ology, but it was (and still is) genuinely dif
 
 Well, I didn't break. Not completely. I refuse to sanitize my story into pithy, feel-good bulletpoints, however, so demerits for uncooperativeness, says the preceptor in my head.
 
-Being diagnosed with a permanently life-altering and incurable condition &rarr; betrayal by an employer &rarr; inexplicable, once-in-a-lifetime relational rupture -- that's _a lot_ in a short amount of time. Frankly, that's rare. And not in the special, narcissistic sense of the word "rare." 
+Being diagnosed with a permanently life-altering and incurable condition &rarr; betrayal by an employer &rarr; inexplicable, once-in-a-lifetime relational rupture — that's _a lot_ in a short amount of time. Frankly, that's rare. And not in the special, narcissistic sense of the word "rare." 
 
 {{< figure 
     src="/images/shame.jpeg" 
@@ -185,15 +185,15 @@ There's more to life than work. I am just as woke and jaded by [hustle culture](
 
 The public artifacts of my open-source work are strong, but I don't think it's grandiose to say the enormously stressful context in which those artifacts were imagined, published, and maintained makes them something else. 
 
-We can talk about contributions at my job all day. Those accomplishments are certainly relevant and valuable, but they're remote. Open-source projects -- public objects which various companies apparently use, enjoy, and depend upon -- offer unique insights that are normally difficult or impossible to come by.
+We can talk about contributions at my job all day. Those accomplishments are certainly relevant and valuable, but they're remote. Open-source projects — public objects which various companies apparently use, enjoy, and depend upon — offer unique insights that are normally difficult or impossible to come by.
 
-I am writing directly to any prospective employers who might be reading this: would you rather hear about a system I implemented -- something I could embellish or make up completely -- or see one for yourself? Would you rather hear about a project or evaluate a whole ecosystem I'm gradually building in my free time?
+I am writing directly to any prospective employers who might be reading this: would you rather hear about a system I implemented — something I could embellish or make up completely — or see one for yourself? Would you rather hear about a project or evaluate a whole ecosystem I'm gradually building in my free time?
 
 What my CV doesn't say (because it can't): the greatest achievements of my career occurred during the most difficult period of my life. 
 
-What does that say? Something peculiar about life -- metaphysical, phenomenological? Both? Neither? Something else? Nothing?
+What does that say? Something peculiar about life — metaphysical, phenomenological? Both? Neither? Something else? Nothing?
 
-Until now, besides family and close friends, nobody knew what I had to overcome -- what I am still overcoming. So far I've kept all of this to myself. But I think people should know. I sometimes trust such thoughts blindly and figure things out later. We call that "emergent design" in my field.
+Until now, besides family and close friends, nobody knew what I had to overcome — what I am still overcoming. So far I've kept all of this to myself. But I think people should know. I sometimes trust such thoughts blindly and figure things out later. We call that "emergent design" in my field.
 
 {{< figure 
     src="/images/moon.jpeg" 
