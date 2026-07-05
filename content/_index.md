@@ -18,11 +18,11 @@ aliases:
 
 ### 2026
 
+- Ownership of [aws-sso-util](https://github.com/61418/aws-sso-util) transferred from [Ben Kehoe](https://github.com/benkehoe) to [61418](https://61418.io/) (my OSS organization)
 - [elhaz](https://github.com/61418/elhaz) [presented](https://youtu.be/15i9o08GHvw?si=sDhpLT0vUMDKESAt&t=789) at [fwd:cloudsec North America 2026 conference](https://fwdcloudsec.org/conference/north-america/)
 - [elhaz](https://github.com/61418/elhaz) featured in [TL;DR Sec newsletter](https://tldrsec.com/p/tldr-sec-327)
-- [elhaz](https://github.com/61418/elhaz) featured in [EngSecLab's blog](https://engseclabs.com/blog/agent-credential-isolation/)
 - [elhaz](https://github.com/61418/elhaz) featured in [AWS Security Digest](https://awssecuritydigest.com/past-issues/aws-security-digest-260)
-- Ownership of [aws-sso-util](https://github.com/61418/aws-sso-util) transferred from [Ben Kehoe](https://github.com/benkehoe) to [61418](https://61418.io/) (my OSS organization)
+- [elhaz](https://github.com/61418/elhaz) featured in [EngSecLab's blog](https://engseclabs.com/blog/agent-credential-isolation/)
 
 ### 2025
 
