@@ -9,13 +9,13 @@ Runes have existed for an incredibly long time. In our modern context, they have
 
 ## elhaz
 
-[elhaz](https://github.com/61418/elhaz) is an open-source CLI tool which I released in early 2026. It was [presented](https://youtu.be/15i9o08GHvw?si=sDhpLT0vUMDKESAt&t=789) at the [fwd:cloudsec North America 2026 conference](https://fwdcloudsec.org/conference/north-america/), featured in [TL;DR Sec](https://tldrsec.com/p/tldr-sec-327), and [featured in EngSecLab's blog](https://engseclabs.com/blog/agent-credential-isolation/).
+[elhaz](https://github.com/61418/elhaz) is an open-source CLI tool which I released in early 2026. It was [presented](https://youtu.be/15i9o08GHvw?si=sDhpLT0vUMDKESAt&t=789) at the [fwd:cloudsec North America 2026 conference](https://fwdcloudsec.org/conference/north-america/) and featured in [TL;DR Sec](https://tldrsec.com/p/tldr-sec-327), [EngSecLab's blog](https://engseclabs.com/blog/agent-credential-isolation/), and [AWS Security Digest](https://awssecuritydigest.com/past-issues/aws-security-digest-260).
 
-As I state in the [official documentation for elhaz](https://61418.io/elhaz/#how-did-elhaz-get-its-name):
+As I state verbatim in the [official documentation for elhaz](https://61418.io/elhaz/#how-did-elhaz-get-its-name):
 
 >Initially, the intention was to name this project “assume”. However, that namespace was already taken and, frankly, “assume” is trite. The algiz rune (also called “elhaz”) is the 15th letter of the Elder Futhark alphabet. Elhaz symbolizes protection and defense, which are fitting themes for a local credential broker. Elhaz, like “sphinx” or “hugo”, is memorable and compact, which makes it a great fit for any CLI tool!
 
-There is, however, a smaller backstory as to how elhaz was named too! 
+There is, however, a smaller and more personal backstory as to how elhaz was named.
 
 The door knob at the entry of my apartment building is emblazoned with elhaz (algiz) by the manufacturer. When I moved into this building, knowing what that rune represented, I thought to myself, "that's such fitting branding." Elhaz (algiz) is a fairly common charm for protecting a home or building. I moved into my current apartment building September 2024, and I remember distinctly thinking, "if I ever build anything related to keys or credentials then I may want to remember 'algiz' or 'elhaz' as possible names." Fortunately for me, neither name was taken when I published elhaz! In hindsight, this moment — entering my building for the first time and noticing this charm — was prescient, as I had no idea at that time I would go on to create credential technology.
 
