@@ -170,8 +170,6 @@ I don't know if they're aware of my condition or how it's impacted me. I'm not s
     class="center"
 >}}
 
-_. . . Why me?_ 
-
 _How can so many things go so sideways in so little time . . . ?_
 
 I'm normally averse to such pitiful questions, and I'm not religious or into woo-woo-ology, but it was (and still is) genuinely difficult not to think and feel at times like I have been tested by . . . _something_. Like I was dragged into some twisted initiation I never consented to, hadn't been informed about, and which our culture will, on the other side, no doubt demand I collapse into the cringe-inducing form of Ten Things I Learned.
@@ -207,4 +205,4 @@ Until now, besides family and close friends, nobody knew what I had to overcome 
 [^1]: 
     I do not require accommodations. There will come a day when that changes; however, I am thankfully not at that point. Besides employing a massively sized cursor, humongous text, dark-mode, and blue-light blocking eyeglasses, I'm good. It would be nice if I could commute home before nightfall due to my poor night vision. It would also be nice if my colleagues understood I regularly miss handshakes and fail to see somebody approaching me from the side. But those are not and should not be dealbreakers.
 [^2]: 
-    After publishing this post, this story became much worse and _much more_ strange. I haven't decided yet if I will publish something about that or not. Whatever I end up doing, I will simply clarify that "strange and off" was a _profound_ understatement. 
+    When I published this blog post, I believed this matter was closed and that I was writing retrospectively. It has been over half a year after all. Not long after publishing this post, however, this story became much worse and _significantly_ stranger — and I _still_ do not have any insight into what happened, why, or what it meant. I haven't decided yet if I will publish something about that or not. Whatever I end up doing, I will simply clarify in the meantime that "strange and off" was a _profound_ understatement. 
