@@ -176,7 +176,7 @@ _How can so many things go so sideways in so little time . . . ?_
 
 I'm normally averse to such pitiful questions, and I'm not religious or into woo-woo-ology, but it was (and still is) genuinely difficult not to think and feel at times like I have been tested by . . . _something_. Like I was dragged into some twisted initiation I never consented to, hadn't been informed about, and which our culture will, on the other side, no doubt demand I collapse into the cringe-inducing form of Ten Things I Learned.
 
-Well, I didn't break. Not completely. I refuse to sanitize my story into pithy, feel-good, digestible bulletpoints, however, so demerits for uncooperativeness, says the preceptor in my head.
+Well, I didn't break. Not completely. Not yet. I refuse to sanitize my story into pithy, feel-good, digestible bulletpoints, however, so demerits for uncooperativeness, says the preceptor in my head.
 
 Being diagnosed with a permanently life-altering and incurable condition &rarr; betrayal by an employer &rarr; inexplicable, once-in-a-lifetime relational rupture — that's _a lot_ in a short amount of time. Frankly, that's rare. And not in the special, narcissistic sense of the word "rare." 
 
