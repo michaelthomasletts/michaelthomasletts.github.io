@@ -161,18 +161,18 @@ There was an unexpected, abrupt, and extreme relational rupture which occurred d
 
 This was a strange and confusing situation in the sense there's little if anything which anybody involved actually knows or understands. What little we "know," doesn't make sense. However, I was later told by somebody who knows this old friend a little better that (to paraphrase) they're evidently known to be "strange and off" — something I had no idea about when we met. Whatever the case, this experience added something like moral injury on top of everything else I was going through.
 
-To have something so bewildering happen as I learned my field of view is physically narrowing, and that there's nothing I can do about either thing, thrust a quasi-mythical quality to this period of my life. I don't know how else to describe it, and I don't believe that description can be characterized as dramatic by anybody who's close to the details. I reached out to this old friend as a well-meaning reaction to my condition. Reaching out to old friends (they weren't the only person I contacted), instead of withdrawing from the world, seemed like a great idea. In all cases, except for this one, it _was_ a great idea. Everybody but them was happy to hear from me, inviting me to see them in places as far away as Argentina in one case. Reconnecting with somebody I held in high esteem was supposed to raise my spirit, not crush it. 
+To have something so bewildering happen as I learned my field of view is physically narrowing, and that there's nothing I can do about either thing, thrust a preternatural feeling to this period of my life. I don't know how else to describe it, and I don't believe that description can be fairly characterized as dramatic by anybody who's close to the details. I reached out to this old friend as a well-meaning reaction to my condition. Reaching out to old friends (they weren't the only person I contacted), instead of withdrawing from the world, seemed like a great (and healthy) idea. In all cases, except for this one, it _was_ a great idea. Everybody but them was happy to hear from me, inviting me to see them in places as far away as Argentina in one case. Reconnecting with somebody I held in high esteem was supposed to raise my spirit, not crush it. 
 
-I don't know if they're aware of my condition or how it's impacted me. I'm not sure it would've changed anything or if they'd care. All I know is I don't know what happened or why. Nobody else understands either. I don't believe even they could explain themself if asked, which probably explains why they haven't said _anything_. Normally, when a relationship with somebody falls apart, we can point to some event: an argument, betrayal, break-up, whatever. In this case, there was no precipitating event nor conversation. 
+I don't know if they're aware of my condition or how it's impacted me. I'm not sure it would've changed anything or if they'd care. All I know is I don't know what happened or why. Nobody else understands either. I don't believe even they could explain themself if asked, which probably explains why they haven't said _anything_. Normally, when a relationship with somebody falls apart, we can point to some event: an argument, betrayal, break-up, whatever. In this case, there was no precipitating event nor conversation, so I don't even know what the problem was. If that sounds crazy — well, that's because it _is_ crazy.
 
 {{< figure 
     src="/images/girl.jpg" 
     class="center"
 >}}
 
-I'm not religious or into woo-woo-ology, but it was (and still is) genuinely difficult not to think or feel at times like I was being tested by . . . something. Like I was dragged into some twisted initiation I never consented to, hadn't been informed about, and which our culture will, on the other side, no doubt demand I collapse into the cringe-inducing form of Ten Things I Learned. 
+I'm not religious or into woo-woo-ology, but it was (and still is) genuinely difficult not to think or feel at times like I have been tested by . . . _something_. Like I was dragged into some twisted initiation I never consented to, hadn't been informed about, and which our culture will, on the other side, no doubt demand I collapse into the cringe-inducing form of Ten Things I Learned. 
 
-Well, I didn't break. Not completely. I refuse to sanitize my story into pithy, feel-good bulletpoints, however, so demerits for uncooperativeness, says the preceptor in my head.
+Well, I didn't break. Not completely. I refuse to sanitize my story into pithy, feel-good, digestible bulletpoints, however, so demerits for uncooperativeness, says the preceptor in my head.
 
 Being diagnosed with a permanently life-altering and incurable condition &rarr; betrayal by an employer &rarr; inexplicable, once-in-a-lifetime relational rupture — that's _a lot_ in a short amount of time. Frankly, that's rare. And not in the special, narcissistic sense of the word "rare." 
 
@@ -183,9 +183,9 @@ Being diagnosed with a permanently life-altering and incurable condition &rarr; 
 
 There's more to life than work. I am just as woke and jaded by [hustle culture](https://www.amazon.com/Burnout-Society-Byung-Chul-Han/dp/0804795096) as anybody else, but, in the end, I'm an all American boy. I work. A lot.
 
-The public artifacts of my open-source work are strong, but I don't think it's grandiose to say the enormously stressful context in which those artifacts were imagined, published, and maintained makes them something else. 
+The public artifacts of my open-source work are strong, but I don't think it's grandiose to say the enormously stressful context in which those artifacts were imagined, published, and maintained makes them something else.
 
-We can talk about contributions at my job all day. Those accomplishments are certainly relevant and valuable, but they're remote. Open-source projects — public objects which various companies apparently use, enjoy, and depend upon — offer unique insights that are normally difficult or impossible to come by.
+We can talk about contributions at my job all day. Those accomplishments are certainly relevant and valuable, but they're remote. Open-source projects — public objects which various companies apparently use, enjoy, and depend upon — offer unique insights into somebody's thinking that are normally difficult or impossible to come by.
 
 I am writing directly to any prospective employers who might be reading this: would you rather hear about a system I implemented — something I could embellish or make up completely — or see one for yourself? Would you rather hear about a project or evaluate a whole ecosystem I'm gradually building in my free time?
 
