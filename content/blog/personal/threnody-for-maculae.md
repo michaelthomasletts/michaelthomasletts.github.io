@@ -207,4 +207,4 @@ Until now, besides family and close friends, nobody knew what I had to overcome 
 [^1]: 
     I do not require accommodations. There will come a day when that changes; however, I am thankfully not at that point. Besides employing a massively sized cursor, humongous text, dark-mode, and blue-light blocking eyeglasses, I'm good. It would be nice if I could commute home before nightfall due to my poor night vision. It would also be nice if my colleagues understood I regularly miss handshakes and fail to see somebody approaching me from the side. But those are not and should not be dealbreakers.
 [^2]: 
-    After publishing this post, this story became even stranger. _Much_ stranger. I haven't decided yet if I will publish something about it or not. Whatever I end up doing, I will simply clarify that "strange and off" was a _profound_ understatement. 
+    After publishing this post, this story became much worse and _much more_ strange. I haven't decided yet if I will publish something about that or not. Whatever I end up doing, I will simply clarify that "strange and off" was a _profound_ understatement. 
