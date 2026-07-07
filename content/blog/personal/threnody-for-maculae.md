@@ -170,7 +170,9 @@ I don't know if they're aware of my condition or how it's impacted me. I'm not s
     class="center"
 >}}
 
-I'm not religious or into woo-woo-ology, but it was (and still is) genuinely difficult not to think or feel at times like I have been tested by . . . _something_. Like I was dragged into some twisted initiation I never consented to, hadn't been informed about, and which our culture will, on the other side, no doubt demand I collapse into the cringe-inducing form of Ten Things I Learned. 
+_Why me?_ 
+
+I'm normally averse to such pitiful questions, and I'm not religious or into woo-woo-ology, but it was (and still is) genuinely difficult not to think and feel at times like I have been tested by . . . _something_. Like I was dragged into some twisted initiation I never consented to, hadn't been informed about, and which our culture will, on the other side, no doubt demand I collapse into the cringe-inducing form of Ten Things I Learned.
 
 Well, I didn't break. Not completely. I refuse to sanitize my story into pithy, feel-good, digestible bulletpoints, however, so demerits for uncooperativeness, says the preceptor in my head.
 
