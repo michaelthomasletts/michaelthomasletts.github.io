@@ -10,6 +10,7 @@ categories:
   - personal
 images:
   - images/retina.png
+logo: 'images/retina.png'
 aliases:
   - /blog/threnody-for-maculae/
   - /blog/retinitis-pigmentosa/
