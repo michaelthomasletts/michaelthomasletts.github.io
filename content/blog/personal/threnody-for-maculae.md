@@ -29,7 +29,7 @@ I relocated to NYC from Virginia in 2018. I quickly realized I couldn't navigate
 
 It wasn't until June of 2025 that my vision began "tunneling" — losing peripheral vision, that is. What was relegated to nighttime all of a sudden became a daytime problem. I was walking through Union Square one morning when I observed my peripheral vision had vanished abruptly. I experienced a panic attack so severe, I felt like I had to sit down. And I almost never experience anything like anxiety or panic attacks.
 
-I visited an ophthalmologist maybe a week later. He checked my retinas, sat in front of me, placed his hands on my knees and said "I'm so sorry." He urged me to schedule an appointment with a retinal specialist in Manhattan immediately. "I don't normally see this condition," he said, "so I don't feel comfortable diagnosing it." So I called and scheduled an appointment for August. 
+I visited an ophthalmologist about a week later. He checked my retinas, sat in front of me, placed his hands on my knees and said "I'm so sorry." He urged me to schedule an appointment with a retinal specialist in Manhattan immediately. "I don't normally see this condition," he said, "so I don't feel comfortable diagnosing it." So I called and scheduled an appointment for August. 
 
 August rolled around and I was officially diagnosed with retinitis pigmentosa in what seemed like remarkably little time. "You have retinitis pigmentosa with concomitant macular edema," the specialist said, "so I want you to be checked out by the specialists at Columbia University." He was referring to the retinopathy center at Columbia, which is a serious research and treatment institute — which worried me. So I called and scheduled another appointment. 
 
@@ -81,11 +81,11 @@ I received the results of my genetic test in January. The pathogenic variant cau
 
 Having retinitis pigmentosa means I have a low-vision disability. Because the condition's rare and incurable, I'm now part of a global community of researchers and patients. There's an online platform I was asked to join so I could evaluate upcoming and ongoing clinical trials. It shows a dashboard of roughly everybody (in the United States) who is diagnosed with RP, which sounds sketchy until you think about it.
 
-Incredibly, I've so far met two people who also have retinitis pigmentosa. I met one at my gym and another on LinkedIn. We instantly became friends. They're worse off than I am. One has basically no field of vision remaining at all. The other has a little left, but he's managed to have a great life anyway. I'll be where they are in probably one to three years, but we can't know for sure. People ask me that all of the time. I never know what to tell them.
+Incredibly, I've so far met two people who also have retinitis pigmentosa. I met one at my gym and another on LinkedIn. We instantly became friends. They're worse off than I'm. One has basically no field of vision remaining at all. The other has a little left, but he's managed to have a great life anyway. I'll be where they are in probably one to three years, but we can't know for sure. People ask me that all of the time. I never know what to tell them.
 
-I use a "stick" (cane) sometimes but generally don't. I avoid it. Call it pride or obstinance but I don't want people treating me differently. Specifically, I don't want judging glares when I put the stick away since I only need it in certain situations. You know how people can be.
+I sometimes use a 'stick' (cane) but generally don't. I avoid it. Call it pride or obstinance but I don't want people treating me differently. Specifically, I don't want judging glares when I put the stick away since I only need it in certain situations. You know how people can be.
 
-The percentage of blind people who can't see anything at all is not as high as you may expect. It's approximately [18%](https://blind.iowa.gov/resources-and-publications/misconceptions-about-blindness) of the total visually disabled population. The point of wearing sunglasses everywhere is roughly two-fold: give the eyes a break (artificial lighting hurts) and implicitly signal that your eyes are cooked so there's no guesswork. If you've ever awkwardly stared at somebody with a stick and sunglasses, they probably saw you staring. Just FYI.
+The percentage of blind people who can't see anything at all isn't as high as you may expect. It's approximately [18%](https://blind.iowa.gov/resources-and-publications/misconceptions-about-blindness) of the total visually disabled population. The point of wearing sunglasses everywhere is roughly two-fold: give the eyes a break (artificial lighting hurts) and implicitly signal that your eyes are cooked so there's no guesswork. If you've ever awkwardly stared at somebody with a stick and sunglasses, they probably saw you staring. Just FYI.
 
 My condition places me in the category of the "invisibly disabled," which brings a unique class of uncomfortable experiences. 
 
@@ -105,7 +105,7 @@ I can't take little things for granted anymore. Diminutive things, like grabbing
 
 Then there's the matter of my career.[^1]
 
-Finding motivation to not only finish but _crush_ my work was previously never a challenge for me, no matter what I was going through. Learning I am going blind and that there's nothing I can do abruptly changed everything. 
+Finding motivation to not only finish but _crush_ my work was previously never a challenge for me, no matter what I was going through. Learning that I'm going blind — and that there's nothing I can do — abruptly changed everything. 
 
 Being a spiritual-boomer, I previously never saw myself taking short-term disability leave. Then again, I reckon nobody foresees that. But between August and October, I took leave. Not because I wanted to do so but rather because my productivity plummeted in every domain. Multiple coworkers encouraged me to take leave. I ignored them at first and tried pushing through. But I kept hearing variations of, "it's times like this which are what leave are designed for," and I kept missing deadlines. They wore me down eventually. Or something like that.
 
@@ -141,7 +141,7 @@ So please. Don't tell me what's happening is really something else.
     class="center"
 >}} 
 
-I kept walking. Not because I am brave or strong or resilient but rather because I didn't know what the fuck else to do. And neither would you.
+I kept walking. Not because I'm brave or strong or resilient but rather because I didn't know what the fuck else to do. And neither would you.
 
 I [formed an open-source software organization](https://github.com/61418) and continued maintaining my open-source projects. In fact, I [created a new one](https://github.com/61418/boto3-client-cache/). I'm even working on [another](https://github.com/61418/elhaz). I was accepted into the AWS Community Builders program. My work was featured in important newsletters and conferences. I attended conferences. I networked, made new friends, and went places. I showed love to the people I care about. I let my friends know what was going on with me, but honored my suffering in silence and dignity (until now).
 
@@ -163,7 +163,7 @@ This was a strange and confusing situation in the sense there's little if anythi
 
 To have something so bewildering happen as I learned my field of view is physically narrowing, and that there's nothing I can do about either thing, thrust a preternatural feeling to this period of my life. I don't know how else to describe it, and I don't believe that description can be fairly characterized as dramatic by anybody who's close to the details. I reached out to this old friend as a well-meaning reaction to my condition. Reaching out to old friends (they weren't the only person I contacted), instead of withdrawing from the world, seemed like a great (and healthy) idea. In all cases, except for this one, it _was_ a great idea. Everybody but them was happy to hear from me, inviting me to see them in places as far away as Argentina in one case. Reconnecting with somebody I held in high esteem was supposed to raise my spirit, not crush it. 
 
-I don't know if they're aware of my condition or how it's impacted me. I'm not sure it would've changed anything or if they'd care. All I know is I don't know what happened or why. Nobody else understands either. Normally when a relationship fractrues, we can point to a legible event or emotion: argument, betrayal, break-up, rumor, whatever. In this case, there was _no_ precipitating event nor conversation, _so I don't even know what the problem was_. I'm honestly not even sure they could explain themself if asked.[^2]
+I don't know if they're aware of my condition or how it's impacted me. I'm not sure it would've changed anything or if they'd care. All I know is I don't know what happened or why. Nobody else understands either. Normally when a relationship fractrues, we can point to a legible event or emotion: argument, betrayal, break-up, rumor, whatever. In this case, there was _no_ precipitating event nor conversation, _so I don't even know what the problem was_. I'm honestly not even sure they could explain themself if asked.
 
 {{< figure 
     src="/images/girl.jpg" 
@@ -183,19 +183,19 @@ Being diagnosed with a permanently life-altering and incurable condition &rarr; 
     class="center"
 >}}
 
-There's more to life than work. I am just as woke and jaded by [hustle culture](https://www.amazon.com/Burnout-Society-Byung-Chul-Han/dp/0804795096) as anybody else, but, in the end, I'm an all American boy. I work. A lot.
+There's more to life than work. I'm just as woke and jaded by [hustle culture](https://www.amazon.com/Burnout-Society-Byung-Chul-Han/dp/0804795096) as anybody else, but, in the end, I'm an all American boy. I work. A lot.
 
 The public artifacts of my open-source work are strong, but I don't think it's grandiose to say the enormously stressful context in which those artifacts were imagined, published, and maintained makes them something else.
 
 We can talk about contributions at my job all day. Those accomplishments are certainly relevant and valuable, but they're remote. Open-source projects — public objects which various companies apparently use, enjoy, and depend upon — offer unique insights into somebody's thinking that are normally difficult or impossible to come by.
 
-I am writing directly to any prospective employers who might be reading this: would you rather hear about a system I implemented — something I could embellish or make up completely — or see one for yourself? Would you rather hear about a project or evaluate a whole ecosystem I'm gradually building in my free time?
+I'm writing directly to any prospective employers who might be reading this: would you rather hear about a system I implemented — something I could embellish or make up completely — or see one for yourself? Would you rather hear about a project or evaluate a whole ecosystem I'm gradually building in my free time?
 
 What my CV doesn't say (because it can't): the greatest achievements of my career occurred during the most difficult period of my life. 
 
 What does that say? Something peculiar about life — metaphysical, phenomenological? Both? Neither? Something else? Nothing?
 
-Until now, besides family and close friends, nobody knew what I had to overcome — what I am still overcoming. So far I've kept all of this to myself. But I think people should know. I sometimes trust such thoughts blindly and figure things out later. We call that "emergent design" in my field.
+Until now, besides family and close friends, nobody knew what I had to overcome — what I'm still overcoming. So far I've kept all of this to myself. But I think people should know. I sometimes trust such thoughts blindly and figure things out later. We call that "emergent design" in my field.
 
 {{< figure 
     src="/images/moon.jpeg" 
@@ -203,6 +203,4 @@ Until now, besides family and close friends, nobody knew what I had to overcome 
 >}}
 
 [^1]: 
-    I do not require accommodations. There will come a day when that changes; however, I am thankfully not at that point. Besides employing a massively sized cursor, humongous text, dark-mode, and blue-light blocking eyeglasses, I'm good. It would be nice if I could commute home before nightfall due to my poor night vision. It would also be nice if my colleagues understood I regularly miss handshakes and fail to see somebody approaching me from the side. But those are not and should not be dealbreakers.
-[^2]: 
-    When I published this blog post, I believed this matter was closed and that I was writing retrospectively. Several months had passed. I believed I was writing for friends, family, peers, and users (of my open-source tools). Although I knew it was _technically_ possible that old friend may find this post, I did _not_ think that was probable, nor did I think it mattered if they did or didn't. Frankly speaking, I estimated the probability to be asymptotically zero. Pushing somebody away from us — especially without cause, reason, or explanation — is rarely followed by looking them up online or reading their writing. After publishing this blog post, however, this story became much worse and _significantly_ stranger. I haven't decided yet if I will publish something about that or not. Whatever I end up doing, I will simply clarify in the meantime that "strange and off" was a _profound_ understatement.
+    I don't require accommodations. There will come a day when that changes; however, I'm thankfully not at that point. Besides employing a massively sized cursor, humongous text, dark-mode, and blue-light blocking eyeglasses, I'm good. It would be nice if I could commute home before nightfall due to my poor night vision. It would also be nice if my colleagues understood I regularly miss handshakes and fail to see somebody approaching me from the side. But those aren't and shouldn't be dealbreakers.
