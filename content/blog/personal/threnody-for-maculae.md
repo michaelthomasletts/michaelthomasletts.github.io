@@ -67,7 +67,7 @@ Electrodes are placed on your temples. A thin wire is inserted beneath your lowe
 
 Retinitis pigmentosa is a strange disease. It's strange because there's no easy or simple way to describe it.
 
-You don't lose your peripheral vision such that there's a neat little circle left in the middle, like the online simulators suggest. You lose your vision in patches. In my right eye, I still have peripheral vision on the right-hand side. But in the lower quadrant, nothing's there. 
+You don't lose your peripheral vision such that there's a neat little circle left in the middle, [like the online simulators suggest](https://youtu.be/VAA59WrxVcE?si=ixC-G3UFBi5mhyGK). You lose your vision in patches. In my right eye, I still have peripheral vision on the right-hand side. But in the lower quadrant, nothing's there. 
 
 You can _technically_ be diagnosed with RP without genetic testing; however, the diagnosis is under-determined until genetic tests evince the specific pathology. Clinically, it's less like "you have RP" and more like "gene X is pathogenic and known to correlate with RP," if that makes sense. 
 
