@@ -1,4 +1,5 @@
 ---
+author: 'Mike Letts'
 date: '2026-03-14T13:38:46-04:00'
 draft: false
 title: 'Threnody for Maculae'

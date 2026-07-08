@@ -1,4 +1,5 @@
 ---
+author: 'Mike Letts'
 date: '2025-07-30T00:06:26-04:00'
 draft: false
 title: 'Reducing data remediation runtime from 55 hours to 7 seconds with Aho-Corasick'
