@@ -14,11 +14,17 @@
           </time>
         </i>
       </span>
-      {{ if .Params.link }}
-        <a href="{{ .Params.link }}" target="_blank">{{ .Title }} ↪</a>
-      {{ else }}
-        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-      {{ end }}
+      <div>
+        {{ if .Params.link }}
+          <a href="{{ .Params.link }}" target="_blank">{{ .Title }} ↪</a>
+        {{ else }}
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{ end }}
+        {{ with .Description }}
+          <br>
+          <small>{{ . }}</small>
+        {{ end }}
+      </div>
     </li>
     {{ else }}
     <li>No posts yet.</li>

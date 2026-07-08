@@ -2,6 +2,7 @@
 date: '2025-07-30T00:06:26-04:00'
 draft: false
 title: 'Reducing data remediation runtime from 55 hours to 7 seconds with Aho-Corasick'
+description: 'Why Aho-Corasick + smart memory sharing beats regex and Spark UDFs for massive remediation workloads.'
 tags: ['aho corasick', 'regex', 'spark', 'python']
 aliases:
   - /blog/aho-corasick/
