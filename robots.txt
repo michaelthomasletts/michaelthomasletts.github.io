@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-Disallow: /sigils/
 Sitemap: https://michaelthomasletts.com/sitemap.xml
